@@ -115,6 +115,58 @@
       </tags>
   </entry>
   <entry>
+    <title>Butterfly 4.13 更新日誌</title>
+    <url>/posts/4-13-release-notes/</url>
+    <content><![CDATA[<h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><ol>
+<li>適配 waline v3</li>
+<li>適配 artalk 新版</li>
+</ol>
+<h2 id="修復"><a href="#修復" class="headerlink" title="修復"></a>修復</h2><ol>
+<li>修復文章頁面，twikoo 無法獲取評論數的 bug</li>
+</ol>
+<h2 id="優化"><a href="#優化" class="headerlink" title="優化"></a>優化</h2><ol>
+<li>首頁多個標籤和分類時，每個都增加標識</li>
+<li>文章頁標題改為左邊</li>
+</ol>
+]]></content>
+      <categories>
+        <category>更新日誌</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>更新日誌</tag>
+        <tag>butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly 4.12 更新日誌</title>
+    <url>/posts/4-12-release-notes/</url>
+    <content><![CDATA[<h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><ol>
+<li>適配 Artalk 新版本</li>
+<li>card_post_series 可配置標題顯示為系列的名字</li>
+<li>cdn 的 version 默認為 true</li>
+</ol>
+<h2 id="修復"><a href="#修復" class="headerlink" title="修復"></a>修復</h2><ol>
+<li>當 front-matter 的 toc_number 沒有值時，toc_number 沒有按照主題配置應用的 bug</li>
+<li>Github 最新評論獲取報錯的 bug</li>
+</ol>
+<h2 id="優化"><a href="#優化" class="headerlink" title="優化"></a>優化</h2><ol>
+<li>標題點擊範圍縮小為字體本身</li>
+<li>Waline 增加 destroy 調用</li>
+</ol>
+]]></content>
+      <categories>
+        <category>更新日誌</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>更新日誌</tag>
+        <tag>butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Butterfly 安裝文檔(一) 快速開始</title>
     <url>/posts/21cfbf15/</url>
     <content><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
@@ -190,59 +242,7 @@
         <tag>教程</tag>
         <tag>Hexo</tag>
         <tag>butterfly</tag>
-        <tag>主題</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly 4.13 更新日誌</title>
-    <url>/posts/4-13-release-notes/</url>
-    <content><![CDATA[<h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><ol>
-<li>適配 waline v3</li>
-<li>適配 artalk 新版</li>
-</ol>
-<h2 id="修復"><a href="#修復" class="headerlink" title="修復"></a>修復</h2><ol>
-<li>修復文章頁面，twikoo 無法獲取評論數的 bug</li>
-</ol>
-<h2 id="優化"><a href="#優化" class="headerlink" title="優化"></a>優化</h2><ol>
-<li>首頁多個標籤和分類時，每個都增加標識</li>
-<li>文章頁標題改為左邊</li>
-</ol>
-]]></content>
-      <categories>
-        <category>更新日誌</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>更新日誌</tag>
-        <tag>butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly 4.12 更新日誌</title>
-    <url>/posts/4-12-release-notes/</url>
-    <content><![CDATA[<h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><ol>
-<li>適配 Artalk 新版本</li>
-<li>card_post_series 可配置標題顯示為系列的名字</li>
-<li>cdn 的 version 默認為 true</li>
-</ol>
-<h2 id="修復"><a href="#修復" class="headerlink" title="修復"></a>修復</h2><ol>
-<li>當 front-matter 的 toc_number 沒有值時，toc_number 沒有按照主題配置應用的 bug</li>
-<li>Github 最新評論獲取報錯的 bug</li>
-</ol>
-<h2 id="優化"><a href="#優化" class="headerlink" title="優化"></a>優化</h2><ol>
-<li>標題點擊範圍縮小為字體本身</li>
-<li>Waline 增加 destroy 調用</li>
-</ol>
-]]></content>
-      <categories>
-        <category>更新日誌</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>更新日誌</tag>
-        <tag>butterfly</tag>
+        <tag>主题</tag>
       </tags>
   </entry>
   <entry>
@@ -1698,7 +1698,7 @@ w:Rock-y did-nt like that</div>
         <tag>教程</tag>
         <tag>Hexo</tag>
         <tag>butterfly</tag>
-        <tag>主題</tag>
+        <tag>主题</tag>
       </tags>
   </entry>
   <entry>
@@ -2030,7 +2030,7 @@ w:Rock-y did-nt like that</div>
         <tag>教程</tag>
         <tag>Hexo</tag>
         <tag>butterfly</tag>
-        <tag>主題</tag>
+        <tag>主题</tag>
       </tags>
   </entry>
   <entry>
@@ -2079,7 +2079,7 @@ w:Rock-y did-nt like that</div>
 <p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/73515338-e6874d80-442f-11ea-9d07-725d37002985.png"></p>
 <blockquote>
 <p>cheerio版本錯誤，請安裝0.22.0版本</p>
-<p>npm install <a href="mailto:&#99;&#x68;&#101;&#101;&#114;&#105;&#x6f;&#x40;&#x30;&#x2e;&#x32;&#50;&#x2e;&#48;">&#99;&#x68;&#101;&#101;&#114;&#105;&#x6f;&#x40;&#x30;&#x2e;&#x32;&#50;&#x2e;&#48;</a> --save</p>
+<p>npm install <a href="mailto:&#99;&#x68;&#101;&#101;&#114;&#x69;&#x6f;&#64;&#48;&#x2e;&#x32;&#x32;&#46;&#x30;">&#99;&#x68;&#101;&#101;&#114;&#x69;&#x6f;&#64;&#48;&#x2e;&#x32;&#x32;&#46;&#x30;</a> --save</p>
 </blockquote>
 <h3 id="搜索欄在底部"><a href="#搜索欄在底部" class="headerlink" title="搜索欄在底部"></a>搜索欄在底部</h3><p>hexo deploy後搜索欄在頁面底部</p>
 <blockquote>
@@ -2121,7 +2121,7 @@ w:Rock-y did-nt like that</div>
         <tag>教程</tag>
         <tag>Hexo</tag>
         <tag>butterfly</tag>
-        <tag>主題</tag>
+        <tag>主题</tag>
       </tags>
   </entry>
   <entry>
@@ -2241,508 +2241,6 @@ w:Rock-y did-nt like that</div>
         <tag>Hexo</tag>
         <tag>butterfly</tag>
         <tag>主題</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly 打賞</title>
-    <url>/posts/6ad51b4/</url>
-    <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fas fa-mug-hot"></i><p>非常感謝以下網友的打賞</p>
-<p>更新於 2023 - 10 - 09</p>
-</div>
-
-<div class="tabs" id="coffee"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="coffee-1"><i class="fab fa-weixin"></i>微信</button><button type="button" class="tab " data-href="coffee-2"><i class="fab fa-alipay"></i>支付寶</button></ul><div class="tab-contents"><div class="tab-item-content active" id="coffee-1"><table>
-<thead>
-<tr>
-<th>名字</th>
-<th>金額</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>B*X</td>
-<td>2.33</td>
-</tr>
-<tr>
-<td>A*.</td>
-<td>0.01</td>
-</tr>
-<tr>
-<td>*虎</td>
-<td>3</td>
-</tr>
-<tr>
-<td>*、</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*林</td>
-<td>3.75</td>
-</tr>
-<tr>
-<td>*雪</td>
-<td>10</td>
-</tr>
-<tr>
-<td>O*r</td>
-<td>15</td>
-</tr>
-<tr>
-<td>*泥</td>
-<td>0.01</td>
-</tr>
-<tr>
-<td>*嗎</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*鋒</td>
-<td>10</td>
-</tr>
-<tr>
-<td>*強</td>
-<td>5</td>
-</tr>
-<tr>
-<td>K*n</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*1</td>
-<td>2.22</td>
-</tr>
-<tr>
-<td>圖*_</td>
-<td>5</td>
-</tr>
-<tr>
-<td>B*e</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>n*l</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*仔</td>
-<td>5</td>
-</tr>
-<tr>
-<td>M*5</td>
-<td>2</td>
-</tr>
-<tr>
-<td>w*r</td>
-<td>18.88</td>
-</tr>
-<tr>
-<td>*龍</td>
-<td>1.6</td>
-</tr>
-<tr>
-<td>*一</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*晨</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*隨</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td>*忘</td>
-<td>10</td>
-</tr>
-<tr>
-<td>*想</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*喜</td>
-<td>2.5</td>
-</tr>
-<tr>
-<td>*喜</td>
-<td>2.5</td>
-</tr>
-<tr>
-<td>*傑</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td>*雨</td>
-<td>10</td>
-</tr>
-<tr>
-<td>T*r</td>
-<td>10</td>
-</tr>
-<tr>
-<td>T*n</td>
-<td>2.88</td>
-</tr>
-<tr>
-<td>s*n</td>
-<td>2</td>
-</tr>
-<tr>
-<td>*o</td>
-<td>9.99</td>
-</tr>
-<tr>
-<td>m*o</td>
-<td>2.5</td>
-</tr>
-<tr>
-<td>張*i</td>
-<td>0.3</td>
-</tr>
-<tr>
-<td>*斌</td>
-<td>2.88</td>
-</tr>
-<tr>
-<td>q*n</td>
-<td>20</td>
-</tr>
-<tr>
-<td>*唯</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td>H*n</td>
-<td>5</td>
-</tr>
-<tr>
-<td>I*U</td>
-<td>3.65</td>
-</tr>
-<tr>
-<td>*白</td>
-<td>6</td>
-</tr>
-<tr>
-<td>*豬</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>h*i</td>
-<td>10</td>
-</tr>
-<tr>
-<td>B*g</td>
-<td>5</td>
-</tr>
-<tr>
-<td>J*R</td>
-<td>3</td>
-</tr>
-<tr>
-<td>*夜</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>等*.</td>
-<td>12.5</td>
-</tr>
-<tr>
-<td>n*l</td>
-<td>1.68</td>
-</tr>
-<tr>
-<td>M*.</td>
-<td>38</td>
-</tr>
-<tr>
-<td>R*n</td>
-<td>1.68</td>
-</tr>
-<tr>
-<td>W*u</td>
-<td>4.91</td>
-</tr>
-<tr>
-<td>k*n</td>
-<td>58.8</td>
-</tr>
-<tr>
-<td>*嘔</td>
-<td>88.8</td>
-</tr>
-<tr>
-<td>*沙</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*x</td>
-<td>1</td>
-</tr>
-<tr>
-<td>*生</td>
-<td>0.01</td>
-</tr>
-<tr>
-<td>D*n</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*。</td>
-<td>0.01</td>
-</tr>
-<tr>
-<td>*探</td>
-<td>5.20</td>
-</tr>
-<tr>
-<td>*宇</td>
-<td>5</td>
-</tr>
-<tr>
-<td>M*o</td>
-<td>10</td>
-</tr>
-<tr>
-<td>*碎</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*魚</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td>C*.</td>
-<td>6.60</td>
-</tr>
-<tr>
-<td>*夕</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>R*r</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*心</td>
-<td>1</td>
-</tr>
-<tr>
-<td>H*h</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*天</td>
-<td>3.21</td>
-</tr>
-<tr>
-<td>*默</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>T*i</td>
-<td>0.99</td>
-</tr>
-<tr>
-<td>0*0</td>
-<td>3</td>
-</tr>
-<tr>
-<td>*</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*豪</td>
-<td>20</td>
-</tr>
-<tr>
-<td>W*X</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td><em>-</em></td>
-<td>9.99</td>
-</tr>
-<tr>
-<td>*珩</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>*_</td>
-<td>2.73</td>
-</tr>
-<tr>
-<td>c*?</td>
-<td>2.33</td>
-</tr>
-<tr>
-<td>T*.</td>
-<td>6.66</td>
-</tr>
-<tr>
-<td>S*.</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*超</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*❀</td>
-<td>10</td>
-</tr>
-<tr>
-<td>w*t</td>
-<td>0.66</td>
-</tr>
-</tbody></table></div><div class="tab-item-content" id="coffee-2"><table>
-<thead>
-<tr>
-<th>名字</th>
-<th>金額</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>iMIGw0</td>
-<td>10</td>
-</tr>
-<tr>
-<td>百事可樂</td>
-<td>10</td>
-</tr>
-<tr>
-<td>KT</td>
-<td>5</td>
-</tr>
-<tr>
-<td>JVxie</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td>Coolkk</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Sirius</td>
-<td>10</td>
-</tr>
-<tr>
-<td>惴繞</td>
-<td>1.11</td>
-</tr>
-<tr>
-<td>Jiang慢慢</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td>tjj</td>
-<td>28.88</td>
-</tr>
-<tr>
-<td>無風引漩</td>
-<td>10</td>
-</tr>
-<tr>
-<td>忘我楊</td>
-<td>50</td>
-</tr>
-<tr>
-<td>小虎</td>
-<td>10</td>
-</tr>
-<tr>
-<td>無殤雨露</td>
-<td>10</td>
-</tr>
-<tr>
-<td>Rhythm~</td>
-<td>10</td>
-</tr>
-<tr>
-<td>小樣</td>
-<td>36</td>
-</tr>
-<tr>
-<td>SunnyWS</td>
-<td>20</td>
-</tr>
-<tr>
-<td>ZFour</td>
-<td>8.88</td>
-</tr>
-<tr>
-<td>JeM_緘默</td>
-<td>0.14</td>
-</tr>
-<tr>
-<td>小張</td>
-<td>5</td>
-</tr>
-<tr>
-<td>書生</td>
-<td>6.88</td>
-</tr>
-<tr>
-<td>王青陽</td>
-<td>5</td>
-</tr>
-<tr>
-<td>趙碧寒</td>
-<td>10</td>
-</tr>
-<tr>
-<td>對好的就這樣</td>
-<td>6</td>
-</tr>
-<tr>
-<td>雨辰</td>
-<td>5</td>
-</tr>
-<tr>
-<td>北風</td>
-<td>9.9</td>
-</tr>
-<tr>
-<td>LeDao</td>
-<td>10</td>
-</tr>
-<tr>
-<td>zHaOzzz</td>
-<td>10</td>
-</tr>
-<tr>
-<td>任哲</td>
-<td>1.88</td>
-</tr>
-<tr>
-<td>dear</td>
-<td>0.29</td>
-</tr>
-<tr>
-<td>*鵬</td>
-<td>5</td>
-</tr>
-<tr>
-<td>**豪</td>
-<td>50</td>
-</tr>
-<tr>
-<td>*瑋</td>
-<td>5</td>
-</tr>
-<tr>
-<td>*彬</td>
-<td>5.2</td>
-</tr>
-</tbody></table></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>]]></content>
-      <categories>
-        <category>Thx</category>
-      </categories>
-      <tags>
-        <tag>butterfly</tag>
-        <tag>打賞</tag>
       </tags>
   </entry>
   <entry>
@@ -3586,154 +3084,524 @@ w:Rock-y did-nt like that</div>
       </tags>
   </entry>
   <entry>
-    <title>Butterfly添加全局吸底Aplayer教程</title>
-    <url>/posts/507c070f/</url>
-    <content><![CDATA[<div class="note info flat"><p>以下文章只是教程</p>
-<p>如果部署之后，并没有出现 aplayer , 请确认是否跟足步骤操作或者更换音乐源，多试试。</p>
-<p>如果遇到使用問題，请仔细查看插件文档，或者到插件那裏反饋。</p>
+    <title>Butterfly 打賞</title>
+    <url>/posts/6ad51b4/</url>
+    <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fas fa-mug-hot"></i><p>非常感謝以下網友的打賞</p>
+<p>更新於 2023 - 10 - 09</p>
 </div>
 
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如果你想使用 aplayer，很多人都會推薦安裝 <a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a> 這款插件。這款插件通過 Hexo 獨有的標籤外掛，我們可以很方便的寫入一些參數，插件就會幫我們生成對應的 html。如果你只是使用一些簡單的功能，其實無需使用到這個插件，只需以 html 格式書寫就行，不用插件去轉換。</p>
-<p>例如：</p>
-<p>如果使用插件，在 markdown 中要這樣寫</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;000PeZCQ1i4XVs&quot; &quot;tencent&quot; &quot;artist&quot; &quot;theme:#3F51B5&quot; &quot;mutex:true&quot; &quot;preload:auto&quot; %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>其會被插件渲染為</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;aplayer-uxAIfEUs&quot;</span> <span class="attr">class</span>=<span class="string">&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;000PeZCQ1i4XVs&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;tencent&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;artist&quot;</span> <span class="attr">data-mode</span>=<span class="string">&quot;circulation&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-mutex</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-listmaxheight</span>=<span class="string">&quot;340px&quot;</span> <span class="attr">data-preload</span>=<span class="string">&quot;auto&quot;</span> <span class="attr">data-theme</span>=<span class="string">&quot;#3F51B5&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>如果我們不想使用插件，就需要在markdown中用html的格式書寫，同時把主題配置文件中的<code>aplayerInject</code>開啟</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;000PeZCQ1i4XVs&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;tencent&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;artist&quot;</span> <span class="attr">data-mutex</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-preload</span>=<span class="string">&quot;auto&quot;</span> <span class="attr">data-theme</span>=<span class="string">&quot;#3F51B5&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<p>這樣我們就可以不用使用多一個插件，當然這種東西見仁見智，選自己喜歡的就行。</p>
-<p>回到正題，這篇文章將教大家如何在Butterfly上使用全局吸底 Aplayer</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-aplayer-xidi.gif" alt="aplayer"></p>
-<h2 id="關閉-asset-inject"><a href="#關閉-asset-inject" class="headerlink" title="關閉 asset_inject"></a>關閉 <code>asset_inject</code></h2><div class="note info flat"><p>此步驟適用於安裝了 <code>hexo-tag-aplayer</code> 插件的人</p>
-</div>
-
-
-
-<p>由於需要全局都插入 aplayer 和 meting 資源，為了防止插入重複的資源，需要把 asset_inject 設為 <code>false</code></p>
-<p>在 Hexo 的配置文件中</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">meting:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">asset_inject:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="開啟主題的-aplayerInject"><a href="#開啟主題的-aplayerInject" class="headerlink" title="開啟主題的 aplayerInject"></a>開啟主題的 <code>aplayerInject</code></h2><p>在主題的配置文件中，<code>enable</code> 設為 <code>true</code> 和 <code>per_page</code> 設為 <code>true</code></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Inject the css and script (aplayer/meting)</span></span><br><span class="line"><span class="attr">aplayerInject:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="插入-Aplayer-html"><a href="#插入-Aplayer-html" class="headerlink" title="插入 Aplayer html"></a>插入 Aplayer html</h2><p>為了適配 hexo-tag-aplayer，主題內置的 Meting js 仍為 1.2 版本，並非最新的 2.x 版本。</p>
-<p>Aplayer html 例子：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;60198&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;playlist&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<p>參數解釋</p>
-<table>
+<div class="tabs" id="coffee"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="coffee-1"><i class="fab fa-weixin"></i>微信</button><button type="button" class="tab " data-href="coffee-2"><i class="fab fa-alipay"></i>支付寶</button></ul><div class="tab-contents"><div class="tab-item-content active" id="coffee-1"><table>
 <thead>
 <tr>
-<th>option</th>
-<th>default</th>
-<th>description</th>
+<th>名字</th>
+<th>金額</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>data-id</td>
-<td><strong>require</strong></td>
-<td>song id &#x2F; playlist id &#x2F; album id &#x2F; search keyword</td>
+<td>B*X</td>
+<td>2.33</td>
 </tr>
 <tr>
-<td>data-server</td>
-<td><strong>require</strong></td>
-<td>music platform: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td>
+<td>A*.</td>
+<td>0.01</td>
 </tr>
 <tr>
-<td>data-type</td>
-<td><strong>require</strong></td>
-<td><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td>
+<td>*虎</td>
+<td>3</td>
 </tr>
 <tr>
-<td>data-fixed</td>
-<td><code>false</code></td>
-<td>enable fixed mode</td>
+<td>*、</td>
+<td>5</td>
 </tr>
 <tr>
-<td>data-mini</td>
-<td><code>false</code></td>
-<td>enable mini mode</td>
+<td>*林</td>
+<td>3.75</td>
 </tr>
 <tr>
-<td>data-autoplay</td>
-<td><code>false</code></td>
-<td>audio autoplay</td>
+<td>*雪</td>
+<td>10</td>
 </tr>
 <tr>
-<td>data-theme</td>
-<td><code>#2980b9</code></td>
-<td>main color</td>
+<td>O*r</td>
+<td>15</td>
 </tr>
 <tr>
-<td>data-loop</td>
-<td><code>all</code></td>
-<td>player loop play, values: &#39;all&#39;, &#39;one&#39;, &#39;none&#39;</td>
+<td>*泥</td>
+<td>0.01</td>
 </tr>
 <tr>
-<td>data-order</td>
-<td><code>list</code></td>
-<td>player play order, values: &#39;list&#39;, &#39;random&#39;</td>
+<td>*嗎</td>
+<td>5</td>
 </tr>
 <tr>
-<td>data-preload</td>
-<td><code>auto</code></td>
-<td>values: &#39;none&#39;, &#39;metadata&#39;, &#39;auto&#39;</td>
+<td>*鋒</td>
+<td>10</td>
 </tr>
 <tr>
-<td>data-volume</td>
-<td><code>0.7</code></td>
-<td>default volume, notice that player will remember user setting, default volume will not work after user set volume themselves</td>
+<td>*強</td>
+<td>5</td>
 </tr>
 <tr>
-<td>data-mutex</td>
-<td><code>true</code></td>
-<td>prevent to play multiple player at the same time, pause other players when this player start play</td>
+<td>K*n</td>
+<td>6.66</td>
 </tr>
 <tr>
-<td>data-lrctype</td>
-<td><code>0</code></td>
-<td>lyric type</td>
+<td>*1</td>
+<td>2.22</td>
 </tr>
 <tr>
-<td>data-listfolded</td>
-<td><code>false</code></td>
-<td>indicate whether list should folded at first</td>
+<td>圖*_</td>
+<td>5</td>
 </tr>
 <tr>
-<td>data-listmaxheight</td>
-<td><code>340px</code></td>
-<td>list max height</td>
+<td>B*e</td>
+<td>6.66</td>
 </tr>
 <tr>
-<td>data-storagename</td>
-<td><code>metingjs</code></td>
-<td>localStorage key that store player setting</td>
+<td>n*l</td>
+<td>6.66</td>
 </tr>
-</tbody></table>
-<div class="note info flat"><p><code>require</code> 代表着這些參數是必須要使用的，其它的參數則可以根據自己需要配置。</p>
-<p>配置全局吸底，<code>data-fixed</code> 和 <code>data-mini</code> 也必須配置，配置為 <code>true</code></p>
-<p>如果使用 Pjax，則在 class 裏需添加 <code>no-destroy</code>，這樣防止切換頁面時 Aplayer 被銷毀</p>
-</div>
-
-<p>把  <code>aplayer代碼</code>  插入到主題配置文件的  <code>inject.bottom</code> 去</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">  <span class="attr">bottom:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;div</span> <span class="string">class=&quot;aplayer</span> <span class="literal">no</span><span class="string">-destroy&quot;</span> <span class="string">data-id=&quot;60198&quot;</span> <span class="string">data-server=&quot;netease&quot;</span> <span class="string">data-type=&quot;playlist&quot;</span> <span class="string">data-fixed=&quot;true&quot;</span> <span class="string">data-autoplay=&quot;true&quot;&gt;</span> <span class="string">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>運行 Hexo 就可以看到網頁左下角出現了 Aplayer</p>
-<p>最後，如果你想切換頁面時，音樂不會中斷。請把主題配置文件的 <code>pjax</code> 設為 <code>true</code></p>
-]]></content>
+<tr>
+<td>*仔</td>
+<td>5</td>
+</tr>
+<tr>
+<td>M*5</td>
+<td>2</td>
+</tr>
+<tr>
+<td>w*r</td>
+<td>18.88</td>
+</tr>
+<tr>
+<td>*龍</td>
+<td>1.6</td>
+</tr>
+<tr>
+<td>*一</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*晨</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>*隨</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td>*忘</td>
+<td>10</td>
+</tr>
+<tr>
+<td>*想</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>*喜</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>*喜</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>*傑</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td>*雨</td>
+<td>10</td>
+</tr>
+<tr>
+<td>T*r</td>
+<td>10</td>
+</tr>
+<tr>
+<td>T*n</td>
+<td>2.88</td>
+</tr>
+<tr>
+<td>s*n</td>
+<td>2</td>
+</tr>
+<tr>
+<td>*o</td>
+<td>9.99</td>
+</tr>
+<tr>
+<td>m*o</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td>張*i</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>*斌</td>
+<td>2.88</td>
+</tr>
+<tr>
+<td>q*n</td>
+<td>20</td>
+</tr>
+<tr>
+<td>*唯</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td>H*n</td>
+<td>5</td>
+</tr>
+<tr>
+<td>I*U</td>
+<td>3.65</td>
+</tr>
+<tr>
+<td>*白</td>
+<td>6</td>
+</tr>
+<tr>
+<td>*豬</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>h*i</td>
+<td>10</td>
+</tr>
+<tr>
+<td>B*g</td>
+<td>5</td>
+</tr>
+<tr>
+<td>J*R</td>
+<td>3</td>
+</tr>
+<tr>
+<td>*夜</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>等*.</td>
+<td>12.5</td>
+</tr>
+<tr>
+<td>n*l</td>
+<td>1.68</td>
+</tr>
+<tr>
+<td>M*.</td>
+<td>38</td>
+</tr>
+<tr>
+<td>R*n</td>
+<td>1.68</td>
+</tr>
+<tr>
+<td>W*u</td>
+<td>4.91</td>
+</tr>
+<tr>
+<td>k*n</td>
+<td>58.8</td>
+</tr>
+<tr>
+<td>*嘔</td>
+<td>88.8</td>
+</tr>
+<tr>
+<td>*沙</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*x</td>
+<td>1</td>
+</tr>
+<tr>
+<td>*生</td>
+<td>0.01</td>
+</tr>
+<tr>
+<td>D*n</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>*。</td>
+<td>0.01</td>
+</tr>
+<tr>
+<td>*探</td>
+<td>5.20</td>
+</tr>
+<tr>
+<td>*宇</td>
+<td>5</td>
+</tr>
+<tr>
+<td>M*o</td>
+<td>10</td>
+</tr>
+<tr>
+<td>*碎</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>*魚</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td>C*.</td>
+<td>6.60</td>
+</tr>
+<tr>
+<td>*夕</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>R*r</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>*</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*心</td>
+<td>1</td>
+</tr>
+<tr>
+<td>H*h</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>*天</td>
+<td>3.21</td>
+</tr>
+<tr>
+<td>*默</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>T*i</td>
+<td>0.99</td>
+</tr>
+<tr>
+<td>0*0</td>
+<td>3</td>
+</tr>
+<tr>
+<td>*</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*豪</td>
+<td>20</td>
+</tr>
+<tr>
+<td>W*X</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td><em>-</em></td>
+<td>9.99</td>
+</tr>
+<tr>
+<td>*珩</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>*_</td>
+<td>2.73</td>
+</tr>
+<tr>
+<td>c*?</td>
+<td>2.33</td>
+</tr>
+<tr>
+<td>T*.</td>
+<td>6.66</td>
+</tr>
+<tr>
+<td>S*.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*超</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*❀</td>
+<td>10</td>
+</tr>
+<tr>
+<td>w*t</td>
+<td>0.66</td>
+</tr>
+</tbody></table></div><div class="tab-item-content" id="coffee-2"><table>
+<thead>
+<tr>
+<th>名字</th>
+<th>金額</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>iMIGw0</td>
+<td>10</td>
+</tr>
+<tr>
+<td>百事可樂</td>
+<td>10</td>
+</tr>
+<tr>
+<td>KT</td>
+<td>5</td>
+</tr>
+<tr>
+<td>JVxie</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td>Coolkk</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Sirius</td>
+<td>10</td>
+</tr>
+<tr>
+<td>惴繞</td>
+<td>1.11</td>
+</tr>
+<tr>
+<td>Jiang慢慢</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td>tjj</td>
+<td>28.88</td>
+</tr>
+<tr>
+<td>無風引漩</td>
+<td>10</td>
+</tr>
+<tr>
+<td>忘我楊</td>
+<td>50</td>
+</tr>
+<tr>
+<td>小虎</td>
+<td>10</td>
+</tr>
+<tr>
+<td>無殤雨露</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Rhythm~</td>
+<td>10</td>
+</tr>
+<tr>
+<td>小樣</td>
+<td>36</td>
+</tr>
+<tr>
+<td>SunnyWS</td>
+<td>20</td>
+</tr>
+<tr>
+<td>ZFour</td>
+<td>8.88</td>
+</tr>
+<tr>
+<td>JeM_緘默</td>
+<td>0.14</td>
+</tr>
+<tr>
+<td>小張</td>
+<td>5</td>
+</tr>
+<tr>
+<td>書生</td>
+<td>6.88</td>
+</tr>
+<tr>
+<td>王青陽</td>
+<td>5</td>
+</tr>
+<tr>
+<td>趙碧寒</td>
+<td>10</td>
+</tr>
+<tr>
+<td>對好的就這樣</td>
+<td>6</td>
+</tr>
+<tr>
+<td>雨辰</td>
+<td>5</td>
+</tr>
+<tr>
+<td>北風</td>
+<td>9.9</td>
+</tr>
+<tr>
+<td>LeDao</td>
+<td>10</td>
+</tr>
+<tr>
+<td>zHaOzzz</td>
+<td>10</td>
+</tr>
+<tr>
+<td>任哲</td>
+<td>1.88</td>
+</tr>
+<tr>
+<td>dear</td>
+<td>0.29</td>
+</tr>
+<tr>
+<td>*鵬</td>
+<td>5</td>
+</tr>
+<tr>
+<td>**豪</td>
+<td>50</td>
+</tr>
+<tr>
+<td>*瑋</td>
+<td>5</td>
+</tr>
+<tr>
+<td>*彬</td>
+<td>5.2</td>
+</tr>
+</tbody></table></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>]]></content>
       <categories>
-        <category>進階教程</category>
+        <category>Thx</category>
       </categories>
       <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
         <tag>butterfly</tag>
-        <tag>主題</tag>
-        <tag>Aplayer</tag>
+        <tag>打赏</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/undefined/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>Butterfly 更新日誌</title>
@@ -5518,22 +5386,154 @@ w:Rock-y did-nt like that</div>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/undefined/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>Butterfly添加全局吸底Aplayer教程</title>
+    <url>/posts/507c070f/</url>
+    <content><![CDATA[<div class="note info flat"><p>以下文章只是教程</p>
+<p>如果部署之后，并没有出现 aplayer , 请确认是否跟足步骤操作或者更换音乐源，多试试。</p>
+<p>如果遇到使用問題，请仔细查看插件文档，或者到插件那裏反饋。</p>
+</div>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如果你想使用 aplayer，很多人都會推薦安裝 <a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a> 這款插件。這款插件通過 Hexo 獨有的標籤外掛，我們可以很方便的寫入一些參數，插件就會幫我們生成對應的 html。如果你只是使用一些簡單的功能，其實無需使用到這個插件，只需以 html 格式書寫就行，不用插件去轉換。</p>
+<p>例如：</p>
+<p>如果使用插件，在 markdown 中要這樣寫</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;000PeZCQ1i4XVs&quot; &quot;tencent&quot; &quot;artist&quot; &quot;theme:#3F51B5&quot; &quot;mutex:true&quot; &quot;preload:auto&quot; %&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>其會被插件渲染為</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;aplayer-uxAIfEUs&quot;</span> <span class="attr">class</span>=<span class="string">&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;000PeZCQ1i4XVs&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;tencent&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;artist&quot;</span> <span class="attr">data-mode</span>=<span class="string">&quot;circulation&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;false&quot;</span> <span class="attr">data-mutex</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-listmaxheight</span>=<span class="string">&quot;340px&quot;</span> <span class="attr">data-preload</span>=<span class="string">&quot;auto&quot;</span> <span class="attr">data-theme</span>=<span class="string">&quot;#3F51B5&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>如果我們不想使用插件，就需要在markdown中用html的格式書寫，同時把主題配置文件中的<code>aplayerInject</code>開啟</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;000PeZCQ1i4XVs&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;tencent&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;artist&quot;</span> <span class="attr">data-mutex</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-preload</span>=<span class="string">&quot;auto&quot;</span> <span class="attr">data-theme</span>=<span class="string">&quot;#3F51B5&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>這樣我們就可以不用使用多一個插件，當然這種東西見仁見智，選自己喜歡的就行。</p>
+<p>回到正題，這篇文章將教大家如何在Butterfly上使用全局吸底 Aplayer</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-aplayer-xidi.gif" alt="aplayer"></p>
+<h2 id="關閉-asset-inject"><a href="#關閉-asset-inject" class="headerlink" title="關閉 asset_inject"></a>關閉 <code>asset_inject</code></h2><div class="note info flat"><p>此步驟適用於安裝了 <code>hexo-tag-aplayer</code> 插件的人</p>
+</div>
+
+
+
+<p>由於需要全局都插入 aplayer 和 meting 資源，為了防止插入重複的資源，需要把 asset_inject 設為 <code>false</code></p>
+<p>在 Hexo 的配置文件中</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">meting:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">asset_inject:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="開啟主題的-aplayerInject"><a href="#開啟主題的-aplayerInject" class="headerlink" title="開啟主題的 aplayerInject"></a>開啟主題的 <code>aplayerInject</code></h2><p>在主題的配置文件中，<code>enable</code> 設為 <code>true</code> 和 <code>per_page</code> 設為 <code>true</code></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Inject the css and script (aplayer/meting)</span></span><br><span class="line"><span class="attr">aplayerInject:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="插入-Aplayer-html"><a href="#插入-Aplayer-html" class="headerlink" title="插入 Aplayer html"></a>插入 Aplayer html</h2><p>為了適配 hexo-tag-aplayer，主題內置的 Meting js 仍為 1.2 版本，並非最新的 2.x 版本。</p>
+<p>Aplayer html 例子：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;60198&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;playlist&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>參數解釋</p>
+<table>
+<thead>
+<tr>
+<th>option</th>
+<th>default</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>data-id</td>
+<td><strong>require</strong></td>
+<td>song id &#x2F; playlist id &#x2F; album id &#x2F; search keyword</td>
+</tr>
+<tr>
+<td>data-server</td>
+<td><strong>require</strong></td>
+<td>music platform: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td>
+</tr>
+<tr>
+<td>data-type</td>
+<td><strong>require</strong></td>
+<td><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td>
+</tr>
+<tr>
+<td>data-fixed</td>
+<td><code>false</code></td>
+<td>enable fixed mode</td>
+</tr>
+<tr>
+<td>data-mini</td>
+<td><code>false</code></td>
+<td>enable mini mode</td>
+</tr>
+<tr>
+<td>data-autoplay</td>
+<td><code>false</code></td>
+<td>audio autoplay</td>
+</tr>
+<tr>
+<td>data-theme</td>
+<td><code>#2980b9</code></td>
+<td>main color</td>
+</tr>
+<tr>
+<td>data-loop</td>
+<td><code>all</code></td>
+<td>player loop play, values: &#39;all&#39;, &#39;one&#39;, &#39;none&#39;</td>
+</tr>
+<tr>
+<td>data-order</td>
+<td><code>list</code></td>
+<td>player play order, values: &#39;list&#39;, &#39;random&#39;</td>
+</tr>
+<tr>
+<td>data-preload</td>
+<td><code>auto</code></td>
+<td>values: &#39;none&#39;, &#39;metadata&#39;, &#39;auto&#39;</td>
+</tr>
+<tr>
+<td>data-volume</td>
+<td><code>0.7</code></td>
+<td>default volume, notice that player will remember user setting, default volume will not work after user set volume themselves</td>
+</tr>
+<tr>
+<td>data-mutex</td>
+<td><code>true</code></td>
+<td>prevent to play multiple player at the same time, pause other players when this player start play</td>
+</tr>
+<tr>
+<td>data-lrctype</td>
+<td><code>0</code></td>
+<td>lyric type</td>
+</tr>
+<tr>
+<td>data-listfolded</td>
+<td><code>false</code></td>
+<td>indicate whether list should folded at first</td>
+</tr>
+<tr>
+<td>data-listmaxheight</td>
+<td><code>340px</code></td>
+<td>list max height</td>
+</tr>
+<tr>
+<td>data-storagename</td>
+<td><code>metingjs</code></td>
+<td>localStorage key that store player setting</td>
+</tr>
+</tbody></table>
+<div class="note info flat"><p><code>require</code> 代表着這些參數是必須要使用的，其它的參數則可以根據自己需要配置。</p>
+<p>配置全局吸底，<code>data-fixed</code> 和 <code>data-mini</code> 也必須配置，配置為 <code>true</code></p>
+<p>如果使用 Pjax，則在 class 裏需添加 <code>no-destroy</code>，這樣防止切換頁面時 Aplayer 被銷毀</p>
+</div>
+
+<p>把  <code>aplayer代碼</code>  插入到主題配置文件的  <code>inject.bottom</code> 去</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">inject:</span></span><br><span class="line">  <span class="attr">head:</span></span><br><span class="line">  <span class="attr">bottom:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">&lt;div</span> <span class="string">class=&quot;aplayer</span> <span class="literal">no</span><span class="string">-destroy&quot;</span> <span class="string">data-id=&quot;60198&quot;</span> <span class="string">data-server=&quot;netease&quot;</span> <span class="string">data-type=&quot;playlist&quot;</span> <span class="string">data-fixed=&quot;true&quot;</span> <span class="string">data-autoplay=&quot;true&quot;&gt;</span> <span class="string">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>運行 Hexo 就可以看到網頁左下角出現了 Aplayer</p>
+<p>最後，如果你想切換頁面時，音樂不會中斷。請把主題配置文件的 <code>pjax</code> 設為 <code>true</code></p>
 ]]></content>
+      <categories>
+        <category>進階教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+        <tag>主題</tag>
+        <tag>Aplayer</tag>
+      </tags>
   </entry>
   <entry>
     <title>Markdown Style test</title>
@@ -5765,11 +5765,6 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
       </tags>
   </entry>
   <entry>
-    <title>个人博客回忆录</title>
-    <url>/posts/null/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>當設置 top_img 為 false 時</title>
     <url>/posts/c9711c19/</url>
     <content><![CDATA[<p>當設置 top_img 為 false 時，不顯示頂部圖</p>
@@ -5781,6 +5776,15 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
         <tag>butterfly</tag>
         <tag>top_img</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>个人博客回忆录</title>
+    <url>/posts/null/</url>
+    <content><![CDATA[<div class="note default simple"><p>default 提示块标签</p>
+</div>
+
+<p>今天是2024.4.15.23.14测试内容</p>
+]]></content>
   </entry>
   <entry>
     <title>標籤外掛(Tag Plugins)</title>
