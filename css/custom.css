@@ -34,7 +34,7 @@ body {
 [data-theme="dark"] .menus_item .site-page {
   animation: light_5px 10s linear infinite;
 }
-[data-theme="dark"] #search-button .site-page {
+[data-theme="dark"] #search-button {
   animation: light_15px 10s linear infinite;
 }
 /* 关键帧描述 */

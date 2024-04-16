@@ -115,31 +115,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Butterfly 4.13 更新日誌</title>
-    <url>/posts/4-13-release-notes/</url>
-    <content><![CDATA[<h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><ol>
-<li>適配 waline v3</li>
-<li>適配 artalk 新版</li>
-</ol>
-<h2 id="修復"><a href="#修復" class="headerlink" title="修復"></a>修復</h2><ol>
-<li>修復文章頁面，twikoo 無法獲取評論數的 bug</li>
-</ol>
-<h2 id="優化"><a href="#優化" class="headerlink" title="優化"></a>優化</h2><ol>
-<li>首頁多個標籤和分類時，每個都增加標識</li>
-<li>文章頁標題改為左邊</li>
-</ol>
-]]></content>
-      <categories>
-        <category>更新日誌</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>更新日誌</tag>
-        <tag>butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Butterfly 4.12 更新日誌</title>
     <url>/posts/4-12-release-notes/</url>
     <content><![CDATA[<h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><ol>
@@ -154,6 +129,31 @@
 <h2 id="優化"><a href="#優化" class="headerlink" title="優化"></a>優化</h2><ol>
 <li>標題點擊範圍縮小為字體本身</li>
 <li>Waline 增加 destroy 調用</li>
+</ol>
+]]></content>
+      <categories>
+        <category>更新日誌</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>更新日誌</tag>
+        <tag>butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly 4.13 更新日誌</title>
+    <url>/posts/4-13-release-notes/</url>
+    <content><![CDATA[<h2 id="內容"><a href="#內容" class="headerlink" title="內容"></a>內容</h2><ol>
+<li>適配 waline v3</li>
+<li>適配 artalk 新版</li>
+</ol>
+<h2 id="修復"><a href="#修復" class="headerlink" title="修復"></a>修復</h2><ol>
+<li>修復文章頁面，twikoo 無法獲取評論數的 bug</li>
+</ol>
+<h2 id="優化"><a href="#優化" class="headerlink" title="優化"></a>優化</h2><ol>
+<li>首頁多個標籤和分類時，每個都增加標識</li>
+<li>文章頁標題改為左邊</li>
 </ol>
 ]]></content>
       <categories>
@@ -243,6 +243,548 @@
         <tag>Hexo</tag>
         <tag>butterfly</tag>
         <tag>主题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly 安裝文檔(二) 主題頁面</title>
+    <url>/posts/dc584b87/</url>
+    <content><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
+<p><a href="/posts/21cfbf15/" title="Butterfly 安裝文檔(一) 快速開始">🚀 快速開始</a> - <a href="/posts/dc584b87/" title="Butterfly 安裝文檔(二) 主題頁面">📑 主題頁面</a> - <a href="/posts/4aa8abbe/" title="Butterfly 安裝文檔(三) 主題配置-1">📌 主題配置-1</a> - <a href="/posts/ceeb73f/" title="Butterfly 安裝文檔(四) 主題配置-2">⚔️ 主題配置-2</a> - <a href="/posts/98d20436/" title="Butterfly 安裝文檔(五) 主題問答">❓ 主題問答</a> - <a href="/posts/4073eda/" title="Butterfly 安裝文檔(六) 進階教程">⚡️ 進階教程</a></p>
+</div>
+
+<div class="note orange icon-padding flat"><i class="note-icon fas fa-magic"></i><p>你可以通過右下角的 <strong>簡</strong> 按鈕切換為簡體顯示 </p>
+</div>
+
+<hr>
+<h2 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h2><p><strong>Front-matter 是 markdown 文件最上方以 <code>---</code> 分隔的區域，用於指定個別檔案的變數。</strong></p>
+<ul>
+<li>Page Front-matter 用於<code>頁面</code>配置</li>
+<li>Post Front-matter 用於<code>文章頁</code>配置</li>
+</ul>
+<div class="note info flat"><p>如果標注<code>可選</code>的參數，可根據自己需要添加，不用全部都寫在 markdown 裏</p>
+</div>
+
+<h3 id="Page-Front-matter"><a href="#Page-Front-matter" class="headerlink" title="Page Front-matter"></a>Page Front-matter</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aside:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br><span class="line"><span class="section">random:</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>寫法</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>title</td>
+<td>【必需】頁面標題</td>
+</tr>
+<tr>
+<td>date</td>
+<td>【必需】頁面創建日期</td>
+</tr>
+<tr>
+<td>type</td>
+<td>【必需】標籤、分類和友情鏈接三個頁面需要配置</td>
+</tr>
+<tr>
+<td>updated</td>
+<td>【可選】頁面更新日期</td>
+</tr>
+<tr>
+<td>description</td>
+<td>【可選】頁面描述</td>
+</tr>
+<tr>
+<td>keywords</td>
+<td>【可選】頁面關鍵字</td>
+</tr>
+<tr>
+<td>comments</td>
+<td>【可選】顯示頁面評論模塊 (默認 true)</td>
+</tr>
+<tr>
+<td>top_img</td>
+<td>【可選】頁面頂部圖片</td>
+</tr>
+<tr>
+<td>mathjax</td>
+<td>【可選】顯示mathjax (當設置mathjax的per_page: false時，才需要配置，默認 false)</td>
+</tr>
+<tr>
+<td>katex</td>
+<td>【可選】顯示katex (當設置katex的per_page: false時，才需要配置，默認 false)</td>
+</tr>
+<tr>
+<td>aside</td>
+<td>【可選】顯示側邊欄 (默認 true)</td>
+</tr>
+<tr>
+<td>aplayer</td>
+<td>【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的<code>音樂</code> 配置</td>
+</tr>
+<tr>
+<td>highlight_shrink</td>
+<td>【可選】配置代碼框是否展開 (true&#x2F;false) (默認為設置中highlight_shrink的配置)</td>
+</tr>
+<tr>
+<td>random</td>
+<td>【可選】配置友情鏈接是否隨機排序（默認為 false)</td>
+</tr>
+</tbody></table>
+<h3 id="Post-Front-matter"><a href="#Post-Front-matter" class="headerlink" title="Post Front-matter"></a>Post Front-matter</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">keywords:</span><br><span class="line">description:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">comments:</span></span><br><span class="line"><span class="emphasis">cover:</span></span><br><span class="line"><span class="emphasis">toc:</span></span><br><span class="line"><span class="emphasis">toc_</span>number:</span><br><span class="line">toc<span class="emphasis">_style_</span>simple:</span><br><span class="line">copyright:</span><br><span class="line">copyright<span class="emphasis">_author:</span></span><br><span class="line"><span class="emphasis">copyright_</span>author<span class="emphasis">_href:</span></span><br><span class="line"><span class="emphasis">copyright_</span>url:</span><br><span class="line">copyright<span class="emphasis">_info:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br><span class="line">aside:</span><br><span class="line"><span class="section">abcjs:</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">寫法</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">title</td>
+<td>【必需】文章標題</td>
+</tr>
+<tr>
+<td align="left">date</td>
+<td>【必需】文章創建日期</td>
+</tr>
+<tr>
+<td align="left">updated</td>
+<td>【可選】文章更新日期</td>
+</tr>
+<tr>
+<td align="left">tags</td>
+<td>【可選】文章標籤</td>
+</tr>
+<tr>
+<td align="left">categories</td>
+<td>【可選】文章分類</td>
+</tr>
+<tr>
+<td align="left">keywords</td>
+<td>【可選】文章關鍵字</td>
+</tr>
+<tr>
+<td align="left">description</td>
+<td>【可選】文章描述</td>
+</tr>
+<tr>
+<td align="left">top_img</td>
+<td>【可選】文章頂部圖片</td>
+</tr>
+<tr>
+<td align="left">cover</td>
+<td>【可選】文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false&#x2F;圖片地址&#x2F;留空)</td>
+</tr>
+<tr>
+<td align="left">comments</td>
+<td>【可選】顯示文章評論模塊(默認 true)</td>
+</tr>
+<tr>
+<td align="left">toc</td>
+<td>【可選】顯示文章TOC(默認為設置中toc的enable配置)</td>
+</tr>
+<tr>
+<td align="left">toc_number</td>
+<td>【可選】顯示toc_number(默認為設置中toc的number配置)</td>
+</tr>
+<tr>
+<td align="left">toc_style_simple</td>
+<td>【可選】顯示 toc 簡潔模式</td>
+</tr>
+<tr>
+<td align="left">copyright</td>
+<td>【可選】顯示文章版權模塊(默認為設置中post_copyright的enable配置)</td>
+</tr>
+<tr>
+<td align="left">copyright_author</td>
+<td>【可選】文章版權模塊的<code>文章作者</code></td>
+</tr>
+<tr>
+<td align="left">copyright_author_href</td>
+<td>【可選】文章版權模塊的<code>文章作者</code>鏈接</td>
+</tr>
+<tr>
+<td align="left">copyright_url</td>
+<td>【可選】文章版權模塊的<code>文章連結</code>鏈接</td>
+</tr>
+<tr>
+<td align="left">copyright_info</td>
+<td>【可選】文章版權模塊的<code>版權聲明</code>文字</td>
+</tr>
+<tr>
+<td align="left">mathjax</td>
+<td>【可選】顯示mathjax(當設置 mathjax 的 per_page:  false 時，才需要配置，默認  false )</td>
+</tr>
+<tr>
+<td align="left">katex</td>
+<td>【可選】顯示 katex (當設置 katex 的 per_page:  false 時，才需要配置，默認   false )</td>
+</tr>
+<tr>
+<td align="left">aplayer</td>
+<td>【可選】在需要的頁面加載 aplayer 的 js 和 css,請參考文章下面的<code>音樂</code> 配置</td>
+</tr>
+<tr>
+<td align="left">highlight_shrink</td>
+<td>【可選】配置代碼框是否展開(true&#x2F;false)(默認為設置中 highlight_shrink 的配置)</td>
+</tr>
+<tr>
+<td align="left">aside</td>
+<td>【可選】顯示側邊欄 (默認 true)</td>
+</tr>
+<tr>
+<td align="left">abcjs</td>
+<td>【可選】加載 abcjs (當設置 abcjs 的 per_page:  false 時，才需要配置，默認   false )</td>
+</tr>
+</tbody></table>
+<h2 id="標籤頁"><a href="#標籤頁" class="headerlink" title="標籤頁"></a>標籤頁</h2><ol>
+<li><p>前往你的 Hexo 博客的根目錄</p>
+</li>
+<li><p>輸入 <code>hexo new page tags</code></p>
+</li>
+<li><p>你會找到 <code>source/tags/index.md</code> 這個文件</p>
+</li>
+<li><p>修改這個文件：</p>
+<p><strong>記得添加 <code>type: &quot;tags&quot;</code></strong></p>
+</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 標籤</span><br><span class="line">date: 2018-01-05 00:00:00</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">orderby: random</span><br><span class="line"><span class="section">order: 1</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>參數</th>
+<th>解釋</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>type</td>
+<td>【必須】頁面類型，必須為 <code>tags</code></td>
+</tr>
+<tr>
+<td>orderby</td>
+<td>【可選】排序方式 ：random&#x2F;name&#x2F;length</td>
+</tr>
+<tr>
+<td>order</td>
+<td>【可選】排序次序： 1, asc for ascending; -1, desc for descending</td>
+</tr>
+</tbody></table>
+<h2 id="分類頁"><a href="#分類頁" class="headerlink" title="分類頁"></a>分類頁</h2><ol>
+<li><p>前往你的 Hexo 博客的根目錄</p>
+</li>
+<li><p>輸入 <code>hexo new page categories</code></p>
+</li>
+<li><p>你會找到 <code>source/categories/index.md</code> 這個文件</p>
+</li>
+<li><p>修改這個文件：</p>
+<p><strong>記得添加 <code>type: &quot;categories&quot;</code></strong></p>
+</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分類</span><br><span class="line">date: 2018-01-05 00:00:00</span><br><span class="line"><span class="section">type: &quot;categories&quot;</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="友情鏈接"><a href="#友情鏈接" class="headerlink" title="友情鏈接"></a>友情鏈接</h2><p>為你的博客創建一個友情鏈接！</p>
+<h3 id="創建友情鏈接頁面"><a href="#創建友情鏈接頁面" class="headerlink" title="創建友情鏈接頁面"></a>創建友情鏈接頁面</h3><ol>
+<li><p>前往你的 Hexo 博客的根目錄</p>
+</li>
+<li><p>輸入 <code>hexo new page link</code></p>
+</li>
+<li><p>你會找到 <code>source/link/index.md</code> 這個文件</p>
+</li>
+<li><p>修改這個文件：</p>
+<p>記得添加 <code>type: &quot;link&quot;</code></p>
+</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 友情鏈接</span><br><span class="line">date: 2018-06-07 22:17:49</span><br><span class="line"><span class="section">type: &quot;link&quot;</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="友情鏈接添加"><a href="#友情鏈接添加" class="headerlink" title="友情鏈接添加"></a>友情鏈接添加</h3><div class="tabs" id="flink-add"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="flink-add-1">本地生成</button><button type="button" class="tab " data-href="flink-add-2">遠程拉取</button></ul><div class="tab-contents"><div class="tab-item-content active" id="flink-add-1"><p>在Hexo博客目錄中的 <code>source/_data</code>（如果沒有 _data 文件夾，請自行創建），創建一個文件 <code>link.yml</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">class_name:</span> <span class="string">友情鏈接</span></span><br><span class="line">  <span class="attr">class_desc:</span> <span class="string">那些人，那些事</span></span><br><span class="line">  <span class="attr">link_list:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Hexo</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://hexo.io/zh-tw/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">快速、簡單且強大的網誌框架</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">class_name:</span> <span class="string">網站</span></span><br><span class="line">  <span class="attr">class_desc:</span> <span class="string">值得推薦的網站</span></span><br><span class="line">  <span class="attr">link_list:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Youtube</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://www.youtube.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">視頻網站</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Weibo</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://www.weibo.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">中國最大社交分享平台</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Twitter</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://twitter.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">社交分享平台</span></span><br></pre></td></tr></table></figure>
+
+<p><code>class_name</code>  和 <code>class_desc</code> 支持 html 格式書寫，如不需要，也可以留空。</p></div><div class="tab-item-content" id="flink-add-2"><p>從 <code>4.0.0</code> 開始，支持從遠程加載友情鏈接，遠程拉取只支持 <code>json</code>。</p>
+<p>注意： 選擇遠程加載後，本地生成的方法會無效。</p>
+<p>在  <code>source/link/index.md</code> 這個文件的 front-matter 添加遠程鏈接</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">flink<span class="emphasis">_url: xxxxx</span></span><br></pre></td></tr></table></figure>
+
+<p>Json 的格式</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;class_name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;友情鏈接&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;class_desc&quot;</span><span class="punctuation">:</span> <span class="string">&quot;那些人，那些事&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;link_list&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Hexo&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://hexo.io/zh-tw/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;快速、簡單且強大的網誌框架&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;class_name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;網站&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;class_desc&quot;</span><span class="punctuation">:</span> <span class="string">&quot;值得推薦的網站&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;link_list&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Youtube&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://www.youtube.com/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;視頻網站&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Weibo&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://www.weibo.com/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;中國最大社交分享平台&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Twitter&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://twitter.com/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;社交分享平台&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h3 id="友情鏈接隨機排序"><a href="#友情鏈接隨機排序" class="headerlink" title="友情鏈接隨機排序"></a>友情鏈接隨機排序</h3><p>主題支持友情鏈接隨機排序，只需要在頂部 <code>front-matter</code> 添加 <code>random: true</code></p>
+<h3 id="友情鏈接界面設置"><a href="#友情鏈接界面設置" class="headerlink" title="友情鏈接界面設置"></a>友情鏈接界面設置</h3><p>由 2.2.0 起，友情鏈接界面可以由用户自己自定義，只需要在友情鏈接的md檔設置就行，以普通的Markdown格式書寫。</p>
+<h2 id="圖庫"><a href="#圖庫" class="headerlink" title="圖庫"></a>圖庫</h2><p>圖庫頁面只是普通的頁面，你只需要 <code>hexo n page xxxxx</code> 創建你的頁面就行</p>
+<p>然後使用標簽外掛 <a href="https://butterfly.js.org/posts/4aa8abbe/#Gallery%E7%9B%B8%E5%86%8A%E5%9C%96%E5%BA%AB">galleryGroup</a>，具體用法請查看對應的內容。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">&lt;div</span> <span class="string">class=&quot;gallery-group-main&quot;&gt;</span></span><br><span class="line">&#123;<span class="string">%</span> <span class="string">galleryGroup</span> <span class="string">&#x27;壁紙&#x27;</span> <span class="string">&#x27;收藏的一些壁紙&#x27;</span> <span class="string">&#x27;/Gallery/wallpaper&#x27;</span> <span class="string">https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png</span> <span class="string">%</span>&#125;</span><br><span class="line">&#123;<span class="string">%</span> <span class="string">galleryGroup</span> <span class="string">&#x27;漫威&#x27;</span> <span class="string">&#x27;關於漫威的圖片&#x27;</span> <span class="string">&#x27;/Gallery/marvel&#x27;</span> <span class="string">https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg</span> <span class="string">%</span>&#125;</span><br><span class="line">&#123;<span class="string">%</span> <span class="string">galleryGroup</span> <span class="string">&#x27;OH MY GIRL&#x27;</span> <span class="string">&#x27;關於OH MY GIRL的圖片&#x27;</span> <span class="string">&#x27;/Gallery/ohmygirl&#x27;</span> <span class="string">https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg</span> <span class="string">%</span>&#125;</span><br><span class="line"><span class="string">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure>
+
+<div class="gallery-group-main">
+<figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">壁紙</div>
+  <p>收藏的一些壁紙</p>
+  <a href='/Gallery/wallpaper'></a>
+  </figcaption>
+  </figure>
+  
+<figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">漫威</div>
+  <p>關於漫威的圖片</p>
+  <a href='/Gallery/marvel'></a>
+  </figcaption>
+  </figure>
+  
+<figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">OH MY GIRL</div>
+  <p>關於OH MY GIRL的圖片</p>
+  <a href='/Gallery/ohmygirl'></a>
+  </figcaption>
+  </figure>
+  
+</div>
+
+<h3 id="子頁面"><a href="#子頁面" class="headerlink" title="子頁面"></a>子頁面</h3><p>子頁面也是普通的頁面，你只需要 <code>hexo n page xxxxx</code> 創建你的頁面就行</p>
+<p>然後使用標簽外掛 <a href="/posts/4aa8abbe/#Gallery%E7%9B%B8%E5%86%8A">gallery</a>，具體用法請查看對應的內容。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">%</span> <span class="string">gallery</span> <span class="string">%</span>&#125;</span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)</span></span><br><span class="line">&#123;<span class="string">%</span> <span class="string">endgallery</span> <span class="string">%</span>&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+
+<div class="note pink icon-padding flat"><i class="note-icon fas fa-sitemap"></i><p>如果你想要使用 <code>/photo/ohmygirl</code> 這樣的鏈接顯示你的圖片內容</p>
+<p>你可以把創建好的 <code>ohmygirl</code> 整個文件夾移到 <code>photo</code> 文件夾裏去</p>
+</div>
+
+<h2 id="404頁面"><a href="#404頁面" class="headerlink" title="404頁面"></a>404頁面</h2><p>主題內置了一個簡單的 404 頁面，可在設置中開啟</p>
+<div class="note info flat"><p>本地預覽時，訪問出錯的網站是不會跳到 404 頁面的。</p>
+<p>如需本地預覽，請訪問 <code>http://localhost:4000/404.html</code></p>
+</div>
+
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># A simple 404 page</span></span><br><span class="line"><span class="attr">error_404:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">subtitle:</span> <span class="string">&quot;頁面沒有找到&quot;</span></span><br><span class="line">  <span class="attr">background:</span> </span><br></pre></td></tr></table></figure>
+
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-error404.png"></p>
+<a class="btn-beautify block pink right larger" href="/posts/4aa8abbe/" 
+  title="📌 Butterfly 安裝文檔(三) 主題配置"><i class="far fa-hand-point-right"></i><span>📌 Butterfly 安裝文檔(三) 主題配置</span></a>]]></content>
+      <categories>
+        <category>Docs文檔</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+        <tag>主题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly 安裝文檔(五) 主題問答</title>
+    <url>/posts/98d20436/</url>
+    <content><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
+<p><a href="/posts/21cfbf15/" title="Butterfly 安裝文檔(一) 快速開始">🚀 快速開始</a> - <a href="/posts/dc584b87/" title="Butterfly 安裝文檔(二) 主題頁面">📑 主題頁面</a> - <a href="/posts/4aa8abbe/" title="Butterfly 安裝文檔(三) 主題配置-1">📌 主題配置-1</a> - <a href="/posts/ceeb73f/" title="Butterfly 安裝文檔(四) 主題配置-2">⚔️ 主題配置-2</a> - <a href="/posts/98d20436/" title="Butterfly 安裝文檔(五) 主題問答">❓ 主題問答</a> - <a href="/posts/4073eda/" title="Butterfly 安裝文檔(六) 進階教程">⚡️ 進階教程</a></p>
+</div>
+
+<div class="note orange icon-padding flat"><i class="note-icon fas fa-magic"></i><p>你可以通過右下角的 <strong>簡</strong> 按鈕切換為簡體顯示 </p>
+</div>
+
+<hr>
+<p>以下是一些網友在安裝的過程中出現的問題。在提問題之前，先看有沒有解決方法。</p>
+<h3 id="運行後網頁顯示代碼"><a href="#運行後網頁顯示代碼" class="headerlink" title="運行後網頁顯示代碼"></a>運行後網頁顯示代碼</h3><p>頁面只顯示 <code>extends includes/layout.pug block content #recent-posts.recent-posts include includes/recent-posts.pug include includes/pagination.pug #aside_content.aside_content include includes/aside.pug</code></p>
+<blockquote>
+<p>請下載安裝：<code>npm install hexo-renderer-pug hexo-renderer-stylus --save</code> or <code>yarn add hexo-renderer-pug hexo-renderer-stylus</code></p>
+</blockquote>
+<h3 id="配置友情鏈接報錯"><a href="#配置友情鏈接報錯" class="headerlink" title="配置友情鏈接報錯"></a>配置友情鏈接報錯</h3><p>配置友情鏈接頁面時出現報錯</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR D:\Desktop\orxing-blog\themes\Butterfly\layout\flink.pug:2</span><br><span class="line">    1| .flink</span><br><span class="line">  &gt; 2|   each i in site.data.link</span><br><span class="line">    3|     p.comment-word= i.class_name</span><br><span class="line">    4|     .post-cards</span><br><span class="line">    5|       ul.md-links</span><br><span class="line"></span><br><span class="line">Cannot read property &amp;#39;length&amp;#39; of undefined</span><br><span class="line">TypeError: D:\Desktop\orxing-blog\themes\Butterfly\layout\flink.pug:2</span><br><span class="line">    1| .flink</span><br><span class="line">  &gt; 2|   each i in site.data.link</span><br><span class="line">    3|     p.comment-word= i.class_name</span><br><span class="line">    4|     .post-cards</span><br><span class="line">    5|       ul.md-links</span><br><span class="line"></span><br><span class="line">Cannot read property &amp;#39;length&amp;#39; of undefined</span><br><span class="line">    at eval (eval at wrap (D:\Desktop\orxing-blog\node_modules\pug-runtime\wrap.js:6:10), &lt;anonymous&gt;:1890:32)</span><br><span class="line">    at eval (eval at wrap (D:\Desktop\orxing-blog\node_modules\pug-runtime\wrap.js:6:10), &lt;anonymous&gt;:2017:4)</span><br><span class="line">    at template (eval at wrap (D:\Desktop\orxing-blog\node_modules\pug-runtime\wrap.js:6:10), &lt;anonymous&gt;:10152:72)</span><br><span class="line">    at Theme._View.View._compiled (D:\Desktop\orxing-blog\node_modules\hexo\lib\theme\view.js:123:48)</span><br><span class="line">    at Theme._View.View.View.render (D:\Desktop\orxing-blog\node_modules\hexo\lib\theme\view.js:29:15)</span><br><span class="line">    at D:\Desktop\orxing-blog\node_modules\hexo\lib\hexo\index.js:349:21</span><br><span class="line">    at tryCatcher (D:\Desktop\orxing-blog\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at D:\Desktop\orxing-blog\node_modules\bluebird\js\release\method.js:15:34</span><br><span class="line">    at RouteStream._read (D:\Desktop\orxing-blog\node_modules\hexo\lib\hexo\router.js:123:3)</span><br><span class="line">    at RouteStream.Readable.read (_stream_readable.js:457:10)</span><br><span class="line">    at resume_ (_stream_readable.js:936:12)</span><br><span class="line">    at processTicksAndRejections (internal/process/task_queues.js:84:9)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>請檢查 <code>link.yml</code>文檔內代碼的空格</p>
+</blockquote>
+<h3 id="升級最新版後運行報錯"><a href="#升級最新版後運行報錯" class="headerlink" title="升級最新版後運行報錯"></a>升級最新版後運行報錯</h3><p>升級最新版本hexo g後報錯</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">INFO  Deleted database.</span><br><span class="line">INFO  Start processing</span><br><span class="line">FATAL Something&amp;#39;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">TypeError: Cannot read property &amp;#39;enable&amp;#39; of undefined</span><br><span class="line">    at Hexo.&lt;anonymous&gt; (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/themes/Butterfly/scripts/post-lazyload.js:5:23)</span><br><span class="line">    at Hexo.tryCatcher (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">    at Hexo.&lt;anonymous&gt; (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/method.js:15:34)</span><br><span class="line">    at /Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/hexo/lib/extend/filter.js:60:50</span><br><span class="line">    at tryCatcher (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">    at Object.gotValue (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/reduce.js:155:18)</span><br><span class="line">    at Object.gotAccum (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/reduce.js:144:25)</span><br><span class="line">    at Object.tryCatcher (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">    at Promise._settlePromiseFromHandler (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/promise.js:517:31)</span><br><span class="line">    at Promise._settlePromise (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/promise.js:574:18)</span><br><span class="line">    at Promise._settlePromiseCtx (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/promise.js:611:10)</span><br><span class="line">    at _drainQueueStep (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:142:12)</span><br><span class="line">    at _drainQueue (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:131:9)</span><br><span class="line">    at Async._drainQueues (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:147:5)</span><br><span class="line">    at Immediate.Async.drainQueues [as _onImmediate] (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:17:14)</span><br><span class="line">    at processImmediate (internal/timers.js:439:21)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>請參照最新版的_config.yml, 比對後，把缺的配置複製到主題配置文件中去</p>
+</blockquote>
+<h3 id="wordcount-is-not-a-function-totalcount-is-not-a-function"><a href="#wordcount-is-not-a-function-totalcount-is-not-a-function" class="headerlink" title="wordcount is not a function &#x2F; totalcount is not a function"></a>wordcount is not a function &#x2F; totalcount is not a function</h3><p>報錯<code>wordcount is not a function</code></p>
+<blockquote>
+<p>請檢查是否安裝了wordcount插件 <code>npm i --save hexo-wordcount</code></p>
+</blockquote>
+<h3 id="升級2-0-0後運行報錯"><a href="#升級2-0-0後運行報錯" class="headerlink" title="升級2.0.0後運行報錯"></a>升級2.0.0後運行報錯</h3><p>舊版本升級到2.0.0後報錯</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">INFO Start processing</span><br><span class="line">FATAL Something’s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Template render error: (unknown path)</span><br><span class="line">unexpected end of file</span><br><span class="line">at Object.prettifyError (F:\hexo\nodemodules\nunjucks\src\lib.js:36:11)</span><br><span class="line">at Template.render (F:\hexo\node_modules\nunjucks\src\environment.js:542:21)</span><br><span class="line">at Environment.renderString (F:\hexo\node_modules\nunjucks\src\environment.js:380:17)</span><br><span class="line">at Promise.fromCallback.cb (F:\hexo\node_modules\hexo\lib\extend\tag.js:123:48)</span><br><span class="line">at tryCatcher (F:\hexo\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">at Function.Promise.fromNode.Promise.fromCallback (F:\hexo\node_modules\bluebird\js\release\promise.js:185:30)</span><br><span class="line">at Tag.render (F:\hexo\node_modules\hexo\lib\extend\tag.js:123:18)</span><br><span class="line">at Object.onRenderEnd (F:\hexo\node_modules\hexo\lib\hexo\post.js:280:20)</span><br><span class="line">at Promise.then.then.result (F:\hexo\node_modules\hexo\lib\hexo\render.js:64:19)</span><br><span class="line">at tryCatcher (F:\hexo\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">at Promise.settlePromiseFromHandler (F:\hexo\nodemodules\bluebird\js\release\promise.js:517:31)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>2.0.0版本以上刪掉了gallery，而引入新的gallery。所以如果有使用舊版，需刪掉或者更改寫法。</p>
+</blockquote>
+<h3 id="代碼渲染與實際不同"><a href="#代碼渲染與實際不同" class="headerlink" title="代碼渲染與實際不同"></a>代碼渲染與實際不同</h3><p>2.1.0 以下版本會出現的問題</p>
+<p>代碼渲染與實際不同</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;aaa&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>渲染結果:</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/73515338-e6874d80-442f-11ea-9d07-725d37002985.png"></p>
+<blockquote>
+<p>cheerio版本錯誤，請安裝0.22.0版本</p>
+<p>npm install <a href="mailto:&#99;&#x68;&#x65;&#101;&#x72;&#105;&#111;&#x40;&#x30;&#46;&#x32;&#50;&#46;&#x30;">&#99;&#x68;&#x65;&#101;&#x72;&#105;&#111;&#x40;&#x30;&#46;&#x32;&#50;&#46;&#x30;</a> --save</p>
+</blockquote>
+<h3 id="搜索欄在底部"><a href="#搜索欄在底部" class="headerlink" title="搜索欄在底部"></a>搜索欄在底部</h3><p>hexo deploy後搜索欄在頁面底部</p>
+<blockquote>
+<p>生成前先hexo clean</p>
+</blockquote>
+<h3 id="本地可以正常運行，但是push上去後出錯-缺失-無效"><a href="#本地可以正常運行，但是push上去後出錯-缺失-無效" class="headerlink" title="本地可以正常運行，但是push上去後出錯&#x2F;缺失&#x2F;無效"></a>本地可以正常運行，但是push上去後出錯&#x2F;缺失&#x2F;無效</h3><blockquote>
+<ol>
+<li>清理瀏覽器緩存</li>
+<li>如果1無效，請確認上傳時是否有運行 hexo clean</li>
+</ol>
+</blockquote>
+<h3 id="已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文"><a href="#已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文" class="headerlink" title="已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文"></a>已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文</h3><blockquote>
+<p>請在導航的配置裏，自己修改成想要的中文</p>
+</blockquote>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">首頁:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line"><span class="string">時間軸:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line"><span class="string">標籤:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br><span class="line"><span class="string">分類:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-folder-open</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="運行報錯-Cannot-read-property-bind-of-undefined-full-url-for-is-not-function"><a href="#運行報錯-Cannot-read-property-bind-of-undefined-full-url-for-is-not-function" class="headerlink" title="運行報錯 Cannot read property &#39;bind&#39; of undefined&#x2F;full_url_for is not function"></a>運行報錯 Cannot read property &#39;bind&#39; of undefined&#x2F;full_url_for is not function</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">TypeError: Cannot read property <span class="string">&#x27;bind&#x27;</span> of undefined</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>把Hexo升級到4.0以上版本</p>
+</blockquote>
+<h3 id="Cannot-read-property-appId-of-undefined"><a href="#Cannot-read-property-appId-of-undefined" class="headerlink" title="Cannot read property &#39;appId&#39; of undefined"></a>Cannot read property &#39;appId&#39; of undefined</h3><p>報錯</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">  &gt; <span class="number">1</span>| -</span><br><span class="line">    <span class="number">2</span>|   var algolia = <span class="string">&#x27;undefined&#x27;</span>;</span><br><span class="line">    <span class="number">3</span>|   var env = process.env;</span><br><span class="line">    <span class="number">4</span>|   <span class="keyword">if</span> (theme.algolia_search.enable) &#123;</span><br><span class="line"></span><br><span class="line">Cannot read property <span class="string">&#x27;appId&#x27;</span> of undefined</span><br><span class="line">    at eval (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">8</span>:<span class="number">49</span>)</span><br><span class="line">    at template (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">329</span>:<span class="number">53</span>)</span><br><span class="line">    at _View._compiledSync (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">132</span>:<span class="number">24</span>)</span><br><span class="line">    at _View.renderSync (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">59</span>:<span class="number">25</span>)</span><br><span class="line">    at F:\github\Blog\blog\node_modules\hexo\lib\plugins\helper\partial.js:<span class="number">31</span>:<span class="number">52</span></span><br><span class="line">    at Cache.apply (F:\github\Blog\blog\node_modules\hexo\node_modules\hexo<span class="literal">-util</span>\lib\cache.js:<span class="number">27</span>:<span class="number">46</span>)</span><br><span class="line">    at Object.fragmentCache (F:\github\Blog\blog\node_modules\hexo\lib\plugins\helper\fragment_cache.js:<span class="number">11</span>:<span class="number">34</span>)</span><br><span class="line">    at Object.partial (F:\github\Blog\blog\node_modules\hexo\lib\plugins\helper\partial.js:<span class="number">31</span>:<span class="number">17</span>)</span><br><span class="line">    at eval (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">149</span>:<span class="number">46</span>)</span><br><span class="line">    at template (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">5213</span>:<span class="number">93</span>)</span><br><span class="line">    at _View._compiled (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">136</span>:<span class="number">50</span>)</span><br><span class="line">    at _View.render (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">39</span>:<span class="number">17</span>)</span><br><span class="line">    at F:\github\Blog\blog\node_modules\hexo\lib\hexo\index.js:<span class="number">64</span>:<span class="number">21</span></span><br><span class="line">    at tryCatcher (F:\github\Blog\blog\node_modules\hexo\node_modules\bluebird\js\release\util.js:<span class="number">16</span>:<span class="number">23</span>)</span><br><span class="line">    at F:\github\Blog\blog\node_modules\hexo\node_modules\bluebird\js\release\method.js:<span class="number">15</span>:<span class="number">34</span></span><br><span class="line">    at RouteStream._read (F:\github\Blog\blog\node_modules\hexo\lib\hexo\router.js:<span class="number">30</span>:<span class="number">5</span>)</span><br><span class="line">    at RouteStream.Readable.read (_stream_readable.js:<span class="number">490</span>:<span class="number">10</span>)</span><br><span class="line">    at resume_ (_stream_readable.js:<span class="number">975</span>:<span class="number">12</span>)</span><br><span class="line">    at processTicksAndRejections (internal/<span class="keyword">process</span>/task_queues.js:<span class="number">80</span>:<span class="number">21</span>) &#123;</span><br><span class="line">  path: <span class="string">&#x27;F:\\github\\Blog\\blog\\themes\\Butterfly\\layout\\includes\\head.pug&#x27;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>algolia 插件安裝後還需要配置<br>查看插件文檔配置</p>
+</blockquote>
+<h3 id="頂部出現-Loading"><a href="#頂部出現-Loading" class="headerlink" title="頂部出現 Loading"></a>頂部出現 Loading</h3><blockquote>
+<p>生成前先 hexo clean</p>
+</blockquote>
+<h3 id="點擊中文目錄報錯的問題"><a href="#點擊中文目錄報錯的問題" class="headerlink" title="點擊中文目錄報錯的問題"></a>點擊中文目錄報錯的問題</h3><p>這種情況出現在主題為 <code>3.0.0</code>以下版本，升級主題就行</p>
+<h3 id="Uncaught-ReferenceError-regeneratorRuntime-is-not-defined"><a href="#Uncaught-ReferenceError-regeneratorRuntime-is-not-defined" class="headerlink" title="Uncaught ReferenceError: regeneratorRuntime is not defined"></a>Uncaught ReferenceError: regeneratorRuntime is not defined</h3><p>這是因為使用 babel 壓縮代碼而出現的報錯，具體解決方法查看 <a href="https://github.com/babel/gulp-babel#runtime">babel&#x2F;gulp-babel</a></p>
+<a class="btn-beautify block orange right larger" href="/posts/4073eda/" 
+  title="⚡️ Butterfly 安裝文檔(六) 進階教程"><i class="far fa-hand-point-right"></i><span>⚡️ Butterfly 安裝文檔(六) 進階教程</span></a>]]></content>
+      <categories>
+        <category>Docs文檔</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+        <tag>主题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Butterfly 安裝文檔(六) 進階教程</title>
+    <url>/posts/4073eda/</url>
+    <content><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
+<p><a href="/posts/21cfbf15/" title="Butterfly 安裝文檔(一) 快速開始">🚀 快速開始</a> - <a href="/posts/dc584b87/" title="Butterfly 安裝文檔(二) 主題頁面">📑 主題頁面</a> - <a href="/posts/4aa8abbe/" title="Butterfly 安裝文檔(三) 主題配置-1">📌 主題配置-1</a> - <a href="/posts/ceeb73f/" title="Butterfly 安裝文檔(四) 主題配置-2">⚔️ 主題配置-2</a> - <a href="/posts/98d20436/" title="Butterfly 安裝文檔(五) 主題問答">❓ 主題問答</a> - <a href="/posts/4073eda/" title="Butterfly 安裝文檔(六) 進階教程">⚡️ 進階教程</a></p>
+</div>
+
+<div class="note orange icon-padding flat"><i class="note-icon fas fa-magic"></i><p>你可以通過右下角的 <strong>簡</strong> 按鈕切換為簡體顯示 </p>
+</div>
+
+<hr>
+<h2 id="建議"><a href="#建議" class="headerlink" title="建議"></a>建議</h2><ol>
+<li>不要把個人需要的文件&#x2F;圖片放在主題<code>source</code>文件夾裏，因為在升級主題的過程中，可能會把文件覆蓋刪除了。<br>在Hexo根目錄的<code>source</code>文件夾裏，創建一個文件夾來放置個人文件&#x2F;圖片。<br>引用文件直接為<code>/文件夾名稱/文件名</code></li>
+</ol>
+<h2 id="音樂"><a href="#音樂" class="headerlink" title="音樂"></a>音樂</h2><p>音樂界面使用了插件 <code>hexo-tag-aplayer</code><br>使用方法請參考插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">文檔</a></p>
+<p>音樂頁面只是普通的page頁，按普通頁面操作生成就行。</p>
+<blockquote>
+<p>以下內容可供<strong>選擇</strong>配置</p>
+<p>注意： 仍需要安裝插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a></p>
+</blockquote>
+<p>插件會在每一個文件都插入 js 和 css，為了避免這一情況，3.0 版本內置了 aplayer 需要的 css 和 js。</p>
+<p>首先在Hexo根目錄<code>_config</code>裏配置<code>asset_inject</code>為<code>false</code></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">asset_inject:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<p>然後在你需要使用aplayer的頁面Front-matter添加</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">aplayer: true</span><br></pre></td></tr></table></figure>
+
+<p>這樣只會在需要aplayer的頁面插入js和css。</p>
+<p>如何添加全局 Aplayer 播放，請參考 <a href="/posts/507c070f/">這篇文章</a></p>
+<h2 id="電影"><a href="#電影" class="headerlink" title="電影"></a>電影</h2><p>電影界面使用了插件 <code>hexo-butterfly-douban</code><br>使用方法請參考插件的<a href="https://github.com/jerryc127/butterfly-plugins/tree/main/hexo-butterfly-douban">文檔</a>。</p>
+<p><strong>注意：</strong> </p>
+<ol>
+<li>hexo-butterfly-douban 會主動生成頁面，所以不需要自己創建。</li>
+<li>如遇到無法抓取問題，顯示 <code>INFO  0 movies have been loaded in xxx ms, because you are offline or your network is bad</code><br>請過段時間再試試，這我也無能為力。</li>
+</ol>
+<h2 id="説説"><a href="#説説" class="headerlink" title="説説"></a>説説</h2><h3 id="Artitalk"><a href="#Artitalk" class="headerlink" title="Artitalk"></a>Artitalk</h3><p>安裝插件 <a href="https://www.npmjs.com/package/hexo-butterfly-artitalk">hexo-butterfly-artitalk</a></p>
+<p>具體配置查看<a href="https://github.com/jerryc127/butterfly-plugins/tree/main/hexo-butterfly-artitalk">插件文檔</a></p>
+<h3 id="HexoPlusPlus-Talk"><a href="#HexoPlusPlus-Talk" class="headerlink" title="HexoPlusPlus Talk"></a>HexoPlusPlus Talk</h3><p>安裝插件 <a href="https://www.npmjs.com/package/hexo-butterfly-hpptalk">hexo-butterfly-hpptalk</a></p>
+<p>具體配置查看<a href="https://github.com/jerryc127/butterfly-plugins/tree/main/hexo-butterfly-hpptalk">插件文檔</a></p>
+<h2 id="自定義代碼配色"><a href="#自定義代碼配色" class="headerlink" title="自定義代碼配色"></a>自定義代碼配色</h2><a class="btn-beautify block blue" href="/posts/b37b5fe3/" 
+  title="點擊前往"><i class="fas fa-code"></i><span>點擊前往</span></a>
+
+
+<h2 id="自定義側邊欄"><a href="#自定義側邊欄" class="headerlink" title="自定義側邊欄"></a>自定義側邊欄</h2><a class="btn-beautify block green" href="/posts/ea33ab97/" 
+  title="點擊前往"><i class="fas fa-lightbulb"></i><span>點擊前往</span></a>
+
+
+
+<h2 id="添加全局吸底Aplayer教程"><a href="#添加全局吸底Aplayer教程" class="headerlink" title="添加全局吸底Aplayer教程"></a>添加全局吸底Aplayer教程</h2><a class="btn-beautify block pink" href="/posts/507c070f/" 
+  title="點擊前往"><i class="fas fa-music"></i><span>點擊前往</span></a>
+<h2 id="Icon"><a href="#Icon" class="headerlink" title="Icon"></a>Icon</h2><p>Butterfly主題內置了<a href="https://fontawesome.com/">Font Awesome V5 </a>圖標，目前已更新到 5.13.0，總共有1,588個免費圖標。由於是國外的圖標網站，對於國內的一些網站Icon並不支持。如有需要，你可以引入其它的圖標服務商。</p>
+<h3 id="iconfont"><a href="#iconfont" class="headerlink" title="iconfont"></a>iconfont</h3><p>國內最出名的莫過於<a href="https://www.iconfont.cn/">iconfont</a>,功能很強大且圖標內容很豐富的矢量圖標庫。很多<code>Font Awesome</code>不支持的圖標都可以在這裏找到。同時，<a href="https://www.iconfont.cn/">iconfont</a>支持選擇需要的圖標生成css鏈接，減少不必要的CSS加載。</p>
+<h4 id="註冊賬號"><a href="#註冊賬號" class="headerlink" title="註冊賬號"></a>註冊賬號</h4><p>打開<a href="https://www.iconfont.cn/">iconfont</a>的網站，點擊導航欄的<code>人像</code>圖標，會跳出註冊界面，按要求註冊賬號。</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont.png" alt="Snipaste_2020-05-28_21-12-01"></p>
+<h4 id="添加圖標入庫"><a href="#添加圖標入庫" class="headerlink" title="添加圖標入庫"></a>添加圖標入庫</h4><p>選擇自己需要的圖標，把鼠標移到圖標上，會顯示三個按鈕（依次是添加入庫、收藏和下載），而我們需要的是把圖標添加入庫</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-add.png" alt="image-20200528205401440"></p>
+<p>添加入庫後，你可以看到網站右上角<code>購物車</code>圖標顯示了<code>1</code>字，代表圖標已經添加入庫，點擊<code>購物車</code>圖標，會彈出側邊欄顯示詳情。</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-check.png" alt="image-20200528205925258"></p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-detail.png" alt="image-20200528210120442"></p>
+<p>已選擇的圖標會顯示在上面，你可以重複上面的操作，把需要的圖標添加入庫，然後點擊<code>添加到項目</code>。</p>
+<p>接下來會要求選擇項目名稱，沒有的自己創建一個。</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-create.png" alt="image-20200528211624459"></p>
+<h4 id="生成CSS鏈接"><a href="#生成CSS鏈接" class="headerlink" title="生成CSS鏈接"></a>生成CSS鏈接</h4><p>在添加到項目之後，會跳到項目的詳情界面。點擊<code>Font class</code>，然後再點擊<code>暫無代碼，點擊生成</code>文字。網站會自動生成CSS鏈接，我們只需要複製鏈接就行。</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-link.png" alt="image-20200528212301786"></p>
+<h4 id="添加鏈接進主題配置文件"><a href="#添加鏈接進主題配置文件" class="headerlink" title="添加鏈接進主題配置文件"></a>添加鏈接進主題配置文件</h4><p>打開<code>主題配置文件</code>，找到<code>inject</code>配置，按要求把鏈接填入</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-setting.png" alt="image-20200528212440743"></p>
+<p>在我們需要使用的地方填入icon，例如<code>Menu</code>，圖片使用格式為<code>iconfont icon名字</code></p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-setting-menu.png" alt="image-20200528213151304"></p>
+<p>運行Butterfly之後，你就可以看到menu的圖標生效了</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-show.png" alt="image-20200528213346338"></p>
+<h4 id="其他添加方法"><a href="#其他添加方法" class="headerlink" title="其他添加方法"></a>其他添加方法</h4><p>除了通過引入CSS鏈接使用圖標，iconfont也支持通過其它方法使用圖標，具體可查看<a href="https://www.iconfont.cn/help/detail?helptype=code">iconfont官方使用文檔</a></p>
+<h3 id="其它圖標提供商"><a href="#其它圖標提供商" class="headerlink" title="其它圖標提供商"></a>其它圖標提供商</h3><p>除了<a href="https://www.iconfont.cn/">iconfont</a>，還有<a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>、<a href="https://www.flaticon.com/categories/seo-and-web">Flaticon</a>等等提供商，很多圖標可以選擇，具體使用方法請參考各自的文檔。</p>
+<h2 id="圖片壓縮"><a href="#圖片壓縮" class="headerlink" title="圖片壓縮"></a>圖片壓縮</h2><p>Butterfly主題需要使用到很多圖片。如果圖片太大，會嚴重拖慢網站的加載速度。</p>
+<p>圖片壓縮能夠有效的緩解這個問題。</p>
+<p>除了通過<code>gulp-imagemin</code>來壓縮圖片，還可以通過在綫壓縮網站和軟件來進行壓縮。以下兩款是我自己正在使用的工具。網上有很多這樣的工具，挑選一款適合自己的就行。</p>
+<ul>
+<li><p><a href="https://tinypng.com/">tinypng</a></p>
+<p>一個在綫壓縮的網站。壓縮後的圖片也保留了很高的質量，在知乎上很多人推薦，不過免費版有限制。</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-tinypng.png" alt="image-20200526173511503"></p>
+</li>
+<li><p><a href="https://saerasoft.com/caesium/">caesium</a></p>
+<p>開源軟件，支持Windows和macOS。可以批量壓縮軟件，無限制。</p>
+<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-caesium.png" alt="image-20200526173316278"></p>
+</li>
+<li><p><a href="https://github.com/marketplace/imgbot">imgbot</a></p>
+</li>
+</ul>
+<p>  imgbot 是一款 Github 插件。</p>
+<p>  安裝後，你上傳圖片到 Github 去，imgbot 會自動壓縮圖片並推送 PR，我們只需要合併 PR 就行</p>
+<p>  你可以配置 imgbot 的偵測方法、壓縮方法（有損&#x2F;無損），具體可以查看插件的文檔</p>
+<p>  <img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-enhance-imgbot.png" alt="image-20200830231742951"></p>
+<h2 id="插件推薦"><a href="#插件推薦" class="headerlink" title="插件推薦"></a>插件推薦</h2><ul>
+<li><p><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></p>
+<p>可以把鏈接permalink轉為數字的插件，配置容易，生成時自動轉為數字。</p>
+</li>
+<li><p><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> </p>
+<p>生成RSS文件的插件</p>
+</li>
+<li><p><a href="https://github.com/hexojs/hexo-filter-nofollow">hexo-filter-nofollow</a></p>
+<p>為網站使用到的所有外鏈添加<code>rel=&quot;noopener external nofollow noreferrer&quot;</code>, 可以有效地加強網站SEO和防止權重流失</p>
+</li>
+<li><p><a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></p>
+<p>生成sitemap的插件</p>
+</li>
+<li><p><a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">hexo-generator-baidu-sitemap</a></p>
+<p>看名字就知道，是專門為百度生成sitemap的插件</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Docs文檔</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+        <tag>主題</tag>
       </tags>
   </entry>
   <entry>
@@ -1699,548 +2241,6 @@ w:Rock-y did-nt like that</div>
         <tag>Hexo</tag>
         <tag>butterfly</tag>
         <tag>主题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly 安裝文檔(二) 主題頁面</title>
-    <url>/posts/dc584b87/</url>
-    <content><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
-<p><a href="/posts/21cfbf15/" title="Butterfly 安裝文檔(一) 快速開始">🚀 快速開始</a> - <a href="/posts/dc584b87/" title="Butterfly 安裝文檔(二) 主題頁面">📑 主題頁面</a> - <a href="/posts/4aa8abbe/" title="Butterfly 安裝文檔(三) 主題配置-1">📌 主題配置-1</a> - <a href="/posts/ceeb73f/" title="Butterfly 安裝文檔(四) 主題配置-2">⚔️ 主題配置-2</a> - <a href="/posts/98d20436/" title="Butterfly 安裝文檔(五) 主題問答">❓ 主題問答</a> - <a href="/posts/4073eda/" title="Butterfly 安裝文檔(六) 進階教程">⚡️ 進階教程</a></p>
-</div>
-
-<div class="note orange icon-padding flat"><i class="note-icon fas fa-magic"></i><p>你可以通過右下角的 <strong>簡</strong> 按鈕切換為簡體顯示 </p>
-</div>
-
-<hr>
-<h2 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h2><p><strong>Front-matter 是 markdown 文件最上方以 <code>---</code> 分隔的區域，用於指定個別檔案的變數。</strong></p>
-<ul>
-<li>Page Front-matter 用於<code>頁面</code>配置</li>
-<li>Post Front-matter 用於<code>文章頁</code>配置</li>
-</ul>
-<div class="note info flat"><p>如果標注<code>可選</code>的參數，可根據自己需要添加，不用全部都寫在 markdown 裏</p>
-</div>
-
-<h3 id="Page-Front-matter"><a href="#Page-Front-matter" class="headerlink" title="Page Front-matter"></a>Page Front-matter</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">type:</span><br><span class="line">comments:</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aside:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br><span class="line"><span class="section">random:</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
-
-<table>
-<thead>
-<tr>
-<th>寫法</th>
-<th>解釋</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>title</td>
-<td>【必需】頁面標題</td>
-</tr>
-<tr>
-<td>date</td>
-<td>【必需】頁面創建日期</td>
-</tr>
-<tr>
-<td>type</td>
-<td>【必需】標籤、分類和友情鏈接三個頁面需要配置</td>
-</tr>
-<tr>
-<td>updated</td>
-<td>【可選】頁面更新日期</td>
-</tr>
-<tr>
-<td>description</td>
-<td>【可選】頁面描述</td>
-</tr>
-<tr>
-<td>keywords</td>
-<td>【可選】頁面關鍵字</td>
-</tr>
-<tr>
-<td>comments</td>
-<td>【可選】顯示頁面評論模塊 (默認 true)</td>
-</tr>
-<tr>
-<td>top_img</td>
-<td>【可選】頁面頂部圖片</td>
-</tr>
-<tr>
-<td>mathjax</td>
-<td>【可選】顯示mathjax (當設置mathjax的per_page: false時，才需要配置，默認 false)</td>
-</tr>
-<tr>
-<td>katex</td>
-<td>【可選】顯示katex (當設置katex的per_page: false時，才需要配置，默認 false)</td>
-</tr>
-<tr>
-<td>aside</td>
-<td>【可選】顯示側邊欄 (默認 true)</td>
-</tr>
-<tr>
-<td>aplayer</td>
-<td>【可選】在需要的頁面加載aplayer的js和css,請參考文章下面的<code>音樂</code> 配置</td>
-</tr>
-<tr>
-<td>highlight_shrink</td>
-<td>【可選】配置代碼框是否展開 (true&#x2F;false) (默認為設置中highlight_shrink的配置)</td>
-</tr>
-<tr>
-<td>random</td>
-<td>【可選】配置友情鏈接是否隨機排序（默認為 false)</td>
-</tr>
-</tbody></table>
-<h3 id="Post-Front-matter"><a href="#Post-Front-matter" class="headerlink" title="Post Front-matter"></a>Post Front-matter</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line">updated:</span><br><span class="line">tags:</span><br><span class="line">categories:</span><br><span class="line">keywords:</span><br><span class="line">description:</span><br><span class="line">top<span class="emphasis">_img:</span></span><br><span class="line"><span class="emphasis">comments:</span></span><br><span class="line"><span class="emphasis">cover:</span></span><br><span class="line"><span class="emphasis">toc:</span></span><br><span class="line"><span class="emphasis">toc_</span>number:</span><br><span class="line">toc<span class="emphasis">_style_</span>simple:</span><br><span class="line">copyright:</span><br><span class="line">copyright<span class="emphasis">_author:</span></span><br><span class="line"><span class="emphasis">copyright_</span>author<span class="emphasis">_href:</span></span><br><span class="line"><span class="emphasis">copyright_</span>url:</span><br><span class="line">copyright<span class="emphasis">_info:</span></span><br><span class="line"><span class="emphasis">mathjax:</span></span><br><span class="line"><span class="emphasis">katex:</span></span><br><span class="line"><span class="emphasis">aplayer:</span></span><br><span class="line"><span class="emphasis">highlight_</span>shrink:</span><br><span class="line">aside:</span><br><span class="line"><span class="section">abcjs:</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
-
-<table>
-<thead>
-<tr>
-<th align="left">寫法</th>
-<th>解釋</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">title</td>
-<td>【必需】文章標題</td>
-</tr>
-<tr>
-<td align="left">date</td>
-<td>【必需】文章創建日期</td>
-</tr>
-<tr>
-<td align="left">updated</td>
-<td>【可選】文章更新日期</td>
-</tr>
-<tr>
-<td align="left">tags</td>
-<td>【可選】文章標籤</td>
-</tr>
-<tr>
-<td align="left">categories</td>
-<td>【可選】文章分類</td>
-</tr>
-<tr>
-<td align="left">keywords</td>
-<td>【可選】文章關鍵字</td>
-</tr>
-<tr>
-<td align="left">description</td>
-<td>【可選】文章描述</td>
-</tr>
-<tr>
-<td align="left">top_img</td>
-<td>【可選】文章頂部圖片</td>
-</tr>
-<tr>
-<td align="left">cover</td>
-<td>【可選】文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false&#x2F;圖片地址&#x2F;留空)</td>
-</tr>
-<tr>
-<td align="left">comments</td>
-<td>【可選】顯示文章評論模塊(默認 true)</td>
-</tr>
-<tr>
-<td align="left">toc</td>
-<td>【可選】顯示文章TOC(默認為設置中toc的enable配置)</td>
-</tr>
-<tr>
-<td align="left">toc_number</td>
-<td>【可選】顯示toc_number(默認為設置中toc的number配置)</td>
-</tr>
-<tr>
-<td align="left">toc_style_simple</td>
-<td>【可選】顯示 toc 簡潔模式</td>
-</tr>
-<tr>
-<td align="left">copyright</td>
-<td>【可選】顯示文章版權模塊(默認為設置中post_copyright的enable配置)</td>
-</tr>
-<tr>
-<td align="left">copyright_author</td>
-<td>【可選】文章版權模塊的<code>文章作者</code></td>
-</tr>
-<tr>
-<td align="left">copyright_author_href</td>
-<td>【可選】文章版權模塊的<code>文章作者</code>鏈接</td>
-</tr>
-<tr>
-<td align="left">copyright_url</td>
-<td>【可選】文章版權模塊的<code>文章連結</code>鏈接</td>
-</tr>
-<tr>
-<td align="left">copyright_info</td>
-<td>【可選】文章版權模塊的<code>版權聲明</code>文字</td>
-</tr>
-<tr>
-<td align="left">mathjax</td>
-<td>【可選】顯示mathjax(當設置 mathjax 的 per_page:  false 時，才需要配置，默認  false )</td>
-</tr>
-<tr>
-<td align="left">katex</td>
-<td>【可選】顯示 katex (當設置 katex 的 per_page:  false 時，才需要配置，默認   false )</td>
-</tr>
-<tr>
-<td align="left">aplayer</td>
-<td>【可選】在需要的頁面加載 aplayer 的 js 和 css,請參考文章下面的<code>音樂</code> 配置</td>
-</tr>
-<tr>
-<td align="left">highlight_shrink</td>
-<td>【可選】配置代碼框是否展開(true&#x2F;false)(默認為設置中 highlight_shrink 的配置)</td>
-</tr>
-<tr>
-<td align="left">aside</td>
-<td>【可選】顯示側邊欄 (默認 true)</td>
-</tr>
-<tr>
-<td align="left">abcjs</td>
-<td>【可選】加載 abcjs (當設置 abcjs 的 per_page:  false 時，才需要配置，默認   false )</td>
-</tr>
-</tbody></table>
-<h2 id="標籤頁"><a href="#標籤頁" class="headerlink" title="標籤頁"></a>標籤頁</h2><ol>
-<li><p>前往你的 Hexo 博客的根目錄</p>
-</li>
-<li><p>輸入 <code>hexo new page tags</code></p>
-</li>
-<li><p>你會找到 <code>source/tags/index.md</code> 這個文件</p>
-</li>
-<li><p>修改這個文件：</p>
-<p><strong>記得添加 <code>type: &quot;tags&quot;</code></strong></p>
-</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 標籤</span><br><span class="line">date: 2018-01-05 00:00:00</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">orderby: random</span><br><span class="line"><span class="section">order: 1</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
-
-<table>
-<thead>
-<tr>
-<th>參數</th>
-<th>解釋</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>type</td>
-<td>【必須】頁面類型，必須為 <code>tags</code></td>
-</tr>
-<tr>
-<td>orderby</td>
-<td>【可選】排序方式 ：random&#x2F;name&#x2F;length</td>
-</tr>
-<tr>
-<td>order</td>
-<td>【可選】排序次序： 1, asc for ascending; -1, desc for descending</td>
-</tr>
-</tbody></table>
-<h2 id="分類頁"><a href="#分類頁" class="headerlink" title="分類頁"></a>分類頁</h2><ol>
-<li><p>前往你的 Hexo 博客的根目錄</p>
-</li>
-<li><p>輸入 <code>hexo new page categories</code></p>
-</li>
-<li><p>你會找到 <code>source/categories/index.md</code> 這個文件</p>
-</li>
-<li><p>修改這個文件：</p>
-<p><strong>記得添加 <code>type: &quot;categories&quot;</code></strong></p>
-</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分類</span><br><span class="line">date: 2018-01-05 00:00:00</span><br><span class="line"><span class="section">type: &quot;categories&quot;</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="友情鏈接"><a href="#友情鏈接" class="headerlink" title="友情鏈接"></a>友情鏈接</h2><p>為你的博客創建一個友情鏈接！</p>
-<h3 id="創建友情鏈接頁面"><a href="#創建友情鏈接頁面" class="headerlink" title="創建友情鏈接頁面"></a>創建友情鏈接頁面</h3><ol>
-<li><p>前往你的 Hexo 博客的根目錄</p>
-</li>
-<li><p>輸入 <code>hexo new page link</code></p>
-</li>
-<li><p>你會找到 <code>source/link/index.md</code> 這個文件</p>
-</li>
-<li><p>修改這個文件：</p>
-<p>記得添加 <code>type: &quot;link&quot;</code></p>
-</li>
-</ol>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 友情鏈接</span><br><span class="line">date: 2018-06-07 22:17:49</span><br><span class="line"><span class="section">type: &quot;link&quot;</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="友情鏈接添加"><a href="#友情鏈接添加" class="headerlink" title="友情鏈接添加"></a>友情鏈接添加</h3><div class="tabs" id="flink-add"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="flink-add-1">本地生成</button><button type="button" class="tab " data-href="flink-add-2">遠程拉取</button></ul><div class="tab-contents"><div class="tab-item-content active" id="flink-add-1"><p>在Hexo博客目錄中的 <code>source/_data</code>（如果沒有 _data 文件夾，請自行創建），創建一個文件 <code>link.yml</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">class_name:</span> <span class="string">友情鏈接</span></span><br><span class="line">  <span class="attr">class_desc:</span> <span class="string">那些人，那些事</span></span><br><span class="line">  <span class="attr">link_list:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Hexo</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://hexo.io/zh-tw/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">快速、簡單且強大的網誌框架</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">class_name:</span> <span class="string">網站</span></span><br><span class="line">  <span class="attr">class_desc:</span> <span class="string">值得推薦的網站</span></span><br><span class="line">  <span class="attr">link_list:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Youtube</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://www.youtube.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">視頻網站</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Weibo</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://www.weibo.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">中國最大社交分享平台</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Twitter</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://twitter.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">社交分享平台</span></span><br></pre></td></tr></table></figure>
-
-<p><code>class_name</code>  和 <code>class_desc</code> 支持 html 格式書寫，如不需要，也可以留空。</p></div><div class="tab-item-content" id="flink-add-2"><p>從 <code>4.0.0</code> 開始，支持從遠程加載友情鏈接，遠程拉取只支持 <code>json</code>。</p>
-<p>注意： 選擇遠程加載後，本地生成的方法會無效。</p>
-<p>在  <code>source/link/index.md</code> 這個文件的 front-matter 添加遠程鏈接</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">flink<span class="emphasis">_url: xxxxx</span></span><br></pre></td></tr></table></figure>
-
-<p>Json 的格式</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;class_name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;友情鏈接&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;class_desc&quot;</span><span class="punctuation">:</span> <span class="string">&quot;那些人，那些事&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;link_list&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Hexo&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://hexo.io/zh-tw/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;快速、簡單且強大的網誌框架&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;class_name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;網站&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;class_desc&quot;</span><span class="punctuation">:</span> <span class="string">&quot;值得推薦的網站&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;link_list&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Youtube&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://www.youtube.com/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;視頻網站&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Weibo&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://www.weibo.com/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;中國最大社交分享平台&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Twitter&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://twitter.com/&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;descr&quot;</span><span class="punctuation">:</span> <span class="string">&quot;社交分享平台&quot;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h3 id="友情鏈接隨機排序"><a href="#友情鏈接隨機排序" class="headerlink" title="友情鏈接隨機排序"></a>友情鏈接隨機排序</h3><p>主題支持友情鏈接隨機排序，只需要在頂部 <code>front-matter</code> 添加 <code>random: true</code></p>
-<h3 id="友情鏈接界面設置"><a href="#友情鏈接界面設置" class="headerlink" title="友情鏈接界面設置"></a>友情鏈接界面設置</h3><p>由 2.2.0 起，友情鏈接界面可以由用户自己自定義，只需要在友情鏈接的md檔設置就行，以普通的Markdown格式書寫。</p>
-<h2 id="圖庫"><a href="#圖庫" class="headerlink" title="圖庫"></a>圖庫</h2><p>圖庫頁面只是普通的頁面，你只需要 <code>hexo n page xxxxx</code> 創建你的頁面就行</p>
-<p>然後使用標簽外掛 <a href="https://butterfly.js.org/posts/4aa8abbe/#Gallery%E7%9B%B8%E5%86%8A%E5%9C%96%E5%BA%AB">galleryGroup</a>，具體用法請查看對應的內容。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">&lt;div</span> <span class="string">class=&quot;gallery-group-main&quot;&gt;</span></span><br><span class="line">&#123;<span class="string">%</span> <span class="string">galleryGroup</span> <span class="string">&#x27;壁紙&#x27;</span> <span class="string">&#x27;收藏的一些壁紙&#x27;</span> <span class="string">&#x27;/Gallery/wallpaper&#x27;</span> <span class="string">https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png</span> <span class="string">%</span>&#125;</span><br><span class="line">&#123;<span class="string">%</span> <span class="string">galleryGroup</span> <span class="string">&#x27;漫威&#x27;</span> <span class="string">&#x27;關於漫威的圖片&#x27;</span> <span class="string">&#x27;/Gallery/marvel&#x27;</span> <span class="string">https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg</span> <span class="string">%</span>&#125;</span><br><span class="line">&#123;<span class="string">%</span> <span class="string">galleryGroup</span> <span class="string">&#x27;OH MY GIRL&#x27;</span> <span class="string">&#x27;關於OH MY GIRL的圖片&#x27;</span> <span class="string">&#x27;/Gallery/ohmygirl&#x27;</span> <span class="string">https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg</span> <span class="string">%</span>&#125;</span><br><span class="line"><span class="string">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure>
-
-<div class="gallery-group-main">
-<figure class="gallery-group">
-  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">
-  <figcaption>
-  <div class="gallery-group-name">壁紙</div>
-  <p>收藏的一些壁紙</p>
-  <a href='/Gallery/wallpaper'></a>
-  </figcaption>
-  </figure>
-  
-<figure class="gallery-group">
-  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">
-  <figcaption>
-  <div class="gallery-group-name">漫威</div>
-  <p>關於漫威的圖片</p>
-  <a href='/Gallery/marvel'></a>
-  </figcaption>
-  </figure>
-  
-<figure class="gallery-group">
-  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">
-  <figcaption>
-  <div class="gallery-group-name">OH MY GIRL</div>
-  <p>關於OH MY GIRL的圖片</p>
-  <a href='/Gallery/ohmygirl'></a>
-  </figcaption>
-  </figure>
-  
-</div>
-
-<h3 id="子頁面"><a href="#子頁面" class="headerlink" title="子頁面"></a>子頁面</h3><p>子頁面也是普通的頁面，你只需要 <code>hexo n page xxxxx</code> 創建你的頁面就行</p>
-<p>然後使用標簽外掛 <a href="/posts/4aa8abbe/#Gallery%E7%9B%B8%E5%86%8A">gallery</a>，具體用法請查看對應的內容。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">%</span> <span class="string">gallery</span> <span class="string">%</span>&#125;</span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)</span></span><br><span class="line"><span class="type">![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)</span></span><br><span class="line">&#123;<span class="string">%</span> <span class="string">endgallery</span> <span class="string">%</span>&#125;</span><br></pre></td></tr></table></figure>
-
-<div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-
-<div class="note pink icon-padding flat"><i class="note-icon fas fa-sitemap"></i><p>如果你想要使用 <code>/photo/ohmygirl</code> 這樣的鏈接顯示你的圖片內容</p>
-<p>你可以把創建好的 <code>ohmygirl</code> 整個文件夾移到 <code>photo</code> 文件夾裏去</p>
-</div>
-
-<h2 id="404頁面"><a href="#404頁面" class="headerlink" title="404頁面"></a>404頁面</h2><p>主題內置了一個簡單的 404 頁面，可在設置中開啟</p>
-<div class="note info flat"><p>本地預覽時，訪問出錯的網站是不會跳到 404 頁面的。</p>
-<p>如需本地預覽，請訪問 <code>http://localhost:4000/404.html</code></p>
-</div>
-
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># A simple 404 page</span></span><br><span class="line"><span class="attr">error_404:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">subtitle:</span> <span class="string">&quot;頁面沒有找到&quot;</span></span><br><span class="line">  <span class="attr">background:</span> </span><br></pre></td></tr></table></figure>
-
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-error404.png"></p>
-<a class="btn-beautify block pink right larger" href="/posts/4aa8abbe/" 
-  title="📌 Butterfly 安裝文檔(三) 主題配置"><i class="far fa-hand-point-right"></i><span>📌 Butterfly 安裝文檔(三) 主題配置</span></a>]]></content>
-      <categories>
-        <category>Docs文檔</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>butterfly</tag>
-        <tag>主题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly 安裝文檔(五) 主題問答</title>
-    <url>/posts/98d20436/</url>
-    <content><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
-<p><a href="/posts/21cfbf15/" title="Butterfly 安裝文檔(一) 快速開始">🚀 快速開始</a> - <a href="/posts/dc584b87/" title="Butterfly 安裝文檔(二) 主題頁面">📑 主題頁面</a> - <a href="/posts/4aa8abbe/" title="Butterfly 安裝文檔(三) 主題配置-1">📌 主題配置-1</a> - <a href="/posts/ceeb73f/" title="Butterfly 安裝文檔(四) 主題配置-2">⚔️ 主題配置-2</a> - <a href="/posts/98d20436/" title="Butterfly 安裝文檔(五) 主題問答">❓ 主題問答</a> - <a href="/posts/4073eda/" title="Butterfly 安裝文檔(六) 進階教程">⚡️ 進階教程</a></p>
-</div>
-
-<div class="note orange icon-padding flat"><i class="note-icon fas fa-magic"></i><p>你可以通過右下角的 <strong>簡</strong> 按鈕切換為簡體顯示 </p>
-</div>
-
-<hr>
-<p>以下是一些網友在安裝的過程中出現的問題。在提問題之前，先看有沒有解決方法。</p>
-<h3 id="運行後網頁顯示代碼"><a href="#運行後網頁顯示代碼" class="headerlink" title="運行後網頁顯示代碼"></a>運行後網頁顯示代碼</h3><p>頁面只顯示 <code>extends includes/layout.pug block content #recent-posts.recent-posts include includes/recent-posts.pug include includes/pagination.pug #aside_content.aside_content include includes/aside.pug</code></p>
-<blockquote>
-<p>請下載安裝：<code>npm install hexo-renderer-pug hexo-renderer-stylus --save</code> or <code>yarn add hexo-renderer-pug hexo-renderer-stylus</code></p>
-</blockquote>
-<h3 id="配置友情鏈接報錯"><a href="#配置友情鏈接報錯" class="headerlink" title="配置友情鏈接報錯"></a>配置友情鏈接報錯</h3><p>配置友情鏈接頁面時出現報錯</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ERROR D:\Desktop\orxing-blog\themes\Butterfly\layout\flink.pug:2</span><br><span class="line">    1| .flink</span><br><span class="line">  &gt; 2|   each i in site.data.link</span><br><span class="line">    3|     p.comment-word= i.class_name</span><br><span class="line">    4|     .post-cards</span><br><span class="line">    5|       ul.md-links</span><br><span class="line"></span><br><span class="line">Cannot read property &amp;#39;length&amp;#39; of undefined</span><br><span class="line">TypeError: D:\Desktop\orxing-blog\themes\Butterfly\layout\flink.pug:2</span><br><span class="line">    1| .flink</span><br><span class="line">  &gt; 2|   each i in site.data.link</span><br><span class="line">    3|     p.comment-word= i.class_name</span><br><span class="line">    4|     .post-cards</span><br><span class="line">    5|       ul.md-links</span><br><span class="line"></span><br><span class="line">Cannot read property &amp;#39;length&amp;#39; of undefined</span><br><span class="line">    at eval (eval at wrap (D:\Desktop\orxing-blog\node_modules\pug-runtime\wrap.js:6:10), &lt;anonymous&gt;:1890:32)</span><br><span class="line">    at eval (eval at wrap (D:\Desktop\orxing-blog\node_modules\pug-runtime\wrap.js:6:10), &lt;anonymous&gt;:2017:4)</span><br><span class="line">    at template (eval at wrap (D:\Desktop\orxing-blog\node_modules\pug-runtime\wrap.js:6:10), &lt;anonymous&gt;:10152:72)</span><br><span class="line">    at Theme._View.View._compiled (D:\Desktop\orxing-blog\node_modules\hexo\lib\theme\view.js:123:48)</span><br><span class="line">    at Theme._View.View.View.render (D:\Desktop\orxing-blog\node_modules\hexo\lib\theme\view.js:29:15)</span><br><span class="line">    at D:\Desktop\orxing-blog\node_modules\hexo\lib\hexo\index.js:349:21</span><br><span class="line">    at tryCatcher (D:\Desktop\orxing-blog\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">    at D:\Desktop\orxing-blog\node_modules\bluebird\js\release\method.js:15:34</span><br><span class="line">    at RouteStream._read (D:\Desktop\orxing-blog\node_modules\hexo\lib\hexo\router.js:123:3)</span><br><span class="line">    at RouteStream.Readable.read (_stream_readable.js:457:10)</span><br><span class="line">    at resume_ (_stream_readable.js:936:12)</span><br><span class="line">    at processTicksAndRejections (internal/process/task_queues.js:84:9)</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>請檢查 <code>link.yml</code>文檔內代碼的空格</p>
-</blockquote>
-<h3 id="升級最新版後運行報錯"><a href="#升級最新版後運行報錯" class="headerlink" title="升級最新版後運行報錯"></a>升級最新版後運行報錯</h3><p>升級最新版本hexo g後報錯</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">INFO  Deleted database.</span><br><span class="line">INFO  Start processing</span><br><span class="line">FATAL Something&amp;#39;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">TypeError: Cannot read property &amp;#39;enable&amp;#39; of undefined</span><br><span class="line">    at Hexo.&lt;anonymous&gt; (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/themes/Butterfly/scripts/post-lazyload.js:5:23)</span><br><span class="line">    at Hexo.tryCatcher (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">    at Hexo.&lt;anonymous&gt; (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/method.js:15:34)</span><br><span class="line">    at /Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/hexo/lib/extend/filter.js:60:50</span><br><span class="line">    at tryCatcher (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">    at Object.gotValue (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/reduce.js:155:18)</span><br><span class="line">    at Object.gotAccum (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/reduce.js:144:25)</span><br><span class="line">    at Object.tryCatcher (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/util.js:16:23)</span><br><span class="line">    at Promise._settlePromiseFromHandler (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/promise.js:517:31)</span><br><span class="line">    at Promise._settlePromise (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/promise.js:574:18)</span><br><span class="line">    at Promise._settlePromiseCtx (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/promise.js:611:10)</span><br><span class="line">    at _drainQueueStep (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:142:12)</span><br><span class="line">    at _drainQueue (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:131:9)</span><br><span class="line">    at Async._drainQueues (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:147:5)</span><br><span class="line">    at Immediate.Async.drainQueues [as _onImmediate] (/Users/qinkangdeid/Nextcloud/work/codes/personal/github/personal/qinkangdeid.github.io/node_modules/bluebird/js/release/async.js:17:14)</span><br><span class="line">    at processImmediate (internal/timers.js:439:21)</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>請參照最新版的_config.yml, 比對後，把缺的配置複製到主題配置文件中去</p>
-</blockquote>
-<h3 id="wordcount-is-not-a-function-totalcount-is-not-a-function"><a href="#wordcount-is-not-a-function-totalcount-is-not-a-function" class="headerlink" title="wordcount is not a function &#x2F; totalcount is not a function"></a>wordcount is not a function &#x2F; totalcount is not a function</h3><p>報錯<code>wordcount is not a function</code></p>
-<blockquote>
-<p>請檢查是否安裝了wordcount插件 <code>npm i --save hexo-wordcount</code></p>
-</blockquote>
-<h3 id="升級2-0-0後運行報錯"><a href="#升級2-0-0後運行報錯" class="headerlink" title="升級2.0.0後運行報錯"></a>升級2.0.0後運行報錯</h3><p>舊版本升級到2.0.0後報錯</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">INFO Start processing</span><br><span class="line">FATAL Something’s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Template render error: (unknown path)</span><br><span class="line">unexpected end of file</span><br><span class="line">at Object.prettifyError (F:\hexo\nodemodules\nunjucks\src\lib.js:36:11)</span><br><span class="line">at Template.render (F:\hexo\node_modules\nunjucks\src\environment.js:542:21)</span><br><span class="line">at Environment.renderString (F:\hexo\node_modules\nunjucks\src\environment.js:380:17)</span><br><span class="line">at Promise.fromCallback.cb (F:\hexo\node_modules\hexo\lib\extend\tag.js:123:48)</span><br><span class="line">at tryCatcher (F:\hexo\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">at Function.Promise.fromNode.Promise.fromCallback (F:\hexo\node_modules\bluebird\js\release\promise.js:185:30)</span><br><span class="line">at Tag.render (F:\hexo\node_modules\hexo\lib\extend\tag.js:123:18)</span><br><span class="line">at Object.onRenderEnd (F:\hexo\node_modules\hexo\lib\hexo\post.js:280:20)</span><br><span class="line">at Promise.then.then.result (F:\hexo\node_modules\hexo\lib\hexo\render.js:64:19)</span><br><span class="line">at tryCatcher (F:\hexo\node_modules\bluebird\js\release\util.js:16:23)</span><br><span class="line">at Promise.settlePromiseFromHandler (F:\hexo\nodemodules\bluebird\js\release\promise.js:517:31)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>2.0.0版本以上刪掉了gallery，而引入新的gallery。所以如果有使用舊版，需刪掉或者更改寫法。</p>
-</blockquote>
-<h3 id="代碼渲染與實際不同"><a href="#代碼渲染與實際不同" class="headerlink" title="代碼渲染與實際不同"></a>代碼渲染與實際不同</h3><p>2.1.0 以下版本會出現的問題</p>
-<p>代碼渲染與實際不同</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div&gt;aaa&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-
-<p>渲染結果:</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/73515338-e6874d80-442f-11ea-9d07-725d37002985.png"></p>
-<blockquote>
-<p>cheerio版本錯誤，請安裝0.22.0版本</p>
-<p>npm install <a href="mailto:&#x63;&#104;&#101;&#x65;&#x72;&#105;&#111;&#64;&#x30;&#46;&#50;&#x32;&#46;&#48;">&#x63;&#104;&#101;&#x65;&#x72;&#105;&#111;&#64;&#x30;&#46;&#50;&#x32;&#46;&#48;</a> --save</p>
-</blockquote>
-<h3 id="搜索欄在底部"><a href="#搜索欄在底部" class="headerlink" title="搜索欄在底部"></a>搜索欄在底部</h3><p>hexo deploy後搜索欄在頁面底部</p>
-<blockquote>
-<p>生成前先hexo clean</p>
-</blockquote>
-<h3 id="本地可以正常運行，但是push上去後出錯-缺失-無效"><a href="#本地可以正常運行，但是push上去後出錯-缺失-無效" class="headerlink" title="本地可以正常運行，但是push上去後出錯&#x2F;缺失&#x2F;無效"></a>本地可以正常運行，但是push上去後出錯&#x2F;缺失&#x2F;無效</h3><blockquote>
-<ol>
-<li>清理瀏覽器緩存</li>
-<li>如果1無效，請確認上傳時是否有運行 hexo clean</li>
-</ol>
-</blockquote>
-<h3 id="已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文"><a href="#已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文" class="headerlink" title="已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文"></a>已在Hexo的配置文件設置了語言，為什麼導航欄仍然是英文</h3><blockquote>
-<p>請在導航的配置裏，自己修改成想要的中文</p>
-</blockquote>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">首頁:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-home</span></span><br><span class="line"><span class="string">時間軸:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-archive</span></span><br><span class="line"><span class="string">標籤:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br><span class="line"><span class="string">分類:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-folder-open</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="運行報錯-Cannot-read-property-bind-of-undefined-full-url-for-is-not-function"><a href="#運行報錯-Cannot-read-property-bind-of-undefined-full-url-for-is-not-function" class="headerlink" title="運行報錯 Cannot read property &#39;bind&#39; of undefined&#x2F;full_url_for is not function"></a>運行報錯 Cannot read property &#39;bind&#39; of undefined&#x2F;full_url_for is not function</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">TypeError: Cannot read property <span class="string">&#x27;bind&#x27;</span> of undefined</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>把Hexo升級到4.0以上版本</p>
-</blockquote>
-<h3 id="Cannot-read-property-appId-of-undefined"><a href="#Cannot-read-property-appId-of-undefined" class="headerlink" title="Cannot read property &#39;appId&#39; of undefined"></a>Cannot read property &#39;appId&#39; of undefined</h3><p>報錯</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">  &gt; <span class="number">1</span>| -</span><br><span class="line">    <span class="number">2</span>|   var algolia = <span class="string">&#x27;undefined&#x27;</span>;</span><br><span class="line">    <span class="number">3</span>|   var env = process.env;</span><br><span class="line">    <span class="number">4</span>|   <span class="keyword">if</span> (theme.algolia_search.enable) &#123;</span><br><span class="line"></span><br><span class="line">Cannot read property <span class="string">&#x27;appId&#x27;</span> of undefined</span><br><span class="line">    at eval (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">8</span>:<span class="number">49</span>)</span><br><span class="line">    at template (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">329</span>:<span class="number">53</span>)</span><br><span class="line">    at _View._compiledSync (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">132</span>:<span class="number">24</span>)</span><br><span class="line">    at _View.renderSync (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">59</span>:<span class="number">25</span>)</span><br><span class="line">    at F:\github\Blog\blog\node_modules\hexo\lib\plugins\helper\partial.js:<span class="number">31</span>:<span class="number">52</span></span><br><span class="line">    at Cache.apply (F:\github\Blog\blog\node_modules\hexo\node_modules\hexo<span class="literal">-util</span>\lib\cache.js:<span class="number">27</span>:<span class="number">46</span>)</span><br><span class="line">    at Object.fragmentCache (F:\github\Blog\blog\node_modules\hexo\lib\plugins\helper\fragment_cache.js:<span class="number">11</span>:<span class="number">34</span>)</span><br><span class="line">    at Object.partial (F:\github\Blog\blog\node_modules\hexo\lib\plugins\helper\partial.js:<span class="number">31</span>:<span class="number">17</span>)</span><br><span class="line">    at eval (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">149</span>:<span class="number">46</span>)</span><br><span class="line">    at template (eval at wrap (F:\github\Blog\blog\node_modules\pug<span class="literal">-runtime</span>\wrap.js:<span class="number">6</span>:<span class="number">10</span>), &lt;anonymous&gt;:<span class="number">5213</span>:<span class="number">93</span>)</span><br><span class="line">    at _View._compiled (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">136</span>:<span class="number">50</span>)</span><br><span class="line">    at _View.render (F:\github\Blog\blog\node_modules\hexo\lib\theme\view.js:<span class="number">39</span>:<span class="number">17</span>)</span><br><span class="line">    at F:\github\Blog\blog\node_modules\hexo\lib\hexo\index.js:<span class="number">64</span>:<span class="number">21</span></span><br><span class="line">    at tryCatcher (F:\github\Blog\blog\node_modules\hexo\node_modules\bluebird\js\release\util.js:<span class="number">16</span>:<span class="number">23</span>)</span><br><span class="line">    at F:\github\Blog\blog\node_modules\hexo\node_modules\bluebird\js\release\method.js:<span class="number">15</span>:<span class="number">34</span></span><br><span class="line">    at RouteStream._read (F:\github\Blog\blog\node_modules\hexo\lib\hexo\router.js:<span class="number">30</span>:<span class="number">5</span>)</span><br><span class="line">    at RouteStream.Readable.read (_stream_readable.js:<span class="number">490</span>:<span class="number">10</span>)</span><br><span class="line">    at resume_ (_stream_readable.js:<span class="number">975</span>:<span class="number">12</span>)</span><br><span class="line">    at processTicksAndRejections (internal/<span class="keyword">process</span>/task_queues.js:<span class="number">80</span>:<span class="number">21</span>) &#123;</span><br><span class="line">  path: <span class="string">&#x27;F:\\github\\Blog\\blog\\themes\\Butterfly\\layout\\includes\\head.pug&#x27;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>algolia 插件安裝後還需要配置<br>查看插件文檔配置</p>
-</blockquote>
-<h3 id="頂部出現-Loading"><a href="#頂部出現-Loading" class="headerlink" title="頂部出現 Loading"></a>頂部出現 Loading</h3><blockquote>
-<p>生成前先 hexo clean</p>
-</blockquote>
-<h3 id="點擊中文目錄報錯的問題"><a href="#點擊中文目錄報錯的問題" class="headerlink" title="點擊中文目錄報錯的問題"></a>點擊中文目錄報錯的問題</h3><p>這種情況出現在主題為 <code>3.0.0</code>以下版本，升級主題就行</p>
-<h3 id="Uncaught-ReferenceError-regeneratorRuntime-is-not-defined"><a href="#Uncaught-ReferenceError-regeneratorRuntime-is-not-defined" class="headerlink" title="Uncaught ReferenceError: regeneratorRuntime is not defined"></a>Uncaught ReferenceError: regeneratorRuntime is not defined</h3><p>這是因為使用 babel 壓縮代碼而出現的報錯，具體解決方法查看 <a href="https://github.com/babel/gulp-babel#runtime">babel&#x2F;gulp-babel</a></p>
-<a class="btn-beautify block orange right larger" href="/posts/4073eda/" 
-  title="⚡️ Butterfly 安裝文檔(六) 進階教程"><i class="far fa-hand-point-right"></i><span>⚡️ Butterfly 安裝文檔(六) 進階教程</span></a>]]></content>
-      <categories>
-        <category>Docs文檔</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>butterfly</tag>
-        <tag>主题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Butterfly 安裝文檔(六) 進階教程</title>
-    <url>/posts/4073eda/</url>
-    <content><![CDATA[<div class="note green icon-padding flat"><i class="note-icon fas fa-rocket"></i><p> 📚  文檔目錄</p>
-<p><a href="/posts/21cfbf15/" title="Butterfly 安裝文檔(一) 快速開始">🚀 快速開始</a> - <a href="/posts/dc584b87/" title="Butterfly 安裝文檔(二) 主題頁面">📑 主題頁面</a> - <a href="/posts/4aa8abbe/" title="Butterfly 安裝文檔(三) 主題配置-1">📌 主題配置-1</a> - <a href="/posts/ceeb73f/" title="Butterfly 安裝文檔(四) 主題配置-2">⚔️ 主題配置-2</a> - <a href="/posts/98d20436/" title="Butterfly 安裝文檔(五) 主題問答">❓ 主題問答</a> - <a href="/posts/4073eda/" title="Butterfly 安裝文檔(六) 進階教程">⚡️ 進階教程</a></p>
-</div>
-
-<div class="note orange icon-padding flat"><i class="note-icon fas fa-magic"></i><p>你可以通過右下角的 <strong>簡</strong> 按鈕切換為簡體顯示 </p>
-</div>
-
-<hr>
-<h2 id="建議"><a href="#建議" class="headerlink" title="建議"></a>建議</h2><ol>
-<li>不要把個人需要的文件&#x2F;圖片放在主題<code>source</code>文件夾裏，因為在升級主題的過程中，可能會把文件覆蓋刪除了。<br>在Hexo根目錄的<code>source</code>文件夾裏，創建一個文件夾來放置個人文件&#x2F;圖片。<br>引用文件直接為<code>/文件夾名稱/文件名</code></li>
-</ol>
-<h2 id="音樂"><a href="#音樂" class="headerlink" title="音樂"></a>音樂</h2><p>音樂界面使用了插件 <code>hexo-tag-aplayer</code><br>使用方法請參考插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">文檔</a></p>
-<p>音樂頁面只是普通的page頁，按普通頁面操作生成就行。</p>
-<blockquote>
-<p>以下內容可供<strong>選擇</strong>配置</p>
-<p>注意： 仍需要安裝插件<a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a></p>
-</blockquote>
-<p>插件會在每一個文件都插入 js 和 css，為了避免這一情況，3.0 版本內置了 aplayer 需要的 css 和 js。</p>
-<p>首先在Hexo根目錄<code>_config</code>裏配置<code>asset_inject</code>為<code>false</code></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">asset_inject:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-
-<p>然後在你需要使用aplayer的頁面Front-matter添加</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">aplayer: true</span><br></pre></td></tr></table></figure>
-
-<p>這樣只會在需要aplayer的頁面插入js和css。</p>
-<p>如何添加全局 Aplayer 播放，請參考 <a href="/posts/507c070f/">這篇文章</a></p>
-<h2 id="電影"><a href="#電影" class="headerlink" title="電影"></a>電影</h2><p>電影界面使用了插件 <code>hexo-butterfly-douban</code><br>使用方法請參考插件的<a href="https://github.com/jerryc127/butterfly-plugins/tree/main/hexo-butterfly-douban">文檔</a>。</p>
-<p><strong>注意：</strong> </p>
-<ol>
-<li>hexo-butterfly-douban 會主動生成頁面，所以不需要自己創建。</li>
-<li>如遇到無法抓取問題，顯示 <code>INFO  0 movies have been loaded in xxx ms, because you are offline or your network is bad</code><br>請過段時間再試試，這我也無能為力。</li>
-</ol>
-<h2 id="説説"><a href="#説説" class="headerlink" title="説説"></a>説説</h2><h3 id="Artitalk"><a href="#Artitalk" class="headerlink" title="Artitalk"></a>Artitalk</h3><p>安裝插件 <a href="https://www.npmjs.com/package/hexo-butterfly-artitalk">hexo-butterfly-artitalk</a></p>
-<p>具體配置查看<a href="https://github.com/jerryc127/butterfly-plugins/tree/main/hexo-butterfly-artitalk">插件文檔</a></p>
-<h3 id="HexoPlusPlus-Talk"><a href="#HexoPlusPlus-Talk" class="headerlink" title="HexoPlusPlus Talk"></a>HexoPlusPlus Talk</h3><p>安裝插件 <a href="https://www.npmjs.com/package/hexo-butterfly-hpptalk">hexo-butterfly-hpptalk</a></p>
-<p>具體配置查看<a href="https://github.com/jerryc127/butterfly-plugins/tree/main/hexo-butterfly-hpptalk">插件文檔</a></p>
-<h2 id="自定義代碼配色"><a href="#自定義代碼配色" class="headerlink" title="自定義代碼配色"></a>自定義代碼配色</h2><a class="btn-beautify block blue" href="/posts/b37b5fe3/" 
-  title="點擊前往"><i class="fas fa-code"></i><span>點擊前往</span></a>
-
-
-<h2 id="自定義側邊欄"><a href="#自定義側邊欄" class="headerlink" title="自定義側邊欄"></a>自定義側邊欄</h2><a class="btn-beautify block green" href="/posts/ea33ab97/" 
-  title="點擊前往"><i class="fas fa-lightbulb"></i><span>點擊前往</span></a>
-
-
-
-<h2 id="添加全局吸底Aplayer教程"><a href="#添加全局吸底Aplayer教程" class="headerlink" title="添加全局吸底Aplayer教程"></a>添加全局吸底Aplayer教程</h2><a class="btn-beautify block pink" href="/posts/507c070f/" 
-  title="點擊前往"><i class="fas fa-music"></i><span>點擊前往</span></a>
-<h2 id="Icon"><a href="#Icon" class="headerlink" title="Icon"></a>Icon</h2><p>Butterfly主題內置了<a href="https://fontawesome.com/">Font Awesome V5 </a>圖標，目前已更新到 5.13.0，總共有1,588個免費圖標。由於是國外的圖標網站，對於國內的一些網站Icon並不支持。如有需要，你可以引入其它的圖標服務商。</p>
-<h3 id="iconfont"><a href="#iconfont" class="headerlink" title="iconfont"></a>iconfont</h3><p>國內最出名的莫過於<a href="https://www.iconfont.cn/">iconfont</a>,功能很強大且圖標內容很豐富的矢量圖標庫。很多<code>Font Awesome</code>不支持的圖標都可以在這裏找到。同時，<a href="https://www.iconfont.cn/">iconfont</a>支持選擇需要的圖標生成css鏈接，減少不必要的CSS加載。</p>
-<h4 id="註冊賬號"><a href="#註冊賬號" class="headerlink" title="註冊賬號"></a>註冊賬號</h4><p>打開<a href="https://www.iconfont.cn/">iconfont</a>的網站，點擊導航欄的<code>人像</code>圖標，會跳出註冊界面，按要求註冊賬號。</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont.png" alt="Snipaste_2020-05-28_21-12-01"></p>
-<h4 id="添加圖標入庫"><a href="#添加圖標入庫" class="headerlink" title="添加圖標入庫"></a>添加圖標入庫</h4><p>選擇自己需要的圖標，把鼠標移到圖標上，會顯示三個按鈕（依次是添加入庫、收藏和下載），而我們需要的是把圖標添加入庫</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-add.png" alt="image-20200528205401440"></p>
-<p>添加入庫後，你可以看到網站右上角<code>購物車</code>圖標顯示了<code>1</code>字，代表圖標已經添加入庫，點擊<code>購物車</code>圖標，會彈出側邊欄顯示詳情。</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-check.png" alt="image-20200528205925258"></p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-detail.png" alt="image-20200528210120442"></p>
-<p>已選擇的圖標會顯示在上面，你可以重複上面的操作，把需要的圖標添加入庫，然後點擊<code>添加到項目</code>。</p>
-<p>接下來會要求選擇項目名稱，沒有的自己創建一個。</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-create.png" alt="image-20200528211624459"></p>
-<h4 id="生成CSS鏈接"><a href="#生成CSS鏈接" class="headerlink" title="生成CSS鏈接"></a>生成CSS鏈接</h4><p>在添加到項目之後，會跳到項目的詳情界面。點擊<code>Font class</code>，然後再點擊<code>暫無代碼，點擊生成</code>文字。網站會自動生成CSS鏈接，我們只需要複製鏈接就行。</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-link.png" alt="image-20200528212301786"></p>
-<h4 id="添加鏈接進主題配置文件"><a href="#添加鏈接進主題配置文件" class="headerlink" title="添加鏈接進主題配置文件"></a>添加鏈接進主題配置文件</h4><p>打開<code>主題配置文件</code>，找到<code>inject</code>配置，按要求把鏈接填入</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-setting.png" alt="image-20200528212440743"></p>
-<p>在我們需要使用的地方填入icon，例如<code>Menu</code>，圖片使用格式為<code>iconfont icon名字</code></p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-setting-menu.png" alt="image-20200528213151304"></p>
-<p>運行Butterfly之後，你就可以看到menu的圖標生效了</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-iconfont-show.png" alt="image-20200528213346338"></p>
-<h4 id="其他添加方法"><a href="#其他添加方法" class="headerlink" title="其他添加方法"></a>其他添加方法</h4><p>除了通過引入CSS鏈接使用圖標，iconfont也支持通過其它方法使用圖標，具體可查看<a href="https://www.iconfont.cn/help/detail?helptype=code">iconfont官方使用文檔</a></p>
-<h3 id="其它圖標提供商"><a href="#其它圖標提供商" class="headerlink" title="其它圖標提供商"></a>其它圖標提供商</h3><p>除了<a href="https://www.iconfont.cn/">iconfont</a>，還有<a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>、<a href="https://www.flaticon.com/categories/seo-and-web">Flaticon</a>等等提供商，很多圖標可以選擇，具體使用方法請參考各自的文檔。</p>
-<h2 id="圖片壓縮"><a href="#圖片壓縮" class="headerlink" title="圖片壓縮"></a>圖片壓縮</h2><p>Butterfly主題需要使用到很多圖片。如果圖片太大，會嚴重拖慢網站的加載速度。</p>
-<p>圖片壓縮能夠有效的緩解這個問題。</p>
-<p>除了通過<code>gulp-imagemin</code>來壓縮圖片，還可以通過在綫壓縮網站和軟件來進行壓縮。以下兩款是我自己正在使用的工具。網上有很多這樣的工具，挑選一款適合自己的就行。</p>
-<ul>
-<li><p><a href="https://tinypng.com/">tinypng</a></p>
-<p>一個在綫壓縮的網站。壓縮後的圖片也保留了很高的質量，在知乎上很多人推薦，不過免費版有限制。</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-tinypng.png" alt="image-20200526173511503"></p>
-</li>
-<li><p><a href="https://saerasoft.com/caesium/">caesium</a></p>
-<p>開源軟件，支持Windows和macOS。可以批量壓縮軟件，無限制。</p>
-<p><img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-caesium.png" alt="image-20200526173316278"></p>
-</li>
-<li><p><a href="https://github.com/marketplace/imgbot">imgbot</a></p>
-</li>
-</ul>
-<p>  imgbot 是一款 Github 插件。</p>
-<p>  安裝後，你上傳圖片到 Github 去，imgbot 會自動壓縮圖片並推送 PR，我們只需要合併 PR 就行</p>
-<p>  你可以配置 imgbot 的偵測方法、壓縮方法（有損&#x2F;無損），具體可以查看插件的文檔</p>
-<p>  <img src="https://jsd.012700.xyz/gh/jerryc127/CDN/img/butterfly-enhance-imgbot.png" alt="image-20200830231742951"></p>
-<h2 id="插件推薦"><a href="#插件推薦" class="headerlink" title="插件推薦"></a>插件推薦</h2><ul>
-<li><p><a href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a></p>
-<p>可以把鏈接permalink轉為數字的插件，配置容易，生成時自動轉為數字。</p>
-</li>
-<li><p><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> </p>
-<p>生成RSS文件的插件</p>
-</li>
-<li><p><a href="https://github.com/hexojs/hexo-filter-nofollow">hexo-filter-nofollow</a></p>
-<p>為網站使用到的所有外鏈添加<code>rel=&quot;noopener external nofollow noreferrer&quot;</code>, 可以有效地加強網站SEO和防止權重流失</p>
-</li>
-<li><p><a href="https://github.com/hexojs/hexo-generator-sitemap">hexo-generator-sitemap</a></p>
-<p>生成sitemap的插件</p>
-</li>
-<li><p><a href="https://github.com/coneycode/hexo-generator-baidu-sitemap">hexo-generator-baidu-sitemap</a></p>
-<p>看名字就知道，是專門為百度生成sitemap的插件</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Docs文檔</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-        <tag>butterfly</tag>
-        <tag>主題</tag>
       </tags>
   </entry>
   <entry>
@@ -3754,18 +3754,6 @@ w:Rock-y did-nt like that</div>
 ]]></content>
   </entry>
   <entry>
-    <title>沒有封面</title>
-    <url>/posts/913b2502/</url>
-    <content><![CDATA[<p>這篇文章沒有封面</p>
-]]></content>
-      <categories>
-        <category>Demo</category>
-      </categories>
-      <tags>
-        <tag>demo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown Style test</title>
     <url>/posts/89757140/</url>
     <content><![CDATA[<p>This post is originated from <a href="https://gist.github.com/apackeer/4159268">here</a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p>
@@ -3980,6 +3968,18 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
       <tags>
         <tag>highlight</tag>
         <tag>Bar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>沒有封面</title>
+    <url>/posts/913b2502/</url>
+    <content><![CDATA[<p>這篇文章沒有封面</p>
+]]></content>
+      <categories>
+        <category>Demo</category>
+      </categories>
+      <tags>
+        <tag>demo</tag>
       </tags>
   </entry>
   <entry>

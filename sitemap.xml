@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/posts/4-13-release-notes/</loc>
+    <loc>https://butterfly.js.org/posts/4-12-release-notes/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/posts/4-12-release-notes/</loc>
+    <loc>https://butterfly.js.org/posts/4-13-release-notes/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/posts/913b2502/</loc>
+    <loc>https://butterfly.js.org/posts/89757140/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/posts/89757140/</loc>
+    <loc>https://butterfly.js.org/posts/913b2502/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -254,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/Gallery/ohmygirl/</loc>
+    <loc>https://butterfly.js.org/Gallery/marvel/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/Gallery/marvel/</loc>
+    <loc>https://butterfly.js.org/Gallery/ohmygirl/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -346,13 +346,6 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/demo/</loc>
-    <lastmod>2024-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://butterfly.js.org/tags/highlight/</loc>
     <lastmod>2024-04-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -361,6 +354,13 @@
   
   <url>
     <loc>https://butterfly.js.org/tags/Bar/</loc>
+    <lastmod>2024-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://butterfly.js.org/tags/demo/</loc>
     <lastmod>2024-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -411,14 +411,14 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/categories/Demo/</loc>
+    <loc>https://butterfly.js.org/categories/Markdown/</loc>
     <lastmod>2024-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/categories/Markdown/</loc>
+    <loc>https://butterfly.js.org/categories/Demo/</loc>
     <lastmod>2024-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
