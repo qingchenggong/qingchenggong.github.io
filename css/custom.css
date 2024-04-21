@@ -37,6 +37,7 @@ body {
 [data-theme="dark"] #search-button {
   animation: light_15px 10s linear infinite;
 }
+/*site-page*/
 /* 关键帧描述 */
 @keyframes light_15px {
   0% {
