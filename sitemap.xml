@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/posts/198a4240/</loc>
+    <loc>https://butterfly.js.org/posts/507c070f/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/posts/507c070f/</loc>
+    <loc>https://butterfly.js.org/posts/198a4240/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
@@ -254,6 +254,15 @@
   </url>
   
   <url>
+    <loc>https://butterfly.js.org/Gallery/ohmygirl/</loc>
+    
+    <lastmod>2024-04-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://butterfly.js.org/Gallery/marvel/</loc>
     
     <lastmod>2024-04-07</lastmod>
@@ -264,15 +273,6 @@
   
   <url>
     <loc>https://butterfly.js.org/Gallery/wallpaper/</loc>
-    
-    <lastmod>2024-04-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://butterfly.js.org/Gallery/ohmygirl/</loc>
     
     <lastmod>2024-04-07</lastmod>
     
