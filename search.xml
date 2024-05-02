@@ -13,7 +13,6 @@
 
 <div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-yellow"  style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><p>已阅读30%</p></div></div>
 <div class="tip warning faa-horizontal animated-hover"><p class='p center h3'>温馨提示，接下来的字数内容较多，可等自己有了充裕的时间再进行观看。</p></div>
-
 <h3 id="服务设备的配置"><a href="#服务设备的配置" class="headerlink" title="服务设备的配置"></a><span style="font-size:26px">服务设备的配置</span></h3><h4 id="内网映射："><a href="#内网映射：" class="headerlink" title="内网映射："></a><span style="font-size:24px">内网映射：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;事情的原点大概是在2024年3月26号左右，现在已经是4月27日了，仍然还没有进行正式上线，不过测试上线已经做过了，完全没问题。不知不觉已经过去了一个多月了，在这一个多月里，我差不多已经和外界失去联系了，基本上每天都在捣鼓我自己的东西。舍友也从最一开始的“谩骂”而逐步变成“接受”。其实，我做博客最开始并不是直接就开始做博客内容，而是想做一台属于自己的服务器，而原材料竟然仅仅只是一台我以前的<emp>旧手机</emp>，对，你没听错，只有像我这种傻子才会像吃饱了撑了似的，去搞一个极其不稳定，又没有啥性能，而且实际意义并不大的事情。虽然客观如此，但我主观上还是想去碰一碰。最开始我先是弄的内网穿透，由于都是可视化app，都是人家集成好了调试好了再进入市场的，所以这部分我弄得十分快，基本上就一个钟头的事。首先下载好两个app，一个是<a href="https://kslabs.ru/download">ksweb</a>，点进官网直接下载<u>KSWEB 3.988 Build 8200 arm + x86</u>即可。这个软件就可牛了，它将一般部署到服务器上的lighttpd+nginx+apache+php+sql等等建站程序，通通打包适配集成进了ksweb，使其手机变成一个本地web服务器，能够通过本地端口访问你的项目内容。好，手机服务器搞定了，<del>但是手机又没有公网IP</del>，那怎么能让外网的其他人进行访问你想要展示的内容呢？这时便用到了另一款软件，<a href="https://www.hpproxy.cn/bin/">hp-pro</a>下滑点击<u>Android版本</u>下载即可。hp-pro的原理其实也很简单，就是hp-pro站长自己购买了几个服务器，然后绑定你自己的设备，通过它的服务器（公网ip）做几次请求转发，从而使外网的人能够访问你自己的本地项目。在此也特别<strong>感谢</strong>一下，以上两个软件均是免费，对于像我这种平时闲的蛋疼的大学生提供了接触的机会。</p>
 
 <h4 id="终端模拟器："><a href="#终端模拟器：" class="headerlink" title="终端模拟器："></a><span style="font-size:24px">终端模拟器：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;虽然，我通过了这种巧妙地方法解决了在手机上部署项目的需求。但是我内心还是表示不服，因为这实在是太简单了，以至于我感觉我就没获得啥成就感，所以接下来我就开始进军更底层的东西，利用手机架构，下载一个Linux系统，在Linux系统中部署项目。而此刻的我浑然不知，正是由于这个想法，接下来的我会变得如此痛苦不堪😭。几乎就是同日，我在B站和edge上搜索相关的资料，并开始了我的痛苦之旅。最起先我下载的是termux，一个终端模拟器。<kbd>这里我就不放下载地址了，因为关于这块我到最后是以失败告终的</kbd>而我找的那个视频教程时长长达一个小时，要知道这种教程要是按照实际操作来看时长一般都是会比教程时长要多<strong>几倍</strong>更甚至是<strong>十几倍</strong>。而我也是后来才知道这个termux是一个非常初始的版本，而现在市场上已经有针对于用户而设计出更为便利的版本，增添了很多内置命令只需点击相关按钮就会自动执行。很显然，最后我并没能成功。虽然这里我选择一笔带过，那是因为我要是展开来讲或许这篇文章就又得多上好几千字，其中内容包括但不限于：<wavy>root、刷机、镜像、Linux执行命令合集、编辑配置文件、乱码解决……我总共用过三款终端模拟器（实际就两款）：termux、zerotermux以及AidLux，至于zerotermux就是我之前所说的termux的一个魔改版。</wavy></p>
@@ -26,11 +25,12 @@
 <img src="../../image/email.png" alt="申请过程">
 <div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-cyan"  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>已阅读70%</p></div></div>
 
-<h3 id="步入博客主题"><a href="#步入博客主题" class="headerlink" title="步入博客主题"></a><span style="font-size:26px">步入博客主题</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp;终于我的故事来到了尾声，一看字数已经来到了3436个字。我搭建博客使用的框架是<strong>hexo的butterfly主题</strong>。对于我搭建的整个过程呢，并不算难，因为这些代码肯定不是由我自己写出来的，我只做了一小部分。但也别小看这一小部分，因为这一小部分呢我已经做了23天了。从4月4号结束对手机服务器的执着后，我便紧接着开始了博客项目的制作，只是中途顺便申请了微软的Azure学生包以及个人高校邮箱。所以特别感谢一些大佬：<a href="https://hexo.io/zh-cn/">hexo</a>、<a href="https://butterfly.js.org/">Jerry</a>、<a href="https://akilar.top/">糖果屋</a>、<a href="https://blog.anheyu.com/">安知鱼</a>……这些是真正的前端大牛，轮子的缔造者。也特别感谢<a href="https://www.fomal.cc/">Fomalhaut</a>它是我一直在参考的博客魔改样式博主。</p>
+### <span style="font-size:26px">步入博客主题</span>
+<p style="text-align:left;font-size:22px">&emsp;&emsp;终于我的故事来到了尾声，一看字数已经来到了3436个字。我搭建博客使用的框架是<strong>hexo的butterfly主题</strong>。对于我搭建的整个过程呢，并不算难，因为这些代码肯定不是由我自己写出来的，我只做了一小部分。但也别小看这一小部分，因为这一小部分呢我已经做了23天了。从4月4号结束对手机服务器的执着后，我便紧接着开始了博客项目的制作，只是中途顺便申请了微软的Azure学生包以及个人高校邮箱。所以特别感谢一些大佬：<a href="https://hexo.io/zh-cn/">hexo</a>、<a href="https://butterfly.js.org/">Jerry</a>、<a href="https://akilar.top/">糖果屋</a>、<a href="https://blog.anheyu.com/">安知鱼</a>……这些是真正的前端大牛，轮子的缔造者。也特别感谢<a href="https://www.fomal.cc/">Fomalhaut</a>它是我一直在参考的博客魔改样式博主。</p>
 <p style="text-align:left;font-size:22px">&emsp;&emsp;整个制作过程呢，因为太细了我并不想多说，否者，我想这篇文章上万字都有可能。我觉得稍微有点意思的呢，就是我博客的<wavy>评论系统</wavy>。我使用的评论系统呢，是国外的<strong>twikoo</strong>系统，但是由于<u>dns劫持污染</u>（就是被墙了），我不得不采取一些必要的措施，将这个现成的评论系统引入进来并能够正常访问。这时候，<a href="https://www.cloudflare-cn.com/">cloudflare</a> 站出来了。<kbd>这些优秀资源怎么都是国外的呀，我们中国的资本家什么时候才能不要总是唯利是图呀！🙄 。</kbd>dns污染的解决方法有几种：<psw>一种是VPN代理（俗称翻墙、科学上网、挂梯子。不能再多说了，多说是会被警察叔叔🚔请到局子里喝Tea的），第二种便是反向代理：我是通过自己的域名dns服务商（<strong>cloudflare</strong>，为什么不是阿里云的，因为阿里云免费的dns服务不能解析到国外🌚，我有什么办法，竖起两根大拇指表示称赞🤬）解析被劫持的IP地址，从而让其他人通过自己的域名访问到真正的服务地址，简单来说，我的域名dns服务充当了一个中间人，来做两头的请求转发。</psw>我的就是第二种，但很显然，这是需要我自己先翻出去的。</p>
 
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a><span style="font-size:26px">结语</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp; 一不小心就码了4000多字了，如果正在屏幕面前的你，从头看到结尾，我都特别感到不好意思，我感觉我是不是应该对你进行表示表示。因为这篇文章呢是我的第一篇文章，也是我过去一个多月的一个复盘总结，其实本来我都打算好了，我会尽可能的精简，但是有时常常情至深处，难免激动，就又忍不住多说了几句。😆</p>
-<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-green"  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>耶，恭喜您已经阅读完了整篇文章</p></div></div>]]></content>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a><span style="font-size:26px">结语</span></h3><p><p style="text-align:left;font-size:22px">&emsp;&emsp; 一不小心就码了4000多字了，如果正在屏幕面前的你，从头看到结尾，我都特别感到不好意思，我感觉我是不是应该对你进行表示表示。因为这篇文章呢是我的第一篇文章，也是我过去一个多月的一个复盘总结，其实本来我都打算好了，我会尽可能的精简，但是有时常常情至深处，难免激动，就又忍不住多说了几句。😆</p><br><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-green"  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>耶，恭喜您已经阅读完了整篇文章</p></div></div></p>
+]]></content>
       <categories>
         <category>记忆驻点</category>
       </categories>
@@ -44,36 +44,23 @@
     <url>/posts/1878f5f7/</url>
     <content><![CDATA[<h1 id="内敛于心，外显于行"><a href="#内敛于心，外显于行" class="headerlink" title="内敛于心，外显于行"></a><span style="font-size:30px">内敛于心，外显于行</span></h1><h2 id="赛事工作"><a href="#赛事工作" class="headerlink" title="赛事工作"></a><span style="font-size:26px">赛事工作</span></h2><ul>
 <li><font size="4">4月17日下午，清风徐来，十分凉爽。而我很幸运参加学校开展的《校园大使选拔赛》身当一位小小的计时员，回想起我的二十大青春岁月，貌似这一次还是我第一次以工作人员的身份参加这种比较严肃的比赛。说实话，有时候我感觉我比参赛选手还紧张🤣，而我也在心里面一直在想：“我到底可不可以胜任这份工作呀，整个大赛的进行会不会由于我的失误而出现重大事故。”这种紧张的状态一直持续到即将当我发出口令时达到了高潮……我想这种忐忑的心情，只有当真正面临时才会体会得到吧！<br><br><br></li>
-<li><font size="4">赛事进行如火如荼。首先是大赛前的排练，其实在排练上有一位女孩儿给我留下了特别深的印象，而我这标题的来由，有很大部分原因正是因为她所以我才取的这个标题——她留着简短的头发，一双凛冽的双眼，言行举止间透着一股英姿飒爽，而又不失一位青春少女的腼腆与懵懂。<psw>哎呀，先不说多了，感觉自己在写什么青春懵懂小说一样😂。具体的呢先卖个关子待会再说😆。</psw><br><br>我的作案工具。<psw>好low呀，就两片A4纸💩</psw><img src="../../image/xyds (2).jpg" alt="作案工具" style="zoom:50%;" /></li>
-<li><font size="4">第二天的正赛，我们工作人员都会提前到场，但我真没想到居然会这么早，上午9点还是10点来着就去了，一直待到下午6-7点。期间呢，不出意外的出现意外了——我手机正充着电，我也悠闲地打着小盹，就特别意外的听见了“<strong>正式开始</strong>”，那个时刻，我真的是猛然惊醒，但好在最后有惊无险的拿到了手机。<psw>我最近的睡眠状态确实不太好，大学寝室，懂的都懂。再加上开始前，我一次买水，一次拿充电器和插座来回跑两次，确实是运动量达标了😝，我本以为能够听到（或许是听漏了）“请大家稍等片刻，大赛即将开始”等字样，没想到本来杂乱的的会议间，会在一瞬间安静下来并宣布比赛开始。不过呢也的确是我的问题，睡得有点沉了😴</psw><br><br>正式比赛前的准备工作<img src="../../image/xyds (1).jpg" alt="正在排练中" style="zoom:50%;" /></li>
+<li><font size="4">赛事进行如火如荼。首先是大赛前的排练，其实在排练上有一位女孩儿给我留下了特别深的印象，而我这标题的来由，有很大部分原因正是因为她所以我才取的这个标题——她留着简短的头发，一双凛冽的双眼，言行举止间透着一股英姿飒爽，而又不失一位青春少女的腼腆与懵懂。<psw>哎呀，先不说多了，感觉自己在写什么青春懵懂小说一样😂。具体的呢先卖个关子待会再说😆。</psw><br><br>我的作案工具。<psw>好low呀，就两片A4纸💩</psw><br><img src="../../image/xyds (2).jpg" alt="作案工具" style="zoom:50%;" /></li>
+<li><font size="4">第二天的正赛，我们工作人员都会提前到场，但我真没想到居然会这么早，上午9点还是10点来着就去了，一直待到下午6-7点。期间呢，不出意外的出现意外了——我手机正充着电，我也悠闲地打着小盹，就特别意外的听见了“<strong>正式开始</strong>”，那个时刻，我真的是猛然惊醒，但好在最后有惊无险的拿到了手机。<psw>我最近的睡眠状态确实不太好，大学寝室，懂的都懂。再加上开始前，我一次买水，一次拿充电器和插座来回跑两次，确实是运动量达标了😝，我本以为能够听到（或许是听漏了）“请大家稍等片刻，大赛即将开始”等字样，没想到本来杂乱的的会议间，会在一瞬间安静下来并宣布比赛开始。不过呢也的确是我的问题，睡得有点沉了😴</psw><br><br>正式比赛前的准备工作<br><img src="../../image/xyds (1).jpg" alt="正在排练中" style="zoom:50%;" /></li>
 </ul>
 <h2 id="比赛正式开始"><a href="#比赛正式开始" class="headerlink" title="比赛正式开始"></a><span style="font-size:26px">比赛正式开始</span></h2><h3 id="第一阶段：英文课题汇报"><a href="#第一阶段：英文课题汇报" class="headerlink" title="第一阶段：英文课题汇报"></a><span style="font-size:22px">第一阶段：英文课题汇报</span></h3><ul>
-<li><font size="4">哇塞！好多优秀的人！当然了，比赛总是得分出高低，水平也肯定是有高低分的，但是只要敢于站在那个舞台上，敢于展现自己，那么你此时此刻就正在闪闪发光。<psw>这话是对你们说的哦~ 我就不上了，毕竟我对自己的水平有着清楚的认知😭</psw><img src="../../image/xyds (3).jpg" alt="选手1" style="zoom:50%;" />
-<img src="../../image/xyds (4).jpg" alt="选手2" style="zoom:50%;" />
-<img src="../../image/xyds (5).jpg" alt="选手3" style="zoom:50%;" />
-<img src="../../image/xyds (6).jpg" alt="选手4" style="zoom:50%;" /></li>
-<li><font size="4"><strong>对了，你们在看完这些照片后有没有猜到我在之前说的那个女孩儿呢？</strong><psw>能猜到就怪了，我在这个阶段压根就没拍到🤣</psw></li>
+<li><font size="4">哇塞！好多优秀的人！当然了，比赛总是得分出高低，水平也肯定是有高低分的，但是只要敢于站在那个舞台上，敢于展现自己，那么你此时此刻就正在闪闪发光。<psw>这话是对你们说的哦~ 我就不上了，毕竟我对自己的水平有着清楚的认知😭</psw><br><img src="../../image/xyds (3).jpg" alt="选手1" style="zoom:50%;" /><br><img src="../../image/xyds (4).jpg" alt="选手2" style="zoom:50%;" /><br><img src="../../image/xyds (5).jpg" alt="选手3" style="zoom:50%;" /><br><img src="../../image/xyds (6).jpg" alt="选手4" style="zoom:50%;" /></li>
+<li><font size="4"><strong>对了，你们在看完这些照片后有没有猜到我在之前说的那个女孩儿呢？</strong><psw>能猜到就怪了，我在这个阶段压根就没拍到🤣</psw><h3 id="第二阶段：才艺展示"><a href="#第二阶段：才艺展示" class="headerlink" title="第二阶段：才艺展示"></a><span style="font-size:22px">第二阶段：才艺展示</span></h3></li>
+<li><font size="4">来了，来了。我前面所说的那个女孩就是这位。她表演的才艺是配乐，她手中拿着的这个乐器我还特地下来查了一下，叫<strong>黑管</strong>，也叫<strong>单簧管</strong>，但是我看不懂配置哈，不清楚这是什么价位的。当然了，可能有人已经注意到有点熟悉了，没错，这个乐器就是我们<strong>章鱼哥同款</strong>。<code>&quot;5 4 3 2 1，我下班了蟹老板。我要说的是如果有一天，我真的实现了我生命中的梦想，我永远也不会让我的双脚站在这油污的地板上。”</code><br><img src="../../image/xyds (7).jpg" alt="才艺展示" style="zoom:50%;" /></li>
+<li><font size="4">这个小姐姐唱歌好好听，<psw>甜妹~😝，没听到的简直就是亏麻了</psw>唱的是一首英文歌曲，但是我确实是文化有限，我到现在也不知道叫啥。<br><img src="../../image/xyds (8).jpg" alt="才艺展示" style="zoom:50%;" /></li>
+<li><font size="4">其实除了我上面所说的那个女孩儿外，其次留给我印象最深的就是这位，但是现在我不想多说，待会我是怎么也要说一下这位的。她表演的是配音，可以说是拨尖的存在了，非常厉害。<br><img src="../../image/xyds (9).jpg" alt="才艺展示" style="zoom:50%;" /></li>
+<li><font size="4">其实还是有很多选手的表演挺有意思的，但是呢，我就只拍了这三位选手的表演，比较让<strong>我</strong>觉得眼前一亮的。<psw>别说拍照质量和效果了，我是计时员呀，这都我悄悄滴拍的😭，手机也是古董，这质量也算是合格啦</psw><h2 id="颁奖仪式"><a href="#颁奖仪式" class="headerlink" title="颁奖仪式"></a><span style="font-size:26px">颁奖仪式</span></h2><h3 id="三等奖"><a href="#三等奖" class="headerlink" title="三等奖"></a><span style="font-size:22px">三等奖</span></h3></li>
+<li><font size="4">首先是三等奖的颁发，我必须插一嘴，这个女孩只获得了三等奖实属<psw>黑幕</psw>，这个女孩在比赛第一阶段就展现出非常高的水平，在第二阶段里的配音也展示出不凡的实力，两次给我的感觉就是完全的大气且自信，在加上自己强硬的实力彷佛这个舞台就是为她而盛开，反正我个人而言是完完全全被她的才华所折服，而我个人也是非常欣赏自身有才华的人。可没想到她最后只获得了个三等奖，按实力来讲，我觉得她应该是去拼一等奖列队的。而这也是这个大赛上唯一一位付出的努力与获得的回报不成比例的人。<psw>可现实就是如此，社会就是这样，容貌不是自己所能决定的，希望她能够释怀吧。</psw><br><img src="../../image/xyds (10).jpg" alt="三等奖" style="zoom:50%;" /><h3 id="二等奖"><a href="#二等奖" class="headerlink" title="二等奖"></a><span style="font-size:22px">二等奖</span></h3></li>
+<li><font size="4">二等奖有两位，其中一位就是我所看好的那个女孩子，不必多说，肯定两位都是是实至名归。<br><img src="../../image/xyds (11).jpg" alt="二等奖" style="zoom:50%;" /><h3 id="一等奖"><a href="#一等奖" class="headerlink" title="一等奖"></a><span style="font-size:22px">一等奖</span></h3></li>
+<li><font size="4">一等奖只有一位，图片请自行想象，你们都这么大个人了，难道还不会自己想象吗？什么！？不会！这么多年都是这个样子，好吧？不要睁着眼睛乱说，有的时候找找自己原因，好吧？这么多年了智商涨没涨？有没有认真思考？好不？这么多年都是这个样子，我真的快疯掉了。<psw>图片呢？我问你图片呢？我没拍上🐭，脑补画面中……</psw><h2 id="圆满结束"><a href="#圆满结束" class="headerlink" title="圆满结束"></a><span style="font-size:26px">圆满结束</span></h2></li>
+<li><font size="4"><psw>这位老师啥身份来着，我忘记了</psw>,总之呢，她讲了许多，她讲到什么形象礼仪，男的要什么，女的要啥，反正我是一句没听进去。不过呢，她之后说了一些让我特别有感想的事情，她说了学校福利的一些事，说到学校会给许多优秀的人提供奖励，包括现金奖励，以及出国经费。因为我也算是享受到学校给出的一些奖励：<strong>励志</strong>和<strong>资助</strong>应该不算，好像是国家的政策，但是<strong>综测奖学金</strong>这算，是学校给的。<psw>所以呀，其实有些人还是不要太抱怨自己的学校不好了，那是因为你没厉害到去认识到学校为高手提供的奖金。</psw><br><img src="../../image/xyds (12).jpg" alt="结束" style="zoom:50%;" /><h2 id="个人观点"><a href="#个人观点" class="headerlink" title="个人观点"></a><span style="font-size:26px">个人观点</span></h2><div class="note info simple"><p><font size="4">其实，大家还是不要觉得比赛会非常的难，应该要踊跃去尝试才对。其实通过这次的参与，我发现那种没有好好准备的人比比皆是。其次呢，得奖是其二，<psw>我打比赛不为获奖，那我打啥比赛</psw>虽说话是如此，但只要认真准备过了，我相信这肯定也是一个不错的学习方式。</p>
+</div></li>
 </ul>
-<h3 id="第二阶段：才艺展示"><a href="#第二阶段：才艺展示" class="headerlink" title="第二阶段：才艺展示"></a><span style="font-size:22px">第二阶段：才艺展示</span></h3><ul>
-<li><font size="4">来了，来了。我前面所说的那个女孩就是这位。她表演的才艺是配乐，她手中拿着的这个乐器我还特地下来查了一下，叫<strong>黑管</strong>，也叫<strong>单簧管</strong>，但是我看不懂配置哈，不清楚这是什么价位的。当然了，可能有人已经注意到有点熟悉了，没错，这个乐器就是我们<strong>章鱼哥同款</strong>。<code>&quot;5 4 3 2 1，我下班了蟹老板。我要说的是如果有一天，我真的实现了我生命中的梦想，我永远也不会让我的双脚站在这油污的地板上。”</code><img src="../../image/xyds (7).jpg" alt="才艺展示" style="zoom:50%;" /></li>
-<li><font size="4">这个小姐姐唱歌好好听，<psw>甜妹~😝，没听到的简直就是亏麻了</psw>唱的是一首英文歌曲，但是我确实是文化有限，我到现在也不知道叫啥。<img src="../../image/xyds (8).jpg" alt="才艺展示" style="zoom:50%;" /></li>
-<li><font size="4">其实除了我上面所说的那个女孩儿外，其次留给我印象最深的就是这位，但是现在我不想多说，待会我是怎么也要说一下这位的。她表演的是配音，可以说是拨尖的存在了，非常厉害。<img src="../../image/xyds (9).jpg" alt="才艺展示" style="zoom:50%;" /></li>
-<li><font size="4">其实还是有很多选手的表演挺有意思的，但是呢，我就只拍了这三位选手的表演，比较让<strong>我</strong>觉得眼前一亮的。<psw>别说拍照质量和效果了，我是计时员呀，这都我悄悄滴拍的😭，手机也是古董，这质量也算是合格啦</psw></li>
-</ul>
-<h2 id="颁奖仪式"><a href="#颁奖仪式" class="headerlink" title="颁奖仪式"></a><span style="font-size:26px">颁奖仪式</span></h2><h3 id="三等奖"><a href="#三等奖" class="headerlink" title="三等奖"></a><span style="font-size:22px">三等奖</span></h3><ul>
-<li><font size="4">首先是三等奖的颁发，我必须插一嘴，这个女孩只获得了三等奖实属<psw>黑幕</psw>，这个女孩在比赛第一阶段就展现出非常高的水平，在第二阶段里的配音也展示出不凡的实力，两次给我的感觉就是完全的大气且自信，在加上自己强硬的实力彷佛这个舞台就是为她而盛开，反正我个人而言是完完全全被她的才华所折服，而我个人也是非常欣赏自身有才华的人。可没想到她最后只获得了个三等奖，按实力来讲，我觉得她应该是去拼一等奖列队的。而这也是这个大赛上唯一一位付出的努力与获得的回报不成比例的人。<psw>可现实就是如此，社会就是这样，容貌不是自己所能决定的，希望她能够释怀吧。</psw><img src="../../image/xyds (10).jpg" alt="三等奖" style="zoom:50%;" /></li>
-</ul>
-<h3 id="二等奖"><a href="#二等奖" class="headerlink" title="二等奖"></a><span style="font-size:22px">二等奖</span></h3><ul>
-<li><font size="4">二等奖有两位，其中一位就是我所看好的那个女孩子，不必多说，肯定两位都是是实至名归。<img src="../../image/xyds (11).jpg" alt="二等奖" style="zoom:50%;" /></li>
-</ul>
-<h3 id="一等奖"><a href="#一等奖" class="headerlink" title="一等奖"></a><span style="font-size:22px">一等奖</span></h3><ul>
-<li><font size="4">一等奖只有一位，图片请自行想象，你们都这么大个人了，难道还不会自己想象吗？什么！？不会！这么多年都是这个样子，好吧？不要睁着眼睛乱说，有的时候找找自己原因，好吧？这么多年了智商涨没涨？有没有认真思考？好不？这么多年都是这个样子，我真的快疯掉了。<psw>图片呢？我问你图片呢？我没拍上🐭，脑补画面中……</psw></li>
-</ul>
-<h2 id="圆满结束"><a href="#圆满结束" class="headerlink" title="圆满结束"></a><span style="font-size:26px">圆满结束</span></h2><ul>
-<li><font size="4"><psw>这位老师啥身份来着，我忘记了</psw>,总之呢，她讲了许多，她讲到什么形象礼仪，男的要什么，女的要啥，反正我是一句没听进去。不过呢，她之后说了一些让我特别有感想的事情，她说了学校福利的一些事，说到学校会给许多优秀的人提供奖励，包括现金奖励，以及出国经费。因为我也算是享受到学校给出的一些奖励：<strong>励志</strong>和<strong>资助</strong>应该不算，好像是国家的政策，但是<strong>综测奖学金</strong>这算，是学校给的。<psw>所以呀，其实有些人还是不要太抱怨自己的学校不好了，那是因为你没厉害到去认识到学校为高手提供的奖金。</psw><img src="../../image/xyds (12).jpg" alt="结束" style="zoom:50%;" /></li>
-</ul>
-<h2 id="个人观点"><a href="#个人观点" class="headerlink" title="个人观点"></a><span style="font-size:26px">个人观点</span></h2><div class="note info simple"><p><font size="4">其实，大家还是不要觉得比赛会非常的难，应该要踊跃去尝试才对。其实通过这次的参与，我发现那种没有好好准备的人比比皆是。其次呢，得奖是其二，<psw>我打比赛不为获奖，那我打啥比赛</psw>虽说话是如此，但只要认真准备过了，我相信这肯定也是一个不错的学习方式。</p>
-</div>]]></content>
+]]></content>
       <categories>
         <category>记忆驻点</category>
       </categories>
