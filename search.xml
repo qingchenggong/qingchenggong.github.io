@@ -3,19 +3,37 @@
   <entry>
     <title>“欧鹏杯”比赛经历与总结</title>
     <url>/posts/483b0cda/</url>
-    <content><![CDATA[<p style="text-align: center;font-size: 32px">不想拿比赛名次的参赛就是耍流氓</p>
+    <content><![CDATA[<div class="note info simple"><div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+<font size="5">我们部署的网站地址</font>
+<div class="tag link"><a class="link-card" title="美食！美食！" href="https://xingmeng.xhwy.asia/"><div class="left"><img src="../../image/xingmeng-zhuti.png"/></div><div class="right"><p class="text">美食！美食！</p><p class="url">https://xingmeng.xhwy.asia/</p></div></a></div>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+<font size="5">成员信息</font>
+<div class="btns circle grid5">
+            <a class="button" href='https://github.com/luoxuew' title='luoxuew'><img src='https://avatars.githubusercontent.com/u/167413786?v=4'>luoxuew</a>
+<a class="button" href='https://github.com/Nehzaij' title='Nehzaij'><img src='https://avatars.githubusercontent.com/u/167331502?v=4'>Nehzaij</a>
+<a class="button" href='https://github.com/Xiangxsq' title='Xiangxsq'><img src='https://avatars.githubusercontent.com/u/167330089?v=4'>Xiangxsq</a>
+<a class="button" href='https://github.com/qingchenggong' title='qingchenggong'><img src='https://avatars.githubusercontent.com/u/150257844?s=400&u=d760b4a598524c5a1959433a597e314dfafee8f7&v=4'>qingchenggong</a>
+          </div>
+</div>
+</div>
+
+
+<p style="text-align: center;font-size: 32px">不想拿比赛名次的参赛就是耍流氓</p>
 
 <h1 id="比赛经历概述"><a href="#比赛经历概述" class="headerlink" title="比赛经历概述"></a><span style="font-size:30px">比赛经历概述</span></h1><ul>
-<li><font size="4">最开始我的确在群里看见了我们辅导员发的这个比赛的通知，但是其实大家都清楚，比赛是最看人了，如果团队里有一个“耗子答辩”，那么这整个比赛过程都会变的异常的难受，所以开始我并不在意，因为我压根凑不齐人。<psw>别说啥进比赛群等着组队，可事实这个方案比在线下组水队还差。</psw>一直是到后来我的一个高中同学找到的我，拉我上船。在综合考虑下，确实是有搞头，那就干！</font></li>
-<li><font size="4">比赛一共分成两个部分。第一部分是<strong>初赛</strong>，还有个初赛指导，不过讲得很拉。第一次去是给比赛足够的尊重，不过看见讲得确实是太拉了，中途就走了，后面我们就只签个到，就直接走了。可令人嘲讽得是，我们由于不知道初赛的提交时间，导致我们的初赛作品实际只做一天，页面就很经典，上中（下-（左，右））。就是我所提供的网站上的<strong>美食一览</strong>板块。但幸在还是过了初赛。</font></li>
-<li><font size="4">第二部分是<strong>复赛</strong>，通过初赛呢，大家都比较亢奋，都在豪言壮志的说或者想着要在五一假期里好好做，可真就是三分钟热度。<psw>这里我不得不说，效率太低下了（哪有做这么多天的页面还没有js算法），唯一的解释就是五一压根就没推进多少进度。</psw>我只做了一个页面，在五月一号二号便完工了（就是我们网站中的热门版块），虽说页面很简单，但是我至少认为看得过去。</font></li>
+<li><font size="4">最开始我的确在群里看见了我们辅导员发的这个比赛的通知，但是其实大家都清楚，比赛是最看人了，如果团队里有一个“耗子答辩”，那么这整个比赛过程都会变的异常的难受，所以开始我并不在意，因为我压根凑不齐人。<psw>别说啥进比赛群等着组队，可事实这个方案比在线下组水队还差。</psw>一直是到后来我的一个高中同学找到的我，拉我上船。在综合考虑下，确实是有搞头，那就干！</font><br><br></li>
+<li><font size="4">比赛一共分成三个部分。第一部分是<strong>初赛</strong>，还有个初赛指导，不过讲得很拉。第一次去是给比赛足够的尊重，不过看见讲得确实是太拉了，中途就走了，后面我们就只签个到，就直接走了。可令人嘲讽得是，我们由于不知道初赛的提交时间，导致我们的初赛作品实际只做一天，页面就很经典，上中（下-（左，右））。就是我所提供的网站上的<strong>推荐</strong>板块。但幸在还是过了初赛。</font><br><br></li>
+<li><font size="4">第二部分是<strong>复赛</strong>，通过初赛呢，大家都比较亢奋，都在豪言壮志的说或者想着要在五一假期里好好做，可真就是三分钟热度。<psw>这里我不得不说，效率太低下了（哪有做这么多天的页面还没有js算法），唯一的解释就是五一压根就没推进多少进度。</psw>我只做了一个页面，在五月一号二号便完工了（就是我们网站中的热门版块），虽说页面很简单，但是我至少认为看得过去。好在最后经过我们的共同努力，我们的比赛项目还是得到了一个基本的完善。</font><br><br></li>
+<li><font size="4">我们的作品呢也算是有惊无险的进入了<strong>决赛</strong>，这时呢大家都兴奋起来了，我相信此时此刻是我们队伍凝聚力最强的时候，做ppt做到凌晨三点，连做梦都是我们上台答辩的样子。只不过可惜了，我们最终的成果仅仅只是得到了一个<strong>优秀奖</strong>，这个结果呢，我想对于我们来说是有点遗憾的，但是也是可以接受的。</font></li>
 </ul>
 <h1 id="知识总结"><a href="#知识总结" class="headerlink" title="知识总结"></a><span style="font-size:30px">知识总结</span></h1><ul>
-<li><font size="4">光说比赛经历就等于光说不练假把式，我且来谈谈我做的部分中的一些有趣的地方吧。</font></li>
+<li><font size="4">其实，这次比赛的决赛呢，我是有“争议”的，而这种“争议”也只能映射到我的个人成长上，我看着其它选手使用的vue框架，我便知道事情要坏菜。具体原因呢我就不便多讲了......通过这次比赛，我也明白了很多事理，也想向大家分享，其实比较低级一点的比赛呢可能并没有我们所想的那般严肃，它只看结果，而不看过程。如果让我做此次比赛的总结，那么第一点肯定是我们所做的网站没有其它人那般优秀；但是第二点呢，也是由于我们太过“保守”只注重了比赛的过程而有点忽略比赛的结果；第三点呢，过于注重个人的开发能力而忽略了互联网的进步。</font></li>
 </ul>
 <h2 id="文字背景"><a href="#文字背景" class="headerlink" title="文字背景"></a><span style="font-size:26px">文字背景</span></h2><img src="../../image/img-jianbanse-hif443fw.png" alt="图片demo" style="zoom:50%;" />
 
-<div class="tabs" id=""><ul class="nav-tabs"><button type="button" class="tab  active" data-href="-1">示例源码</button><button type="button" class="tab " data-href="-2">渲染演示</button></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">.item.svelte-109yyfj&#123;</span><br><span class="line">    margin-left: auto;</span><br><span class="line">    margin-right: auto;</span><br><span class="line">    position: relative;/*&amp;设置元素的定位方式为相对定位，这样可以使元素相对于其正常位置进行定位。 */</span><br><span class="line">    width: 300px;</span><br><span class="line">    height: 306px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.text.svelte-109yyfj&#123;</span><br><span class="line">    position: absolute;/*设置元素的定位方式为绝对定位，这样可以使元素相对于最近的已定位的祖先元素进行定位。 */</span><br><span class="line">    width: 100%;</span><br><span class="line">    bottom: 0;</span><br><span class="line">    left: 0;</span><br><span class="line">    padding: 96px 12px 16px;/*设置元素的内边距 */</span><br><span class="line">    background: linear-gradient(to top,#000,#0000);/*设置元素的背景颜色，是一个渐变色。这里是核心，如果是普通的背景色会显得非常单调和突兀。 */</span><br><span class="line">    color: #fff;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.title.svelte-109yyfj&#123;</span><br><span class="line">    letter-spacing: 1px;/*设置字符间的空间 */</span><br><span class="line">    font-weight: 900;/*设置字体的粗细 */</span><br><span class="line">    font-size: 32px;</span><br><span class="line">    line-height: 34px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.not-mobile&#123;</span><br><span class="line">    height: 306px;</span><br><span class="line">    object-fit: cover;/*设置图片去适应元素的大小 */</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;div class=&quot;item svelte-109yyfj&quot;&gt;</span><br><span class="line">    &lt;img src=&quot;../../image/img.png&quot;  alt=&quot;&quot; loading=&quot;lazy&quot; class=&quot;not-mobile&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;text svelte-109yyfj&quot;&gt;</span><br><span class="line">        &lt;div class=&quot;svelte-109yyfj&quot;&gt;收藏&lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;title svelte-109yyfj&quot;&gt;74 种最佳虾食谱&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="-2"><style>
+<div class="tabs" id=""><ul class="nav-tabs"><button type="button" class="tab  active" data-href="-1">示例源码</button><button type="button" class="tab " data-href="-2">渲染演示</button></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span></span><br><span class="line">.item.svelte-109yyfj&#123;</span><br><span class="line"><span class="code">    margin-left: auto;</span></span><br><span class="line"><span class="code">    margin-right: auto;</span></span><br><span class="line"><span class="code">    position: relative;/*&amp;设置元素的定位方式为相对定位，这样可以使元素相对于其正常位置进行定位。 */</span></span><br><span class="line"><span class="code">    width: 300px;</span></span><br><span class="line"><span class="code">    height: 306px;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">.text.svelte-109yyfj&#123;</span><br><span class="line"><span class="code">    position: absolute;/*设置元素的定位方式为绝对定位，这样可以使元素相对于最近的已定位的祖先元素进行定位。 */</span></span><br><span class="line"><span class="code">    width: 100%;</span></span><br><span class="line"><span class="code">    bottom: 0;</span></span><br><span class="line"><span class="code">    left: 0;</span></span><br><span class="line"><span class="code">    padding: 96px 12px 16px;/*设置元素的内边距 */</span></span><br><span class="line"><span class="code">    background: linear-gradient(to top,#000,#0000);/*设置元素的背景颜色，是一个渐变色。这里是核心，如果是普通的背景色会显得非常单调和突兀。 */</span></span><br><span class="line"><span class="code">    color: #fff;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">.title.svelte-109yyfj&#123;</span><br><span class="line"><span class="code">    letter-spacing: 1px;/*设置字符间的空间 */</span></span><br><span class="line"><span class="code">    font-weight: 900;/*设置字体的粗细 */</span></span><br><span class="line"><span class="code">    font-size: 32px;</span></span><br><span class="line"><span class="code">    line-height: 34px;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">.not-mobile&#123;</span><br><span class="line"><span class="code">    height: 306px;</span></span><br><span class="line"><span class="code">    object-fit: cover;/*设置图片去适应元素的大小 */</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">&lt;/style&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;item svelte-109yyfj&quot;</span>&gt;</span></span></span></span><br><span class="line"><span class="code">    &lt;img src=&quot;../../image/img.png&quot;  alt=&quot;&quot; loading=&quot;lazy&quot; class=&quot;not-mobile&quot;&gt;</span></span><br><span class="line"><span class="code">    &lt;div class=&quot;text svelte-109yyfj&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;div class=&quot;svelte-109yyfj&quot;&gt;收藏&lt;/div&gt;</span></span><br><span class="line"><span class="code">        &lt;div class=&quot;title svelte-109yyfj&quot;&gt;74 种最佳虾食谱&lt;/div&gt;</span></span><br><span class="line"><span class="code">    &lt;/div&gt;</span></span><br><span class="line"><span class="code">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="-2"><style>
 .item.svelte-109yyfj{
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +68,357 @@
         <div class="svelte-109yyfj">收藏</div>
         <div class="title svelte-109yyfj">74 种最佳虾食谱</div>
     </div>
-</div></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>]]></content>
+</div></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h2 id="无缝轮播图：著有前端入门级功能之称"><a href="#无缝轮播图：著有前端入门级功能之称" class="headerlink" title="无缝轮播图：著有前端入门级功能之称"></a><span style="font-size:26px">无缝轮播图：著有前端入门级功能之称</span></h2><div class="tabs" id=""><ul class="nav-tabs"><button type="button" class="tab  active" data-href="-1">示例源码</button><button type="button" class="tab " data-href="-2">渲染演示</button></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span></span><br><span class="line">.carousel-container &#123;</span><br><span class="line"><span class="code">    position: relative;</span></span><br><span class="line"><span class="code">    width: 253px;</span></span><br><span class="line"><span class="code">    height: 150px;</span></span><br><span class="line"><span class="code">    margin: 20px auto;/*设置元素的外边距 */</span></span><br><span class="line"><span class="code">    overflow: hidden;/*设置元素的溢出处理方式为隐藏 */</span></span><br><span class="line"><span class="code">    outline: 10px solid #000;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.carousel-list&#123;</span></span><br><span class="line"><span class="code">    display: flex;/*设置元素的布局方式为弹性布局 */</span></span><br><span class="line"><span class="code">    width: 100%;</span></span><br><span class="line"><span class="code">    height: 100%;</span></span><br><span class="line"><span class="code">    position: relative;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.carousel-item&#123;</span></span><br><span class="line"><span class="code">    justify-content: center;</span></span><br><span class="line"><span class="code">    align-items: center;</span></span><br><span class="line"><span class="code">    font-size: 50px;</span></span><br><span class="line"><span class="code">    font-weight: bold;</span></span><br><span class="line"><span class="code">    flex: 0 0 100%;/*设置元素的伸缩性 */</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.item-1&#123;</span></span><br><span class="line"><span class="code">    background-color: red;</span></span><br><span class="line"><span class="code">    display: flex;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.item-2&#123;</span></span><br><span class="line"><span class="code">    background-color: blue;</span></span><br><span class="line"><span class="code">    display: flex;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.item-3&#123;</span></span><br><span class="line"><span class="code">    background-color: green;</span></span><br><span class="line"><span class="code">    display: flex;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.carousel-arrow&#123;</span></span><br><span class="line"><span class="code">    position: absolute;</span></span><br><span class="line"><span class="code">    top: 50%;</span></span><br><span class="line"><span class="code">    transform: translateY(-50%);/*设置元素的垂直偏移 */</span></span><br><span class="line"><span class="code">    width: 30px;</span></span><br><span class="line"><span class="code">    height: 30px;</span></span><br><span class="line"><span class="code">    background: #0000007a;</span></span><br><span class="line"><span class="code">    color: #fff;</span></span><br><span class="line"><span class="code">    cursor: pointer;/*设置元素的鼠标样式为手型 */</span></span><br><span class="line"><span class="code">    border-radius: 50%;/*设置元素的边框半径 */</span></span><br><span class="line"><span class="code">    display: flex;</span></span><br><span class="line"><span class="code">    align-items: center;</span></span><br><span class="line"><span class="code">    justify-content: center;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.carousel-arrow-left&#123;</span></span><br><span class="line"><span class="code">    left: 10px;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.carousel-arrow-right&#123;</span></span><br><span class="line"><span class="code">    right: 10px;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.indicator&#123;</span></span><br><span class="line"><span class="code">    position: absolute;</span></span><br><span class="line"><span class="code">    bottom: 10px;</span></span><br><span class="line"><span class="code">    left: 50%;</span></span><br><span class="line"><span class="code">    transform: translateX(-50%);</span></span><br><span class="line"><span class="code">    display: flex;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">/<span class="emphasis">*其中span.active代表指示器的激活状态；总span数量是轮播图数量*</span>/</span><br><span class="line">.indicator span.active&#123;</span><br><span class="line"><span class="code">    background: #fff;</span></span><br><span class="line"><span class="code">    border-color: #fff;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">.indicator span&#123;</span></span><br><span class="line"><span class="code">    width: 10px;</span></span><br><span class="line"><span class="code">    height: 10px;</span></span><br><span class="line"><span class="code">    margin: 0 3px;</span></span><br><span class="line"><span class="code">    border-radius: 50%;/*设置元素的边框半径 */</span></span><br><span class="line"><span class="code">    cursor: pointer;/*设置元素的鼠标样式为手型 */</span></span><br><span class="line"><span class="code">    border: 2px solid #ccc;</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">&lt;/style&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;carousel-container&quot;</span>&gt;</span></span></span></span><br><span class="line"><span class="code">    &lt;div class=&quot;carousel-list&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;div class=&quot;carousel-item item-1&quot;&gt;1&lt;/div&gt;</span></span><br><span class="line"><span class="code">        &lt;div class=&quot;carousel-item item-2&quot;&gt;2&lt;/div&gt;</span></span><br><span class="line"><span class="code">        &lt;div class=&quot;carousel-item item-3&quot;&gt;3&lt;/div&gt;</span></span><br><span class="line"><span class="code">    &lt;/div&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;carousel-arrow carousel-arrow-left&quot;</span>&gt;</span></span></span>&amp;lt;<span class="language-xml"><span class="language-css">&lt;/<span class="selector-tag">div</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;carousel-arrow carousel-arrow-right&quot;</span>&gt;</span></span></span>&amp;gt;<span class="language-xml"><span class="language-css">&lt;/<span class="selector-tag">div</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;indicator&quot;</span>&gt;</span></span></span></span><br><span class="line"><span class="code">    &lt;span class=&quot;active&quot;&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="code">    &lt;span&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="code">    &lt;span&gt;&lt;/span&gt;</span></span><br><span class="line"><span class="code">&lt;/div&gt;</span></span><br><span class="line"><span class="code">&lt;/div&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span></span></span><br><span class="line">window.doms=&#123;</span><br><span class="line"><span class="code">        carouselList:document.querySelector(&#x27;.carousel-list&#x27;),</span></span><br><span class="line"><span class="code">        arrowLeft:document.querySelector(&#x27;.carousel-arrow-left&#x27;),</span></span><br><span class="line"><span class="code">        arrowRight:document.querySelector(&#x27;.carousel-arrow-right&#x27;),</span></span><br><span class="line"><span class="code">        indicators:document.querySelectorAll(&#x27;.indicator span&#x27;),</span></span><br><span class="line"><span class="code">    &#125;;/*获取元素 */</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    const count=doms.indicators.length;/*获取指示器(轮播图)的数量 */</span></span><br><span class="line"><span class="code">    let curIdx=0;/*当前轮播图的索引 */</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    function moveTo(index)&#123;</span></span><br><span class="line"><span class="code">        doms.carouselList.style.transform=`translateX(-$&#123;index*100&#125;%)`;/*第一张不移动，第二张移动-100%；第三张移动-200% */</span></span><br><span class="line"><span class="code">        doms.carouselList.style.transition=&#x27;transform 0.5s&#x27;;/*设置元素的过渡效果 */</span></span><br><span class="line"><span class="code">        /*设置指示器的激活状态 */</span></span><br><span class="line"><span class="code">        doms.indicators.forEach((indicator,i)=&gt;&#123;</span></span><br><span class="line"><span class="code">            indicator.classList=i===index?&#x27;active&#x27;:&#x27;&#x27;;/*如果i等于index，就添加active类，否则就移除active类 */</span></span><br><span class="line"><span class="code">        &#125;);</span></span><br><span class="line"><span class="code">        curIdx=index;/*更新当前轮播图的索引 */</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    /*遍历指示器，为每个指示器添加点击事件 */</span></span><br><span class="line"><span class="code">    doms.indicators.forEach((indicator,index)=&gt;&#123;</span></span><br><span class="line"><span class="code">        indicator.onclick=()=&gt;&#123;</span></span><br><span class="line"><span class="code">            moveTo(index);</span></span><br><span class="line"><span class="code">        &#125;;</span></span><br><span class="line"><span class="code">    &#125;);</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    /*无缝轮播图经典套路，overflow: hidden;属性欺骗用户眼睛 */</span></span><br><span class="line"><span class="code">    function init()&#123;</span></span><br><span class="line"><span class="code">        const firstClone=doms.carouselList.firstElementChild.cloneNode(true);/*克隆第一个轮播图 */</span></span><br><span class="line"><span class="code">        const lastClone=doms.carouselList.lastElementChild.cloneNode(true);/*克隆最后一个轮播图 */</span></span><br><span class="line"><span class="code">        doms.carouselList.append(firstClone);/*将克隆的第一个轮播图添加到轮播图列表的最后 */</span></span><br><span class="line"><span class="code">        doms.carouselList.prepend(lastClone);/*将克隆的最后一个轮播图添加到轮播图列表的最前 */</span></span><br><span class="line"><span class="code">        lastClone.style.marginLeft=&#x27;-100%&#x27;;/*将克隆的最后一个轮播图向左移动100% */</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    init();</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"></span><br><span class="line"><span class="code">    /*以下为左右箭头点击事件 */</span></span><br><span class="line"><span class="code">    function moveLeft()&#123;</span></span><br><span class="line"><span class="code">        if (curIdx===0)&#123;</span></span><br><span class="line"><span class="code">            doms.carouselList.style.transition=&#x27;none&#x27;;/*设置元素的过渡效果 */</span></span><br><span class="line"><span class="code">            doms.carouselList.style.transform=`translateX(-$&#123;count*100&#125;%)`;/*移动到最后一张轮播图 */</span></span><br><span class="line"><span class="code">            doms.carouselList.clientWidth;/*强制重绘 */</span></span><br><span class="line"><span class="code">            moveTo(count-1);/*移动到倒数第二张轮播图 */</span></span><br><span class="line"><span class="code">        &#125;</span></span><br><span class="line"><span class="code">        else&#123;</span></span><br><span class="line"><span class="code">            moveTo(curIdx-1);</span></span><br><span class="line"><span class="code">        &#125;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"></span><br><span class="line"><span class="code">    function moveRight()&#123;</span></span><br><span class="line"><span class="code">        if (curIdx===count-1)&#123;</span></span><br><span class="line"><span class="code">            doms.carouselList.style.transition=&#x27;none&#x27;;/*设置元素的过渡效果 */</span></span><br><span class="line"><span class="code">            doms.carouselList.style.transform=&#x27;translateX(100%)&#x27;;/*移动到第一张轮播图 */</span></span><br><span class="line"><span class="code">            doms.carouselList.clientWidth;/*强制重绘 */</span></span><br><span class="line"><span class="code">            moveTo(0);/*移动到第二张轮播图 */</span></span><br><span class="line"><span class="code">        &#125;</span></span><br><span class="line"><span class="code">        else&#123;</span></span><br><span class="line"><span class="code">            moveTo(curIdx+1);</span></span><br><span class="line"><span class="code">        &#125;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    doms.arrowLeft.onclick=moveLeft;</span></span><br><span class="line"><span class="code">    doms.arrowRight.onclick=moveRight;</span></span><br><span class="line"><span class="code">&lt;/script&gt;</span></span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="-2"><style>
+.carousel-container {
+    position: relative;
+    width: 253px;
+    height: 150px;
+    margin: 20px auto;/*设置元素的外边距 */
+    overflow: hidden;/*设置元素的溢出处理方式为隐藏 */
+    outline: 10px solid #000;
+}
+.carousel-list{
+    display: flex;/*设置元素的布局方式为弹性布局 */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.carousel-item{
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    flex: 0 0 100%;/*设置元素的伸缩性 */
+}
+.item-1{
+    background-color: red;
+    display: flex;
+}
+.item-2{
+    background-color: blue;
+    display: flex;
+}
+.item-3{
+    background-color: green;
+    display: flex;
+}
+.carousel-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);/*设置元素的垂直偏移 */
+    width: 30px;
+    height: 30px;
+    background: #0000007a;
+    color: #fff;
+    cursor: pointer;/*设置元素的鼠标样式为手型 */
+    border-radius: 50%;/*设置元素的边框半径 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-arrow-left{
+    left: 10px;
+}
+.carousel-arrow-right{
+    right: 10px;
+}
+.indicator{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+/*其中span.active代表指示器的激活状态；总span数量是轮播图数量*/
+.indicator span.active{
+    background: #fff;
+    border-color: #fff;
+}
+.indicator span{
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    border-radius: 50%;/*设置元素的边框半径 */
+    cursor: pointer;/*设置元素的鼠标样式为手型 */
+    border: 2px solid #ccc;
+}
+</style>
+
+
+<div class="carousel-container">
+    <div class="carousel-list">
+        <div class="carousel-item item-1">1</div>
+        <div class="carousel-item item-2">2</div>
+        <div class="carousel-item item-3">3</div>
+    </div>
+
+<div class="carousel-arrow carousel-arrow-left">&lt;</div>
+
+<div class="carousel-arrow carousel-arrow-right">&gt;</div>
+
+<div class="indicator">
+    <span class="active"></span>
+    <span></span>
+    <span></span>
+</div>
+</div>
+
+
+<script>
+window.doms={
+        carouselList:document.querySelector('.carousel-list'),
+        arrowLeft:document.querySelector('.carousel-arrow-left'),
+        arrowRight:document.querySelector('.carousel-arrow-right'),
+        indicators:document.querySelectorAll('.indicator span'),
+    };/*获取元素 */
+
+    const count=doms.indicators.length;/*获取指示器(轮播图)的数量 */
+    let curIdx=0;/*当前轮播图的索引 */
+
+    function moveTo(index){
+        doms.carouselList.style.transform=`translateX(-${index*100}%)`;/*第一张不移动，第二张移动-100%；第三张移动-200% */
+        doms.carouselList.style.transition='transform 0.5s';/*设置元素的过渡效果 */
+        /*设置指示器的激活状态 */
+        doms.indicators.forEach((indicator,i)=>{
+            indicator.classList=i===index?'active':'';/*如果i等于index，就添加active类，否则就移除active类 */
+        });
+        curIdx=index;/*更新当前轮播图的索引 */
+    }
+
+    /*遍历指示器，为每个指示器添加点击事件 */
+    doms.indicators.forEach((indicator,index)=>{
+        indicator.onclick=()=>{
+            moveTo(index);
+        };
+    });
+
+    /*无缝轮播图经典套路，overflow: hidden;属性欺骗用户眼睛 */
+    function init(){
+        const firstClone=doms.carouselList.firstElementChild.cloneNode(true);/*克隆第一个轮播图 */
+        const lastClone=doms.carouselList.lastElementChild.cloneNode(true);/*克隆最后一个轮播图 */
+        doms.carouselList.append(firstClone);/*将克隆的第一个轮播图添加到轮播图列表的最后 */
+        doms.carouselList.prepend(lastClone);/*将克隆的最后一个轮播图添加到轮播图列表的最前 */
+        lastClone.style.marginLeft='-100%';/*将克隆的最后一个轮播图向左移动100% */
+    }
+    init();
+
+
+    /*以下为左右箭头点击事件 */
+    function moveLeft(){
+        if (curIdx===0){
+            doms.carouselList.style.transition='none';/*设置元素的过渡效果 */
+            doms.carouselList.style.transform=`translateX(-${count*100}%)`;/*移动到最后一张轮播图 */
+            doms.carouselList.clientWidth;/*强制重绘 */
+            moveTo(count-1);/*移动到倒数第二张轮播图 */
+        }
+        else{
+            moveTo(curIdx-1);
+        }
+    }
+
+
+    function moveRight(){
+        if (curIdx===count-1){
+            doms.carouselList.style.transition='none';/*设置元素的过渡效果 */
+            doms.carouselList.style.transform='translateX(100%)';/*移动到第一张轮播图 */
+            doms.carouselList.clientWidth;/*强制重绘 */
+            moveTo(0);/*移动到第二张轮播图 */
+        }
+        else{
+            moveTo(curIdx+1);
+        }
+    }
+    doms.arrowLeft.onclick=moveLeft;
+    doms.arrowRight.onclick=moveRight;
+</script></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div> 
+
+<h2 id="手风琴效果"><a href="#手风琴效果" class="headerlink" title="手风琴效果"></a><span style="font-size:26px">手风琴效果</span></h2><div class="tabs" id=""><ul class="nav-tabs"><button type="button" class="tab  active" data-href="-1">示例源码</button><button type="button" class="tab " data-href="-2">渲染演示</button></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span></span><br><span class="line"><span class="code">    .accordion13x &#123;</span></span><br><span class="line"><span class="code">        display: flex;</span></span><br><span class="line"><span class="code">        width: 454px;</span></span><br><span class="line"><span class="code">        height: 120px;</span></span><br><span class="line"><span class="code">        flex-direction: row;/* 水平布局 */</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    .accordion13x-title &#123;</span></span><br><span class="line"><span class="code">        flex-grow: 1;/* 均分宽度 */</span></span><br><span class="line"><span class="code">        height: 100%;</span></span><br><span class="line"><span class="code">        padding: 10px;</span></span><br><span class="line"><span class="code">        text-decoration: none;/* 去掉下划线 */</span></span><br><span class="line"><span class="code">        color: #333;</span></span><br><span class="line"><span class="code">        position: relative;/* 相对定位 */</span></span><br><span class="line"><span class="code">        transition: width 0.3s ease-in-out;/* 宽度变化时，动画效果 */</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    .accordion13x-title p1 &#123;</span></span><br><span class="line"><span class="code">        bottom: 30px;</span></span><br><span class="line"><span class="code">        position: absolute;/* 绝对定位 */</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    .accordion13x-title p &#123;</span></span><br><span class="line"><span class="code">        position: absolute;</span></span><br><span class="line"><span class="code">        bottom: 0;</span></span><br><span class="line"><span class="code">        font-size: 10px;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">&lt;/style&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;accordion13x&quot;</span>&gt;</span></span></span></span><br><span class="line"><span class="code">    &lt;a class=&quot;accordion13x-title&quot; href=&quot;&quot; style=&quot;background-color: red&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;p1&gt;主题1&lt;/p1&gt;</span></span><br><span class="line"><span class="code">        &lt;p&gt;主题1的相关描述&lt;/p&gt;</span></span><br><span class="line"><span class="code">    &lt;/a&gt;</span></span><br><span class="line"><span class="code">    &lt;a class=&quot;accordion13x-title&quot; href=&quot;&quot; style=&quot;background-color: #efefef&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;p1&gt;主题2&lt;/p1&gt;</span></span><br><span class="line"><span class="code">        &lt;p&gt;主题2的相关描述&lt;/p&gt;</span></span><br><span class="line"><span class="code">    &lt;/a&gt;</span></span><br><span class="line"><span class="code">    &lt;a class=&quot;accordion13x-title&quot; href=&quot;&quot; style=&quot;background-color: #1c7430&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;p1&gt;主题3&lt;/p1&gt;</span></span><br><span class="line"><span class="code">        &lt;p&gt;主题3的相关描述&lt;/p&gt;</span></span><br><span class="line"><span class="code">    &lt;/a&gt;</span></span><br><span class="line"><span class="code">    &lt;a class=&quot;accordion13x-title&quot; href=&quot;&quot; style=&quot;background-color: #7abaff&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;p1&gt;主题4&lt;/p1&gt;</span></span><br><span class="line"><span class="code">        &lt;p&gt;主题4的相关描述&lt;/p&gt;</span></span><br><span class="line"><span class="code">    &lt;/a&gt;</span></span><br><span class="line"><span class="code">    &lt;a class=&quot;accordion13x-title&quot; href=&quot;&quot; style=&quot;background-color: #6f42c1&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;p1&gt;主题5&lt;/p1&gt;</span></span><br><span class="line"><span class="code">        &lt;p&gt;主题5的相关描述&lt;/p&gt;</span></span><br><span class="line"><span class="code">    &lt;/a&gt;</span></span><br><span class="line"><span class="code">&lt;/div&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span></span></span><br><span class="line"><span class="code">    document.addEventListener(&#x27;DOMContentLoaded&#x27;,function () &#123;</span></span><br><span class="line"><span class="code">        var titles = document.getElementsByClassName(&#x27;accordion13x-title&#x27;);/* 获取所有标题 */</span></span><br><span class="line"><span class="code">        var accordion = document.getElementsByClassName(&#x27;accordion13x&#x27;)[0]; /* 获取accordion元素 */</span></span><br><span class="line"><span class="code">        var accordionWidth = accordion.offsetWidth; /* 获取accordion的宽度 */</span></span><br><span class="line"><span class="code">        var titleWidth = accordionWidth / titles.length; /* 计算每个标题的宽度 */</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    /* 鼠标移入 */</span></span><br><span class="line"><span class="code">    for (var i = 0; i &lt; titles.length; i++) &#123;</span></span><br><span class="line"><span class="code">        titles[i].addEventListener(&#x27;mouseover&#x27;, function(e) &#123;  /*为每个.accordion13x-title元素添加一个mouseover事件监听器。当鼠标悬停在元素上时，会执行这个监听器中的代码。*/</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">            /*判断当前遍历到的元素是否是鼠标悬停的元素。如果是，就将其宽度设置为140px；如果不是，就将其宽度设置为titleWidth + &#x27;px&#x27;。*/</span></span><br><span class="line"><span class="code">            for (var j = 0; j &lt; titles.length; j++) &#123;</span></span><br><span class="line"><span class="code">                if (titles[j] === e.target) &#123;</span></span><br><span class="line"><span class="code">                    titles[j].style.width = &#x27;140px&#x27;;</span></span><br><span class="line"><span class="code">                &#125; else &#123;</span></span><br><span class="line"><span class="code">                    titles[j].style.width =titleWidth + &#x27;px&#x27;;/* 如果直接使用auto那么平滑效果便不会生效 */</span></span><br><span class="line"><span class="code">                &#125;</span></span><br><span class="line"><span class="code">            &#125;</span></span><br><span class="line"><span class="code">        &#125;);</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">        /* 鼠标移出 */</span></span><br><span class="line"><span class="code">        titles[i].addEventListener(&#x27;mouseout&#x27;, function(e) &#123;</span></span><br><span class="line"><span class="code">            for (var j = 0; j &lt; titles.length; j++) &#123;</span></span><br><span class="line"><span class="code">                titles[j].style.width = titleWidth + &#x27;px&#x27;;</span></span><br><span class="line"><span class="code">            &#125;</span></span><br><span class="line"><span class="code">        &#125;);</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    &#125;);</span></span><br><span class="line"><span class="code">&lt;/script&gt;</span></span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="-2"><style>
+    .accordion13x {
+        display: flex;
+        width: 454px;
+        height: 120px;
+        flex-direction: row;/* 水平布局 */
+    }
+
+    .accordion13x-title {
+        flex-grow: 1;/* 均分宽度 */
+        height: 100%;
+        padding: 10px;
+        text-decoration: none;/* 去掉下划线 */
+        color: #333;
+        position: relative;/* 相对定位 */
+        transition: width 0.3s ease-in-out;/* 宽度变化时，动画效果 */
+    }
+
+    .accordion13x-title p1 {
+        bottom: 30px;
+        position: absolute;/* 绝对定位 */
+    }
+
+    .accordion13x-title p {
+        position: absolute;
+        bottom: 0;
+        font-size: 10px;
+    }
+</style>
+
+<div class="accordion13x">
+    <a class="accordion13x-title" href="" style="background-color: red">
+        <p1>主题1</p1>
+        <p>主题1的相关描述</p>
+    </a>
+    <a class="accordion13x-title" href="" style="background-color: #efefef">
+        <p1>主题2</p1>
+        <p>主题2的相关描述</p>
+    </a>
+    <a class="accordion13x-title" href="" style="background-color: #1c7430">
+        <p1>主题3</p1>
+        <p>主题3的相关描述</p>
+    </a>
+    <a class="accordion13x-title" href="" style="background-color: #7abaff">
+        <p1>主题4</p1>
+        <p>主题4的相关描述</p>
+    </a>
+    <a class="accordion13x-title" href="" style="background-color: #6f42c1">
+        <p1>主题5</p1>
+        <p>主题5的相关描述</p>
+    </a>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded',function () {
+        var titles = document.getElementsByClassName('accordion13x-title');/* 获取所有标题 */
+        var accordion = document.getElementsByClassName('accordion13x')[0]; /* 获取accordion元素 */
+        var accordionWidth = accordion.offsetWidth; /* 获取accordion的宽度 */
+        var titleWidth = accordionWidth / titles.length; /* 计算每个标题的宽度 */
+
+    /* 鼠标移入 */
+    for (var i = 0; i < titles.length; i++) {
+        titles[i].addEventListener('mouseover', function(e) {  /*为每个.accordion13x-title元素添加一个mouseover事件监听器。当鼠标悬停在元素上时，会执行这个监听器中的代码。*/
+
+            /*判断当前遍历到的元素是否是鼠标悬停的元素。如果是，就将其宽度设置为140px；如果不是，就将其宽度设置为titleWidth + 'px'。*/
+            for (var j = 0; j < titles.length; j++) {
+                if (titles[j] === e.target) {
+                    titles[j].style.width = '140px';
+                } else {
+                    titles[j].style.width =titleWidth + 'px';/* 如果直接使用auto那么平滑效果便不会生效 */
+                }
+            }
+        });
+
+        /* 鼠标移出 */
+        titles[i].addEventListener('mouseout', function(e) {
+            for (var j = 0; j < titles.length; j++) {
+                titles[j].style.width = titleWidth + 'px';
+            }
+        });
+    }
+    });
+</script></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h2 id="悬停覆盖效果"><a href="#悬停覆盖效果" class="headerlink" title="悬停覆盖效果"></a><span style="font-size:26px">悬停覆盖效果</span></h2><div class="tabs" id=""><ul class="nav-tabs"><button type="button" class="tab  active" data-href="-1">示例源码</button><button type="button" class="tab " data-href="-2">渲染演示</button></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span></span><br><span class="line"><span class="code">    .food-style-li &#123;</span></span><br><span class="line"><span class="code">        width: 202px;</span></span><br><span class="line"><span class="code">        height: 176px;</span></span><br><span class="line"><span class="code">        display: flex;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox &#123;</span></span><br><span class="line"><span class="code">        overflow: hidden;/*隐藏动态的部分，不然就暴露了*/</span></span><br><span class="line"><span class="code">        width:100%;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox figure &#123;</span></span><br><span class="line"><span class="code">        margin: 0;</span></span><br><span class="line"><span class="code">        position: relative;</span></span><br><span class="line"><span class="code">        height: 100%;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    /*.imageBox img &#123;*/</span></span><br><span class="line"><span class="code">    /*    width: 100%;*/</span></span><br><span class="line"><span class="code">    /*    height: 100%;*/</span></span><br><span class="line"><span class="code">    /*&#125;*/</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    /* 如果要使用图片就把.img23dp注释掉，上面的img解释。把下面DOM中的div.img23dp注释掉，img给放出来即可 */</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    .img23dp &#123;</span></span><br><span class="line"><span class="code">        width: 100%;</span></span><br><span class="line"><span class="code">        height: 100%;</span></span><br><span class="line"><span class="code">        background-color: #7abaff;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    /*:before：在元素内容的前面插入生成的内容。*/</span></span><br><span class="line"><span class="code">    /*:after：在元素内容的后面插入生成的内容。*/</span></span><br><span class="line"><span class="code">    /*content属性是与:before和:after伪元素一起使用的，用于指定插入的内容。它可以包含文本、图片或者为空。*/</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    .imageBox figure:before, .imageBox figure:after &#123;</span></span><br><span class="line"><span class="code">        content: &#x27;&#x27;;</span></span><br><span class="line"><span class="code">        position: absolute;</span></span><br><span class="line"><span class="code">        height: 100%;</span></span><br><span class="line"><span class="code">        width: 50%;/*这个是控制黑色背景的宽度左边50%，右边50%*/</span></span><br><span class="line"><span class="code">        background: black;</span></span><br><span class="line"><span class="code">        transition: 0.5s;/*过渡时间*/</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox figure:before &#123;</span></span><br><span class="line"><span class="code">        left: -50%;/*这个是控制黑色背景的位置*/</span></span><br><span class="line"><span class="code">        top: 0;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox figure:after &#123;</span></span><br><span class="line"><span class="code">        right: -50%;</span></span><br><span class="line"><span class="code">        top: 0;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox figcaption &#123;</span></span><br><span class="line"><span class="code">        position: absolute;</span></span><br><span class="line"><span class="code">        top: 20px;</span></span><br><span class="line"><span class="code">        left: 20px;</span></span><br><span class="line"><span class="code">        right: 20px;</span></span><br><span class="line"><span class="code">        bottom: 20px;</span></span><br><span class="line"><span class="code">        background: #fff;</span></span><br><span class="line"><span class="code">        padding: 20px;</span></span><br><span class="line"><span class="code">        opacity: 0;/*鼠标没悬停前，透明度为0，不显示*/</span></span><br><span class="line"><span class="code">        transition: 0.5s;</span></span><br><span class="line"><span class="code">        transform: translateY(20px);/*文字位置向下移动20px*/</span></span><br><span class="line"><span class="code">        z-index: 1;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox:hover figure:before &#123;</span></span><br><span class="line"><span class="code">        left: 0;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox:hover figure:after &#123;</span></span><br><span class="line"><span class="code">        right: 0;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    .imageBox:hover figcaption &#123;</span></span><br><span class="line"><span class="code">        opacity: 1;  /*透明度变为1，显示出来*/</span></span><br><span class="line"><span class="code">        transform: translateY(0);/*文字位置变为0*/</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">&lt;/style&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="language-xml"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;food-style&quot;</span>&gt;</span></span></span></span><br><span class="line"><span class="code">    &lt;div class=&quot;food-style-li&quot;&gt;</span></span><br><span class="line"><span class="code">        &lt;div class=&quot;imageBox&quot;&gt;</span></span><br><span class="line"><span class="code">            &lt;figure&gt;    &lt;!--&lt;figure&gt;和&lt;figcaption&gt;是HTML5中的元素，主要用于对插图、图表、代码等内容进行标记和描述。--&gt;</span></span><br><span class="line"><span class="code">                &lt;div class=&quot;img23dp&quot;&gt;&lt;/div&gt;</span></span><br><span class="line"><span class="code">&lt;!--                &lt;img src=&quot;img/food4-1.jpg&quot; alt=&quot;&quot;&gt;--&gt;</span></span><br><span class="line"><span class="code">                &lt;figcaption&gt;</span></span><br><span class="line"><span class="code">                    &lt;p1&gt;主题&lt;/p1&gt;</span></span><br><span class="line"><span class="code">                    &lt;p&gt;主题概述&lt;/p&gt;</span></span><br><span class="line"><span class="code">                &lt;/figcaption&gt;</span></span><br><span class="line"><span class="code">            &lt;/figure&gt;</span></span><br><span class="line"><span class="code">        &lt;/div&gt;</span></span><br><span class="line"><span class="code">    &lt;/div&gt;</span></span><br><span class="line"><span class="code">&lt;/div&gt;</span></span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="-2"><style>
+    .food-style-li {
+        width: 202px;
+        height: 176px;
+        display: flex;
+    }
+    .imageBox {
+        overflow: hidden;/*隐藏动态的部分，不然就暴露了*/
+        width:100%;
+    }
+    .imageBox figure {
+        margin: 0;
+        position: relative;
+        height: 100%;
+    }
+
+    /*.imageBox img {*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*}*/
+
+    /* 如果要使用图片就把.img23dp注释掉，上面的img解释。把下面DOM中的div.img23dp注释掉，img给放出来即可 */
+
+    .img23dp {
+        width: 100%;
+        height: 100%;
+        background-color: #7abaff;
+    }
+
+    /*:before：在元素内容的前面插入生成的内容。*/
+    /*:after：在元素内容的后面插入生成的内容。*/
+    /*content属性是与:before和:after伪元素一起使用的，用于指定插入的内容。它可以包含文本、图片或者为空。*/
+
+    .imageBox figure:before, .imageBox figure:after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 50%;/*这个是控制黑色背景的宽度左边50%，右边50%*/
+        background: black;
+        transition: 0.5s;/*过渡时间*/
+    }
+    .imageBox figure:before {
+        left: -50%;/*这个是控制黑色背景的位置*/
+        top: 0;
+
+    }
+    .imageBox figure:after {
+        right: -50%;
+        top: 0;
+    }
+    .imageBox figcaption {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        background: #fff;
+        padding: 20px;
+        opacity: 0;/*鼠标没悬停前，透明度为0，不显示*/
+        transition: 0.5s;
+        transform: translateY(20px);/*文字位置向下移动20px*/
+        z-index: 1;
+    }
+    .imageBox:hover figure:before {
+        left: 0;
+    }
+    .imageBox:hover figure:after {
+        right: 0;
+    }
+    .imageBox:hover figcaption {
+        opacity: 1;  /*透明度变为1，显示出来*/
+        transform: translateY(0);/*文字位置变为0*/
+    }
+</style>
+
+<div class="food-style">
+    <div class="food-style-li">
+        <div class="imageBox">
+            <figure>    <!--<figure>和<figcaption>是HTML5中的元素，主要用于对插图、图表、代码等内容进行标记和描述。-->
+                <div class="img23dp"></div>
+<!--                <img src="img/food4-1.jpg" alt="">-->
+                <figcaption>
+                    <p1>主题</p1>
+                    <p>主题概述</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</div></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+
+
+<h2 id="功能的部署"><a href="#功能的部署" class="headerlink" title="功能的部署"></a><span style="font-size:26px">功能的部署</span></h2><div class="tabs" id=""><ul class="nav-tabs"><button type="button" class="tab  active" data-href="-1">功能概述</button><button type="button" class="tab " data-href="-2">服务链接</button></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><ul>
+<li><font size="4">其中除开静态界面外，剩下的功能有：显示用户实时位置和天气信息、评论功能和一个ai助理。其实这些功能全不是自己写的都是调用了第三方的服务。</font></li>
+</ul></div><div class="tab-item-content" id="-2"><ul>
+<li><font size="4">实时天气和位置：使用<a href="https://id.qweather.com/" style="text-decoration:none;">和风天气</a>的服务</font></li>
+<li><font size="4">评论功能：使用<a href="https://twikoo.js.org/" style="text-decoration:none;">twikoo</a>的服务；推荐部署参考视频<a href="https://www.bilibili.com/video/BV1Re4y1H7g8/?spm_id_from=333.999.0.0&vd_source=a3737f80825ae5d88e6c62f979d6b66b" style="text-decoration:none;">安知鱼评论部署</a></font></li>
+<li><font size="4">ai小助理：使用<a href="https://www.tawk.to/" style="text-decoration:none;">tawk.to</a>的服务；如果打不开请加上科学上网</font></li>
+</ul></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+]]></content>
       <categories>
         <category>记忆驻点</category>
         <category>比赛</category>
