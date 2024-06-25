@@ -432,6 +432,45 @@ window.doms={
       </tags>
   </entry>
   <entry>
+    <title>博客的制作经历</title>
+    <url>/posts/8bd66949/</url>
+    <content><![CDATA[<h1 id="有志者，事竟成"><a href="#有志者，事竟成" class="headerlink" title="有志者，事竟成"></a><span style="font-size:30px">有志者，事竟成</span></h1><h3 id="自言自语"><a href="#自言自语" class="headerlink" title="自言自语"></a><span style="font-size:26px">自言自语</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp;emmm......在自己的博客基本成型达到了能够上线的效果后，我便有了一个新的烦恼，为什么说“新”呢，我会在接下来的内容中叙述并尽可能的描述清楚。 %}</p>
+<p style="text-align:left;font-size:22px">&emsp;&emsp;新烦恼，不必多说，自然是像我这种“钢铁男孩” <img no-lazy class="inline" src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/aru-l/5150.gif" style="height:40px;"/> 的通病——<psw>内容，表达，描述</psw>。我思来想去，我的第一篇博客文章应该写些什么呢？写什么好呢？我的大脑好像在我完成了我的“博客项目”之后的那一瞬间便迅速踏入了真空，甚至我此时此刻我的大脑还在“狡辩”我的博客还有哪些功能或者样式还没实现呢？哎，事无巨细，不苛求自己一开始便将一件事做至完美。可现实是我的博客代码好像出现了一点点小问题，这也算一个烦恼。我的样式就先这样吧，后期在维护叭！~ </p>
+<p style="text-align:left;font-size:22px">&emsp;&emsp;现在回想起我制作的整个过程，发现了一个大前提，那就是我这学期的课程并不多，甚至可以说是很少了，周一周二周三，其余的基本没课，这使得我有充足的时间来“研究”这个让我还是比较感兴趣的东西。</p>
+<div class="hide-block"><button type="button" class="hide-button" style="background-color:  blue;">大学的一些现状
+    </button><div class="hide-content"><p><span style="font-size:22px">自从我上了大学后，我变得十分洒脱，不感兴趣的事情我避而远之。例如：水课，还有其它很多吃力不讨好的事，甚至我这学期的选课我都忘了选，这个我还是相当后悔的，毕竟是要修学分的呀。</span></p>
+</div></div>
+<p style="text-align:left;font-size:22px">&emsp;&emsp;<strong>其次</strong>呢还有一点，我感觉我患上<del>电子阳痿</del>了，我对打游戏这件事提不起兴趣了，想当初，我可是拿到一个什么比如：“巫师三”、“荒野大镖客”、“刺客信条”、“空洞骑士”……我一玩一个下午，但是现在，我真的我看着眼前的游戏库不知从何下手，鼠标中键滑来滑去就是不知道玩啥，最后也就默默的合上了电脑，我究竟是怎么了，所以说人是会变的吗！<strong>但</strong>相较于打游戏，我现在更乐于去折腾，特别是去弄一些不是特别复杂，也具备一点挑战性，还能增加我的见识和知识储备的东西，我对此确有一点乐此不疲。好，回归正题，现在仔细回想起来，我究竟是因为什么原因接触到博客的呢？我还真忘记了，可能有人会说，这不是明摆着的吗！写博客，那肯定是因为接触到了博客了呀，这岂不是<em>睁着眼睛哇哇乱叫</em>吗！其实对于这，我肯定不能否认，肯定是先接触了后才有的想法。但是回归事情的原点，我确实记不清了，是因为我想学习一下网页建站，还是想学习一下服务器云计算，还是一些其它的东西呢。</p>
+
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-yellow"  style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><p>已阅读30%</p></div></div>
+<div class="tip warning faa-horizontal animated-hover"><p class='p center h3'>温馨提示，接下来的字数内容较多，可等自己有了充裕的时间再进行观看。</p></div>
+
+<h3 id="服务设备的配置"><a href="#服务设备的配置" class="headerlink" title="服务设备的配置"></a><span style="font-size:26px">服务设备的配置</span></h3><h4 id="内网映射："><a href="#内网映射：" class="headerlink" title="内网映射："></a><span style="font-size:24px">内网映射：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;事情的原点大概是在2024年3月26号左右，现在已经是4月27日了，仍然还没有进行正式上线，不过测试上线已经做过了，完全没问题。不知不觉已经过去了一个多月了，在这一个多月里，我差不多已经和外界失去联系了，基本上每天都在捣鼓我自己的东西。舍友也从最一开始的“谩骂”而逐步变成“接受”。其实，我做博客最开始并不是直接就开始做博客内容，而是想做一台属于自己的服务器，而原材料竟然仅仅只是一台我以前的<emp>旧手机</emp>，对，你没听错，只有像我这种傻子才会像吃饱了撑了似的，去搞一个极其不稳定，又没有啥性能，而且实际意义并不大的事情。虽然客观如此，但我主观上还是想去碰一碰。最开始我先是弄的内网穿透，由于都是可视化app，都是人家集成好了调试好了再进入市场的，所以这部分我弄得十分快，基本上就一个钟头的事。首先下载好两个app，一个是<a href="https://kslabs.ru/download">ksweb</a>，点进官网直接下载<u>KSWEB 3.988 Build 8200 arm + x86</u>即可。这个软件就可牛了，它将一般部署到服务器上的lighttpd+nginx+apache+php+sql等等建站程序，通通打包适配集成进了ksweb，使其手机变成一个本地web服务器，能够通过本地端口访问你的项目内容。好，手机服务器搞定了，<del>但是手机又没有公网IP</del>，那怎么能让外网的其他人进行访问你想要展示的内容呢？这时便用到了另一款软件，<a href="https://www.hpproxy.cn/bin/">hp-pro</a>下滑点击<u>Android版本</u>下载即可。hp-pro的原理其实也很简单，就是hp-pro站长自己购买了几个服务器，然后绑定你自己的设备，通过它的服务器（公网ip）做几次请求转发，从而使外网的人能够访问你自己的本地项目。在此也特别<strong>感谢</strong>一下，以上两个软件均是免费，对于像我这种平时闲的蛋疼的大学生提供了接触的机会。</p>
+
+<h4 id="终端模拟器："><a href="#终端模拟器：" class="headerlink" title="终端模拟器："></a><span style="font-size:24px">终端模拟器：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;虽然，我通过了这种巧妙地方法解决了在手机上部署项目的需求。但是我内心还是表示不服，因为这实在是太简单了，以至于我感觉我就没获得啥成就感，所以接下来我就开始进军更底层的东西，利用手机架构，下载一个Linux系统，在Linux系统中部署项目。而此刻的我浑然不知，正是由于这个想法，接下来的我会变得如此痛苦不堪😭。几乎就是同日，我在B站和edge上搜索相关的资料，并开始了我的痛苦之旅。最起先我下载的是termux，一个终端模拟器。<kbd>这里我就不放下载地址了，因为关于这块我到最后是以失败告终的</kbd>而我找的那个视频教程时长长达一个小时，要知道这种教程要是按照实际操作来看时长一般都是会比教程时长要多<strong>几倍</strong>更甚至是<strong>十几倍</strong>。而我也是后来才知道这个termux是一个非常初始的版本，而现在市场上已经有针对于用户而设计出更为便利的版本，增添了很多内置命令只需点击相关按钮就会自动执行。很显然，最后我并没能成功。虽然这里我选择一笔带过，那是因为我要是展开来讲或许这篇文章就又得多上好几千字，其中内容包括但不限于：<wavy>root、刷机、镜像、Linux执行命令合集、编辑配置文件、乱码解决……我总共用过三款终端模拟器（实际就两款）：termux、zerotermux以及AidLux，至于zerotermux就是我之前所说的termux的一个魔改版。</wavy></p>
+
+<h4 id="宝塔面板："><a href="#宝塔面板：" class="headerlink" title="宝塔面板："></a><span style="font-size:24px">宝塔面板：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;这里的终端模拟器仅仅只是第一步，我靠第一步就这么复杂。而我的失败，跟第一步没有任何关系，也就是说，我的第一步是成功了的，我失败的原因来自第二步：下载安装并成功运行宝塔面板。<strong>那么为什么要安装宝塔面板呢？</strong>不知道你现在还能否记得我在ksweb内容里边提到过：建站需要<u>lighttpd+nginx+apache+php+sql</u>等程序来作为支撑，而宝塔面板就是这样的一个集成工具，它能够更方便的来管理自己的系统。Ok，回到主线上。首先我先说一下我的终端模拟器安装的Linux系统是<a href="https://zh.wikipedia.org/zh-cn/Ubuntu">Ubuntu</a>（也就是大名鼎鼎的乌班图）。在下载过程中，我也是遇见了很多让我无从下手的问题，毕竟核心还是手机带动的Linux系统，这肯定是与正规纯净的系统有很多区别。具体遇见的问题我就不再详细叙述了，不然就又是好几千字打出来了。问题包括但不限于：<wavy>proc分区错误、赋权错误、缺少语言环境、以及进去了宝塔面板里边却又无法安装完整的lnmp套件。</wavy>其实说实话，这些问题也不过只是让人感到无力的问题，<strong>真正</strong>让我感到烦心的问题是下载编译安装的过程🤮。因为是手机的缘故，处理器不是那么强大，所以通常一个工具的编译安装就得花费我近<span class='p red'>1个小时</span>的时间，宝塔面板如此，lnmp套件亦是如此，一个宝塔面板安装估计花费<span class='p red'>2个小时</span>，一个mysql5.7花费我接近<span class='p red'>3个小时</span>，而一个lnmp套件内容就是<span class='p red'>5个</span>工具。而更为致命的是，我并不是一次成功的，也就是说我就安装而言我就安装过很多次。</p>
+<p style="text-align:left;font-size:22px">&emsp;&emsp; 终于，在2024年4月4日凌晨3点，在我尝试完所有方法均无结果后，我果断选择放弃。开始时间是3月26日，在这段时间里我饱受折磨，当然，我还是收获了很多东西。<psw>课堂上就根本不可能出现的东西。</psw>虽然，结果我并没能取得成功，但是我仍然不后悔，我也特别感谢那些出教程的up主，以及出技术的大牛如：“国光大佬”。当然，我最感谢的还是chatgpt，正因为有了它，使我的各大效率提升了不止一星半点，我能坚持下去的原因有很大部分就是因为GPT给我提供的帮助。</p>
+
+<h3 id="进军pc端之云服务器的选择"><a href="#进军pc端之云服务器的选择" class="headerlink" title="进军pc端之云服务器的选择"></a><span style="font-size:26px">进军pc端之云服务器的选择</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp;其实最开始，我还是有点打算使用镜像和内网穿透来实现网站的搭建。只不过我看着电脑磁盘的空间我陷入了沉思😑，后来转念一想，既然手机服务器失败了，那么我不如干脆一步到位，直接租一台云服务器，也顺便多多接触一下。好，我说干就干，但很显然，<strong>以俺的家资哪能一台服务器说租就租呀</strong>。于是我就开始利用我学生的身份到处骗吃骗喝，就类似于：“我是大学生，送我。”我看过三家云服务器的厂商分别是阿里云、腾讯云、还有华为云。但我就看到阿里云有一个学生卷300元，其它的估计要么没有要么藏得很深。虽说阿里云送学生卷，但是真的也就是送给你玩玩，我服务器一开，进去了却访问不了网络，正当我疑问时，<kbd>突然发现居然没有公网IP</kbd>，一查才知道居然公网IP要另外收钱，我只好拿着我卷剩下的余额买了一个月的弹性公网。（现在也早已过期）<span style="background-color: #8879e9;">没有公网的服务器就等同于你内急找到了厕所却发现关了门</span>，这可不行，于是我的目光就盯上了国外……</p>
+<p style="text-align:left;font-size:22px">&emsp;&emsp;微软的<strong>azure for students</strong>学生包，在读期间，免费<strong>送100美元</strong>加免费<strong>送一台Linux云服务器和windows云服务器</strong>而且有<strong>免费的动态公网IP</strong>还有针对于学生的<strong>每月100G的出站额度</strong>。以及其它各种各样的资源，只有你想不到，没有它送不到的。<span class="bubble-content">在此高声呐喊：</span><span class="bubble-notation"><span class="bubble-item" style="background-color:#ec5830;">微软大气牛逼！</span></span>但是想要申请，却十分麻烦，就因为国内国外的关系，导致我向微软官方提出申请，到获得福利用了整整10天。期间，我还通过学校的领导信箱向学校申请了一个高校个人邮箱，以便加快通过认证的速度。</p>
+<img src="../../image/email.png" alt="申请过程">
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-cyan"  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>已阅读70%</p></div></div>
+
+<h3 id="步入博客主题"><a href="#步入博客主题" class="headerlink" title="步入博客主题"></a><span style="font-size:26px">步入博客主题</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp;终于我的故事来到了尾声，一看字数已经来到了3436个字。我搭建博客使用的框架是<strong>hexo的butterfly主题</strong>。对于我搭建的整个过程呢，并不算难，因为这些代码肯定不是由我自己写出来的，我只做了一小部分。但也别小看这一小部分，因为这一小部分呢我已经做了23天了。从4月4号结束对手机服务器的执着后，我便紧接着开始了博客项目的制作，只是中途顺便申请了微软的Azure学生包以及个人高校邮箱。所以特别感谢一些大佬：<a href="https://hexo.io/zh-cn/">hexo</a>、<a href="https://butterfly.js.org/">Jerry</a>、<a href="https://akilar.top/">糖果屋</a>、<a href="https://blog.anheyu.com/">安知鱼</a>……这些是真正的前端大牛，轮子的缔造者。也特别感谢<a href="https://www.fomal.cc/">Fomalhaut</a>它是我一直在参考的博客魔改样式博主。</p>
+<p style="text-align:left;font-size:22px">&emsp;&emsp;整个制作过程呢，因为太细了我并不想多说，否者，我想这篇文章上万字都有可能。我觉得稍微有点意思的呢，就是我博客的<wavy>评论系统</wavy>。我使用的评论系统呢，是国外的<strong>twikoo</strong>系统，但是由于<u>dns劫持污染</u>（就是被墙了），我不得不采取一些必要的措施，将这个现成的评论系统引入进来并能够正常访问。这时候，<a href="https://www.cloudflare-cn.com/">cloudflare</a> 站出来了。<kbd>这些优秀资源怎么都是国外的呀，我们中国的资本家什么时候才能不要总是唯利是图呀！🙄 。</kbd>dns污染的解决方法有几种：<psw>一种是VPN代理（俗称翻墙、科学上网、挂梯子。不能再多说了，多说是会被警察叔叔🚔请到局子里喝Tea的），第二种便是反向代理：我是通过自己的域名dns服务商（<strong>cloudflare</strong>，为什么不是阿里云的，因为阿里云免费的dns服务不能解析到国外🌚，我有什么办法，竖起两根大拇指表示称赞🤬）解析被劫持的IP地址，从而让其他人通过自己的域名访问到真正的服务地址，简单来说，我的域名dns服务充当了一个中间人，来做两头的请求转发。</psw>我的就是第二种，但很显然，这是需要我自己先翻出去的。</p>
+
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a><span style="font-size:26px">结语</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp; 一不小心就码了4000多字了，如果正在屏幕面前的你，从头看到结尾，我都特别感到不好意思，我感觉我是不是应该对你进行表示表示。因为这篇文章呢是我的第一篇文章，也是我过去一个多月的一个复盘总结，其实本来我都打算好了，我会尽可能的精简，但是有时常常情至深处，难免激动，就又忍不住多说了几句。😆</p>
+<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-green"  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>耶，恭喜您已经阅读完了整篇文章</p></div></div>]]></content>
+      <categories>
+        <category>记忆驻点</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>回忆</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>校园大使选拔赛</title>
     <url>/posts/1878f5f7/</url>
     <content><![CDATA[<h1 id="内敛于心，外显于行"><a href="#内敛于心，外显于行" class="headerlink" title="内敛于心，外显于行"></a><span style="font-size:30px">内敛于心，外显于行</span></h1><h2 id="赛事工作"><a href="#赛事工作" class="headerlink" title="赛事工作"></a><span style="font-size:26px">赛事工作</span></h2><ul>
@@ -474,91 +513,6 @@ window.doms={
         <tag>校园</tag>
         <tag>大赛选拔</tag>
         <tag>计时员</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客的制作经历</title>
-    <url>/posts/8bd66949/</url>
-    <content><![CDATA[<h1 id="有志者，事竟成"><a href="#有志者，事竟成" class="headerlink" title="有志者，事竟成"></a><span style="font-size:30px">有志者，事竟成</span></h1><h3 id="自言自语"><a href="#自言自语" class="headerlink" title="自言自语"></a><span style="font-size:26px">自言自语</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp;emmm......在自己的博客基本成型达到了能够上线的效果后，我便有了一个新的烦恼，为什么说“新”呢，我会在接下来的内容中叙述并尽可能的描述清楚。 %}</p>
-<p style="text-align:left;font-size:22px">&emsp;&emsp;新烦恼，不必多说，自然是像我这种“钢铁男孩” <img no-lazy class="inline" src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/aru-l/5150.gif" style="height:40px;"/> 的通病——<psw>内容，表达，描述</psw>。我思来想去，我的第一篇博客文章应该写些什么呢？写什么好呢？我的大脑好像在我完成了我的“博客项目”之后的那一瞬间便迅速踏入了真空，甚至我此时此刻我的大脑还在“狡辩”我的博客还有哪些功能或者样式还没实现呢？哎，事无巨细，不苛求自己一开始便将一件事做至完美。可现实是我的博客代码好像出现了一点点小问题，这也算一个烦恼。我的样式就先这样吧，后期在维护叭！~ </p>
-<p style="text-align:left;font-size:22px">&emsp;&emsp;现在回想起我制作的整个过程，发现了一个大前提，那就是我这学期的课程并不多，甚至可以说是很少了，周一周二周三，其余的基本没课，这使得我有充足的时间来“研究”这个让我还是比较感兴趣的东西。</p>
-<div class="hide-block"><button type="button" class="hide-button" style="background-color:  blue;">大学的一些现状
-    </button><div class="hide-content"><p><span style="font-size:22px">自从我上了大学后，我变得十分洒脱，不感兴趣的事情我避而远之。例如：水课，还有其它很多吃力不讨好的事，甚至我这学期的选课我都忘了选，这个我还是相当后悔的，毕竟是要修学分的呀。</span></p>
-</div></div>
-<p style="text-align:left;font-size:22px">&emsp;&emsp;<strong>其次</strong>呢还有一点，我感觉我患上<del>电子阳痿</del>了，我对打游戏这件事提不起兴趣了，想当初，我可是拿到一个什么比如：“巫师三”、“荒野大镖客”、“刺客信条”、“空洞骑士”……我一玩一个下午，但是现在，我真的我看着眼前的游戏库不知从何下手，鼠标中键滑来滑去就是不知道玩啥，最后也就默默的合上了电脑，我究竟是怎么了，所以说人是会变的吗！<strong>但</strong>相较于打游戏，我现在更乐于去折腾，特别是去弄一些不是特别复杂，也具备一点挑战性，还能增加我的见识和知识储备的东西，我对此确有一点乐此不疲。好，回归正题，现在仔细回想起来，我究竟是因为什么原因接触到博客的呢？我还真忘记了，可能有人会说，这不是明摆着的吗！写博客，那肯定是因为接触到了博客了呀，这岂不是<em>睁着眼睛哇哇乱叫</em>吗！其实对于这，我肯定不能否认，肯定是先接触了后才有的想法。但是回归事情的原点，我确实记不清了，是因为我想学习一下网页建站，还是想学习一下服务器云计算，还是一些其它的东西呢。</p>
-
-<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-yellow"  style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><p>已阅读30%</p></div></div>
-<div class="tip warning faa-horizontal animated-hover"><p class='p center h3'>温馨提示，接下来的字数内容较多，可等自己有了充裕的时间再进行观看。</p></div>
-
-<h3 id="服务设备的配置"><a href="#服务设备的配置" class="headerlink" title="服务设备的配置"></a><span style="font-size:26px">服务设备的配置</span></h3><h4 id="内网映射："><a href="#内网映射：" class="headerlink" title="内网映射："></a><span style="font-size:24px">内网映射：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;事情的原点大概是在2024年3月26号左右，现在已经是4月27日了，仍然还没有进行正式上线，不过测试上线已经做过了，完全没问题。不知不觉已经过去了一个多月了，在这一个多月里，我差不多已经和外界失去联系了，基本上每天都在捣鼓我自己的东西。舍友也从最一开始的“谩骂”而逐步变成“接受”。其实，我做博客最开始并不是直接就开始做博客内容，而是想做一台属于自己的服务器，而原材料竟然仅仅只是一台我以前的<emp>旧手机</emp>，对，你没听错，只有像我这种傻子才会像吃饱了撑了似的，去搞一个极其不稳定，又没有啥性能，而且实际意义并不大的事情。虽然客观如此，但我主观上还是想去碰一碰。最开始我先是弄的内网穿透，由于都是可视化app，都是人家集成好了调试好了再进入市场的，所以这部分我弄得十分快，基本上就一个钟头的事。首先下载好两个app，一个是<a href="https://kslabs.ru/download">ksweb</a>，点进官网直接下载<u>KSWEB 3.988 Build 8200 arm + x86</u>即可。这个软件就可牛了，它将一般部署到服务器上的lighttpd+nginx+apache+php+sql等等建站程序，通通打包适配集成进了ksweb，使其手机变成一个本地web服务器，能够通过本地端口访问你的项目内容。好，手机服务器搞定了，<del>但是手机又没有公网IP</del>，那怎么能让外网的其他人进行访问你想要展示的内容呢？这时便用到了另一款软件，<a href="https://www.hpproxy.cn/bin/">hp-pro</a>下滑点击<u>Android版本</u>下载即可。hp-pro的原理其实也很简单，就是hp-pro站长自己购买了几个服务器，然后绑定你自己的设备，通过它的服务器（公网ip）做几次请求转发，从而使外网的人能够访问你自己的本地项目。在此也特别<strong>感谢</strong>一下，以上两个软件均是免费，对于像我这种平时闲的蛋疼的大学生提供了接触的机会。</p>
-
-<h4 id="终端模拟器："><a href="#终端模拟器：" class="headerlink" title="终端模拟器："></a><span style="font-size:24px">终端模拟器：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;虽然，我通过了这种巧妙地方法解决了在手机上部署项目的需求。但是我内心还是表示不服，因为这实在是太简单了，以至于我感觉我就没获得啥成就感，所以接下来我就开始进军更底层的东西，利用手机架构，下载一个Linux系统，在Linux系统中部署项目。而此刻的我浑然不知，正是由于这个想法，接下来的我会变得如此痛苦不堪😭。几乎就是同日，我在B站和edge上搜索相关的资料，并开始了我的痛苦之旅。最起先我下载的是termux，一个终端模拟器。<kbd>这里我就不放下载地址了，因为关于这块我到最后是以失败告终的</kbd>而我找的那个视频教程时长长达一个小时，要知道这种教程要是按照实际操作来看时长一般都是会比教程时长要多<strong>几倍</strong>更甚至是<strong>十几倍</strong>。而我也是后来才知道这个termux是一个非常初始的版本，而现在市场上已经有针对于用户而设计出更为便利的版本，增添了很多内置命令只需点击相关按钮就会自动执行。很显然，最后我并没能成功。虽然这里我选择一笔带过，那是因为我要是展开来讲或许这篇文章就又得多上好几千字，其中内容包括但不限于：<wavy>root、刷机、镜像、Linux执行命令合集、编辑配置文件、乱码解决……我总共用过三款终端模拟器（实际就两款）：termux、zerotermux以及AidLux，至于zerotermux就是我之前所说的termux的一个魔改版。</wavy></p>
-
-<h4 id="宝塔面板："><a href="#宝塔面板：" class="headerlink" title="宝塔面板："></a><span style="font-size:24px">宝塔面板：</span></h4><p style="text-align:left;font-size:22px">&emsp;&emsp;这里的终端模拟器仅仅只是第一步，我靠第一步就这么复杂。而我的失败，跟第一步没有任何关系，也就是说，我的第一步是成功了的，我失败的原因来自第二步：下载安装并成功运行宝塔面板。<strong>那么为什么要安装宝塔面板呢？</strong>不知道你现在还能否记得我在ksweb内容里边提到过：建站需要<u>lighttpd+nginx+apache+php+sql</u>等程序来作为支撑，而宝塔面板就是这样的一个集成工具，它能够更方便的来管理自己的系统。Ok，回到主线上。首先我先说一下我的终端模拟器安装的Linux系统是<a href="https://zh.wikipedia.org/zh-cn/Ubuntu">Ubuntu</a>（也就是大名鼎鼎的乌班图）。在下载过程中，我也是遇见了很多让我无从下手的问题，毕竟核心还是手机带动的Linux系统，这肯定是与正规纯净的系统有很多区别。具体遇见的问题我就不再详细叙述了，不然就又是好几千字打出来了。问题包括但不限于：<wavy>proc分区错误、赋权错误、缺少语言环境、以及进去了宝塔面板里边却又无法安装完整的lnmp套件。</wavy>其实说实话，这些问题也不过只是让人感到无力的问题，<strong>真正</strong>让我感到烦心的问题是下载编译安装的过程🤮。因为是手机的缘故，处理器不是那么强大，所以通常一个工具的编译安装就得花费我近<span class='p red'>1个小时</span>的时间，宝塔面板如此，lnmp套件亦是如此，一个宝塔面板安装估计花费<span class='p red'>2个小时</span>，一个mysql5.7花费我接近<span class='p red'>3个小时</span>，而一个lnmp套件内容就是<span class='p red'>5个</span>工具。而更为致命的是，我并不是一次成功的，也就是说我就安装而言我就安装过很多次。</p>
-<p style="text-align:left;font-size:22px">&emsp;&emsp; 终于，在2024年4月4日凌晨3点，在我尝试完所有方法均无结果后，我果断选择放弃。开始时间是3月26日，在这段时间里我饱受折磨，当然，我还是收获了很多东西。<psw>课堂上就根本不可能出现的东西。</psw>虽然，结果我并没能取得成功，但是我仍然不后悔，我也特别感谢那些出教程的up主，以及出技术的大牛如：“国光大佬”。当然，我最感谢的还是chatgpt，正因为有了它，使我的各大效率提升了不止一星半点，我能坚持下去的原因有很大部分就是因为GPT给我提供的帮助。</p>
-
-<h3 id="进军pc端之云服务器的选择"><a href="#进军pc端之云服务器的选择" class="headerlink" title="进军pc端之云服务器的选择"></a><span style="font-size:26px">进军pc端之云服务器的选择</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp;其实最开始，我还是有点打算使用镜像和内网穿透来实现网站的搭建。只不过我看着电脑磁盘的空间我陷入了沉思😑，后来转念一想，既然手机服务器失败了，那么我不如干脆一步到位，直接租一台云服务器，也顺便多多接触一下。好，我说干就干，但很显然，<strong>以俺的家资哪能一台服务器说租就租呀</strong>。于是我就开始利用我学生的身份到处骗吃骗喝，就类似于：“我是大学生，送我。”我看过三家云服务器的厂商分别是阿里云、腾讯云、还有华为云。但我就看到阿里云有一个学生卷300元，其它的估计要么没有要么藏得很深。虽说阿里云送学生卷，但是真的也就是送给你玩玩，我服务器一开，进去了却访问不了网络，正当我疑问时，<kbd>突然发现居然没有公网IP</kbd>，一查才知道居然公网IP要另外收钱，我只好拿着我卷剩下的余额买了一个月的弹性公网。（现在也早已过期）<span style="background-color: #8879e9;">没有公网的服务器就等同于你内急找到了厕所却发现关了门</span>，这可不行，于是我的目光就盯上了国外……</p>
-<p style="text-align:left;font-size:22px">&emsp;&emsp;微软的<strong>azure for students</strong>学生包，在读期间，免费<strong>送100美元</strong>加免费<strong>送一台Linux云服务器和windows云服务器</strong>而且有<strong>免费的动态公网IP</strong>还有针对于学生的<strong>每月100G的出站额度</strong>。以及其它各种各样的资源，只有你想不到，没有它送不到的。<span class="bubble-content">在此高声呐喊：</span><span class="bubble-notation"><span class="bubble-item" style="background-color:#ec5830;">微软大气牛逼！</span></span>但是想要申请，却十分麻烦，就因为国内国外的关系，导致我向微软官方提出申请，到获得福利用了整整10天。期间，我还通过学校的领导信箱向学校申请了一个高校个人邮箱，以便加快通过认证的速度。</p>
-<img src="../../image/email.png" alt="申请过程">
-<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-cyan"  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>已阅读70%</p></div></div>
-
-<h3 id="步入博客主题"><a href="#步入博客主题" class="headerlink" title="步入博客主题"></a><span style="font-size:26px">步入博客主题</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp;终于我的故事来到了尾声，一看字数已经来到了3436个字。我搭建博客使用的框架是<strong>hexo的butterfly主题</strong>。对于我搭建的整个过程呢，并不算难，因为这些代码肯定不是由我自己写出来的，我只做了一小部分。但也别小看这一小部分，因为这一小部分呢我已经做了23天了。从4月4号结束对手机服务器的执着后，我便紧接着开始了博客项目的制作，只是中途顺便申请了微软的Azure学生包以及个人高校邮箱。所以特别感谢一些大佬：<a href="https://hexo.io/zh-cn/">hexo</a>、<a href="https://butterfly.js.org/">Jerry</a>、<a href="https://akilar.top/">糖果屋</a>、<a href="https://blog.anheyu.com/">安知鱼</a>……这些是真正的前端大牛，轮子的缔造者。也特别感谢<a href="https://www.fomal.cc/">Fomalhaut</a>它是我一直在参考的博客魔改样式博主。</p>
-<p style="text-align:left;font-size:22px">&emsp;&emsp;整个制作过程呢，因为太细了我并不想多说，否者，我想这篇文章上万字都有可能。我觉得稍微有点意思的呢，就是我博客的<wavy>评论系统</wavy>。我使用的评论系统呢，是国外的<strong>twikoo</strong>系统，但是由于<u>dns劫持污染</u>（就是被墙了），我不得不采取一些必要的措施，将这个现成的评论系统引入进来并能够正常访问。这时候，<a href="https://www.cloudflare-cn.com/">cloudflare</a> 站出来了。<kbd>这些优秀资源怎么都是国外的呀，我们中国的资本家什么时候才能不要总是唯利是图呀！🙄 。</kbd>dns污染的解决方法有几种：<psw>一种是VPN代理（俗称翻墙、科学上网、挂梯子。不能再多说了，多说是会被警察叔叔🚔请到局子里喝Tea的），第二种便是反向代理：我是通过自己的域名dns服务商（<strong>cloudflare</strong>，为什么不是阿里云的，因为阿里云免费的dns服务不能解析到国外🌚，我有什么办法，竖起两根大拇指表示称赞🤬）解析被劫持的IP地址，从而让其他人通过自己的域名访问到真正的服务地址，简单来说，我的域名dns服务充当了一个中间人，来做两头的请求转发。</psw>我的就是第二种，但很显然，这是需要我自己先翻出去的。</p>
-
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a><span style="font-size:26px">结语</span></h3><p style="text-align:left;font-size:22px">&emsp;&emsp; 一不小心就码了4000多字了，如果正在屏幕面前的你，从头看到结尾，我都特别感到不好意思，我感觉我是不是应该对你进行表示表示。因为这篇文章呢是我的第一篇文章，也是我过去一个多月的一个复盘总结，其实本来我都打算好了，我会尽可能的精简，但是有时常常情至深处，难免激动，就又忍不住多说了几句。😆</p>
-<div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-green"  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>耶，恭喜您已经阅读完了整篇文章</p></div></div>]]></content>
-      <categories>
-        <category>记忆驻点</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>回忆</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高校联合棋类交流赛</title>
-    <url>/posts/549883af/</url>
-    <content><![CDATA[<h1 id="象棋的追忆"><a href="#象棋的追忆" class="headerlink" title="象棋的追忆"></a>象棋的追忆</h1><ul>
-<li><font size="4">可能我开始下象棋的时间比大部分的人都要晚，有很多人在小学甚至是幼儿园就开始接触了，而我也的确比较笨🤤，在高中之前我都觉得象棋是一个非常复杂的游戏，也就是我的内心接受不了嘛<psw>那时候可真好，头脑简单，四肢残疾。啥也不用想，啥也不用干</psw></font><br><br></li>
-<li><font size="4">我下象棋呢是在高一，说起来也莫名其妙，就是突然有一天我就特别想下象棋，虽然那时候我连规则都不清楚，但是还是要和人家下。你来我往的回合之后，我输的是特别惨😢。一直输咋办，那我就学，我记得那个暑假几乎每一天我都在学，从看直播到学习棋谱还是网上对战甚至是一个人摆谱我都做过😤，就是因为这几乎病态的学习，我敢保证那段时间是我象棋棋艺提升最快的时候。但是这种没有天赋的东西呢或者<del>天赋有限</del>它是会有瓶颈的，一旦到达瓶颈想要再提升就会非常困难了。</font><br><br></li>
-<li><font size="4">即使如此，我仍然是在我的高中在我遇到的人中没碰见一个实力在我之上的人，我之后对付他们也是越来越得心应手，我的想法也是越来越天马行空。</font></li>
-</ul>
-<h1 id="大学里的第一次“城科杯”比赛"><a href="#大学里的第一次“城科杯”比赛" class="headerlink" title="大学里的第一次“城科杯”比赛"></a>大学里的第一次“城科杯”比赛</h1><ul>
-<li><p><font size="4">这种比赛真就是由我的兴趣驱使了，我认为在大学里<del>毕竟不算是社会环境</del>有很多特别<strong>sb</strong>的事情我的原则是能避则避，不能避我也是想方设法的避，纯纯浪费生命🤮。还有些参赛选手是以加学分的目的参加了这个比赛，那些选手名落孙山也只能说是理所应当。</font><br><br></p>
-</li>
-<li><p><font size="4">那时候我还没进社团，我还是以“新人”身份参加的比赛，所以那种被低看的感觉我的确是切身感受呀！只不过这也是理所应当，又有谁能想到一个“新人”会拿下象棋第三的名次，也是多亏这种状态<psw>我很放松压根没有心理负担；“老手”也小看我，开局送我一辆车我都特别不好意思收下😂</psw>让我拿到了第三的名次，我还在赛后写了一篇动态来记录了这次比赛经历。</font><br><br></p>
-<pre><code>    运动会，我不知道什么样的运动能够真正的认识对手；或者对对手的情绪是友好，还是敌对。我只知道下棋一定可以深刻的去认清一个人内心真正的样子。
-有的谈笑风生，有的莫不在乎，有的骄傲自满，更有甚者不守棋道。有的人在下棋过程中，心灵得以宁静，专注而享受。有的人心情浮躁，对于这个过程便是一
-种严厉的惩罚。
-    今天的比赛，一开始我从打心底便没想过拿到名次，只不过是一个心之所往，或者是一场心血来潮。说实话，我倍受争议。可能是我身材矮小，可能是我
-无亲无故。当围观比赛的人数以肉眼可见的增长时，我毫不在乎。当我沉浸其中时，我便知道输赢已经无关痛痒了。
-    令我印象最为深刻的一局比赛，这一局我更愿意称之为“交谈”。是我最后一局对弈，他是一位外校来的交谈选手，棋艺颇高。他性格直爽，谈不上相见恨
-晚，但我们之间的对弈，才是真正上免除了比赛那般争强好胜的对弈，我们不失棋道，却能相互学习；交谈甚欢，却互不干扰。那这算不算得道，或者另有人说：
-“比赛归比赛，搞什么花里胡哨”。
-</code></pre>
-</li>
-</ul>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi1.jpg" style="width:60%;"/></div></div>
-
-<details class="folding-tag" blue><summary> 第二次“城科杯” </summary>
-              <div class='content'>
-              <ul><li><font size="4">后来搬到巴南校区，我没想到的是，棋社还在，我乒乓球社团却不在了😫<psw>我不得不说如果硬要让我挑一项运动出来，那么乒乓球才是我最拿得出手的运动</psw>。仍然是在兴趣的指引下，我加入了棋社也理所应当的参加了第二次“城科杯”</font><br><br></li><li><font size="4">还是第一次给我留下的印象深刻，第二次彷佛又回归了那个无趣的比赛。<strong>紧张、欲胜、大脑空白</strong>。或许这才是比赛的意义，但是我内心中始终有一股无形的声音告诉我，对待这种兴趣爱好类的活动不应该情绪化，保留那一份开心即好，</font><div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi2.jpg" style="width:60%;"/></div></div></li></ul>
-              </div>
-            </details>
-
-<h1 id="高校联合棋类交流赛"><a href="#高校联合棋类交流赛" class="headerlink" title="高校联合棋类交流赛"></a>高校联合棋类交流赛</h1><ul>
-<li><font size="4">这次比赛还是比较眼前一亮的，因为无论是从何种角度来说，这次比赛是我迄今为止参加过最大级别的比赛（<strong>巴南区</strong>）。而最大的亮点呢其实也不是所遇到的棋手，而是在举办场地里（<strong>巴南文化馆</strong>）我所遇到的画展......</font><br><br><div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi3.jpg" style="width:60%;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi4.jpg" alt="早知道就多拍点了，别说了，就是直男一个😭，拍照......" style="width:60%;"/></div><span class="image-caption">早知道就多拍点了，别说了，就是直男一个😭，拍照......</span></div></li>
-<li><font size="4">的确是太强了，要知道这里边的平均年龄才<strong>11、12</strong>岁，而我在那个时候还抱着一推破卡片暗自得意🐷。</font><br><br></li>
-<li><font size="4">这次比赛严格来说，我自认为的来讲。我认为场面是够了，但是里子就是棋手的水平嘛，还差点火候。虽然我的名次也的确不太能打，但确确实实在和我对战的棋手中我并没有觉得水平很高的.<del>也就是说我不服啊😂，不服也得憋着😭</del>。<psw>水平高的团体赛和个人赛又不去，害，太难了。</psw></font><br><br><div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi5.jpg" style="width:60%;"/></div></div>
-<div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi6.jpg" style="width:60%;"/></div></div></li>
-</ul>
-]]></content>
-      <categories>
-        <category>象棋</category>
-      </categories>
-      <tags>
-        <tag>象棋比赛</tag>
       </tags>
   </entry>
   <entry>
@@ -619,6 +573,52 @@ window.doms={
         <tag>科学上网</tag>
         <tag>vps</tag>
         <tag>自建节点</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高校联合棋类交流赛</title>
+    <url>/posts/549883af/</url>
+    <content><![CDATA[<h1 id="象棋的追忆"><a href="#象棋的追忆" class="headerlink" title="象棋的追忆"></a>象棋的追忆</h1><ul>
+<li><font size="4">可能我开始下象棋的时间比大部分的人都要晚，有很多人在小学甚至是幼儿园就开始接触了，而我也的确比较笨🤤，在高中之前我都觉得象棋是一个非常复杂的游戏，也就是我的内心接受不了嘛<psw>那时候可真好，头脑简单，四肢残疾。啥也不用想，啥也不用干</psw></font><br><br></li>
+<li><font size="4">我下象棋呢是在高一，说起来也莫名其妙，就是突然有一天我就特别想下象棋，虽然那时候我连规则都不清楚，但是还是要和人家下。你来我往的回合之后，我输的是特别惨😢。一直输咋办，那我就学，我记得那个暑假几乎每一天我都在学，从看直播到学习棋谱还是网上对战甚至是一个人摆谱我都做过😤，就是因为这几乎病态的学习，我敢保证那段时间是我象棋棋艺提升最快的时候。但是这种没有天赋的东西呢或者<del>天赋有限</del>它是会有瓶颈的，一旦到达瓶颈想要再提升就会非常困难了。</font><br><br></li>
+<li><font size="4">即使如此，我仍然是在我的高中在我遇到的人中没碰见一个实力在我之上的人，我之后对付他们也是越来越得心应手，我的想法也是越来越天马行空。</font></li>
+</ul>
+<h1 id="大学里的第一次“城科杯”比赛"><a href="#大学里的第一次“城科杯”比赛" class="headerlink" title="大学里的第一次“城科杯”比赛"></a>大学里的第一次“城科杯”比赛</h1><ul>
+<li><p><font size="4">这种比赛真就是由我的兴趣驱使了，我认为在大学里<del>毕竟不算是社会环境</del>有很多特别<strong>sb</strong>的事情我的原则是能避则避，不能避我也是想方设法的避，纯纯浪费生命🤮。还有些参赛选手是以加学分的目的参加了这个比赛，那些选手名落孙山也只能说是理所应当。</font><br><br></p>
+</li>
+<li><p><font size="4">那时候我还没进社团，我还是以“新人”身份参加的比赛，所以那种被低看的感觉我的确是切身感受呀！只不过这也是理所应当，又有谁能想到一个“新人”会拿下象棋第三的名次，也是多亏这种状态<psw>我很放松压根没有心理负担；“老手”也小看我，开局送我一辆车我都特别不好意思收下😂</psw>让我拿到了第三的名次，我还在赛后写了一篇动态来记录了这次比赛经历。</font><br><br></p>
+<pre><code>    运动会，我不知道什么样的运动能够真正的认识对手；或者对对手的情绪是友好，还是敌对。我只知道下棋一定可以深刻的去认清一个人内心真正的样子。
+有的谈笑风生，有的莫不在乎，有的骄傲自满，更有甚者不守棋道。有的人在下棋过程中，心灵得以宁静，专注而享受。有的人心情浮躁，对于这个过程便是一
+种严厉的惩罚。
+    今天的比赛，一开始我从打心底便没想过拿到名次，只不过是一个心之所往，或者是一场心血来潮。说实话，我倍受争议。可能是我身材矮小，可能是我
+无亲无故。当围观比赛的人数以肉眼可见的增长时，我毫不在乎。当我沉浸其中时，我便知道输赢已经无关痛痒了。
+    令我印象最为深刻的一局比赛，这一局我更愿意称之为“交谈”。是我最后一局对弈，他是一位外校来的交谈选手，棋艺颇高。他性格直爽，谈不上相见恨
+晚，但我们之间的对弈，才是真正上免除了比赛那般争强好胜的对弈，我们不失棋道，却能相互学习；交谈甚欢，却互不干扰。那这算不算得道，或者另有人说：
+“比赛归比赛，搞什么花里胡哨”。
+</code></pre>
+</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi1.jpg" style="width:60%;"/></div></div>
+
+<details class="folding-tag" blue><summary> 第二次“城科杯” </summary>
+              <div class='content'>
+              <ul><li><font size="4">后来搬到巴南校区，我没想到的是，棋社还在，我乒乓球社团却不在了😫<psw>我不得不说如果硬要让我挑一项运动出来，那么乒乓球才是我最拿得出手的运动</psw>。仍然是在兴趣的指引下，我加入了棋社也理所应当的参加了第二次“城科杯”</font><br><br></li><li><font size="4">还是第一次给我留下的印象深刻，第二次彷佛又回归了那个无趣的比赛。<strong>紧张、欲胜、大脑空白</strong>。或许这才是比赛的意义，但是我内心中始终有一股无形的声音告诉我，对待这种兴趣爱好类的活动不应该情绪化，保留那一份开心即好，</font><div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi2.jpg" style="width:60%;"/></div></div></li></ul>
+              </div>
+            </details>
+
+<h1 id="高校联合棋类交流赛"><a href="#高校联合棋类交流赛" class="headerlink" title="高校联合棋类交流赛"></a>高校联合棋类交流赛</h1><ul>
+<li><font size="4">这次比赛还是比较眼前一亮的，因为无论是从何种角度来说，这次比赛是我迄今为止参加过最大级别的比赛（<strong>巴南区</strong>）。而最大的亮点呢其实也不是所遇到的棋手，而是在举办场地里（<strong>巴南文化馆</strong>）我所遇到的画展......</font><br><br><div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi3.jpg" style="width:60%;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi4.jpg" alt="早知道就多拍点了，别说了，就是直男一个😭，拍照......" style="width:60%;"/></div><span class="image-caption">早知道就多拍点了，别说了，就是直男一个😭，拍照......</span></div></li>
+<li><font size="4">的确是太强了，要知道这里边的平均年龄才<strong>11、12</strong>岁，而我在那个时候还抱着一推破卡片暗自得意🐷。</font><br><br></li>
+<li><font size="4">这次比赛严格来说，我自认为的来讲。我认为场面是够了，但是里子就是棋手的水平嘛，还差点火候。虽然我的名次也的确不太能打，但确确实实在和我对战的棋手中我并没有觉得水平很高的.<del>也就是说我不服啊😂，不服也得憋着😭</del>。<psw>水平高的团体赛和个人赛又不去，害，太难了。</psw></font><br><br><div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi5.jpg" style="width:60%;"/></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img" src="../../image/xiangqi6.jpg" style="width:60%;"/></div></div></li>
+</ul>
+]]></content>
+      <categories>
+        <category>象棋</category>
+      </categories>
+      <tags>
+        <tag>象棋比赛</tag>
       </tags>
   </entry>
 </search>
